@@ -1,0 +1,2087 @@
+=============================================================================================================
+Forgetting scores and baseline model not found. Computing from scratch...
+Starting baseline training for 10 epochs with forgetting tracking...
+Epoch [1/10] completed. Training Loss: 0.3450, Accuracy: 89.74%
+Epoch [2/10] completed. Training Loss: 0.1643, Accuracy: 95.09%
+Epoch [3/10] completed. Training Loss: 0.1197, Accuracy: 96.39%
+Epoch [4/10] completed. Training Loss: 0.0966, Accuracy: 97.04%
+Epoch [5/10] completed. Training Loss: 0.0815, Accuracy: 97.48%
+Epoch [6/10] completed. Training Loss: 0.0711, Accuracy: 97.76%
+Epoch [7/10] completed. Training Loss: 0.0642, Accuracy: 97.94%
+Epoch [8/10] completed. Training Loss: 0.0554, Accuracy: 98.23%
+Epoch [9/10] completed. Training Loss: 0.0498, Accuracy: 98.39%
+Epoch [10/10] completed. Training Loss: 0.0466, Accuracy: 98.46%
+Baseline training with forgetting tracking completed.
+Forgetting scores and baseline model saved for future runs.
+Selected top 6000 highest-forgetting and top 6000 lowest-forgetting samples.
+Highest forgetting subset size: 6000, Lowest forgetting subset size: 6000
+Training model on high-forgetting subset...
+Starting training for 10 epochs...
+Epoch [1/10] complete: Loss: 0.8047, Accuracy: 76.60%
+Epoch [2/10] complete: Loss: 0.3946, Accuracy: 88.62%
+Epoch [3/10] complete: Loss: 0.3328, Accuracy: 89.78%
+Epoch [4/10] complete: Loss: 0.2951, Accuracy: 91.08%
+Epoch [5/10] complete: Loss: 0.2601, Accuracy: 91.93%
+Epoch [6/10] complete: Loss: 0.2382, Accuracy: 92.70%
+Epoch [7/10] complete: Loss: 0.1889, Accuracy: 94.68%
+Epoch [8/10] complete: Loss: 0.1601, Accuracy: 95.43%
+Epoch [9/10] complete: Loss: 0.1557, Accuracy: 95.47%
+Epoch [10/10] complete: Loss: 0.1227, Accuracy: 96.53%
+Training completed.
+Training model on low-forgetting subset...
+Starting training for 10 epochs...
+Epoch [1/10] complete: Loss: 0.8484, Accuracy: 75.47%
+Epoch [2/10] complete: Loss: 0.3825, Accuracy: 88.40%
+Epoch [3/10] complete: Loss: 0.3184, Accuracy: 90.73%
+Epoch [4/10] complete: Loss: 0.2780, Accuracy: 91.75%
+Epoch [5/10] complete: Loss: 0.2463, Accuracy: 92.65%
+Epoch [6/10] complete: Loss: 0.2211, Accuracy: 93.32%
+Epoch [7/10] complete: Loss: 0.1861, Accuracy: 94.72%
+Epoch [8/10] complete: Loss: 0.1618, Accuracy: 95.50%
+Epoch [9/10] complete: Loss: 0.1542, Accuracy: 95.40%
+Epoch [10/10] complete: Loss: 0.1297, Accuracy: 96.32%
+Training completed.
+Baseline Model Accuracy: 97.01%
+Low Forgetting Model Accuracy: 92.88%
+High Forgetting Model Accuracy: 93.06%
+Applying pruning with ratio 0.0...
+Pruning completed.
+Applying pruning with ratio 0.0...
+Pruning completed.
+Applying pruning with ratio 0.0...
+Pruning completed.
+Pruning accuracy comparison bar plot saved to results/FCNet/MNIST/dr0.1/pr0.0/pruning_accuracy_comparison.png.
+Pruned Baseline Model Accuracy: 97.01%
+Pruned Low Forgetting Model Accuracy: 92.88%
+Pruned High Forgetting Model Accuracy: 93.06%
+Post-Pruning Retraining...
+Initial Test Accuracy: 97.01%
+Post-Pruning Training Epoch [1/10]: Loss: 0.0447, Train Acc: 98.52%, Test Acc: 97.53%
+Post-Pruning Training Epoch [2/10]: Loss: 0.0376, Train Acc: 98.72%, Test Acc: 97.77%
+Post-Pruning Training Epoch [3/10]: Loss: 0.0334, Train Acc: 98.86%, Test Acc: 97.49%
+Post-Pruning Training Epoch [4/10]: Loss: 0.0323, Train Acc: 98.91%, Test Acc: 97.33%
+Post-Pruning Training Epoch [5/10]: Loss: 0.0290, Train Acc: 99.02%, Test Acc: 97.36%
+Post-Pruning Training Epoch [6/10]: Loss: 0.0303, Train Acc: 98.92%, Test Acc: 97.89%
+Post-Pruning Training Epoch [7/10]: Loss: 0.0256, Train Acc: 99.11%, Test Acc: 97.43%
+Post-Pruning Training Epoch [8/10]: Loss: 0.0259, Train Acc: 99.11%, Test Acc: 97.71%
+Post-Pruning Training Epoch [9/10]: Loss: 0.0241, Train Acc: 99.17%, Test Acc: 97.82%
+Post-Pruning Training Epoch [10/10]: Loss: 0.0218, Train Acc: 99.22%, Test Acc: 97.69%
+Initial Test Accuracy: 92.88%
+Post-Pruning Training Epoch [1/10]: Loss: 0.1849, Train Acc: 94.53%, Test Acc: 96.29%
+Post-Pruning Training Epoch [2/10]: Loss: 0.1264, Train Acc: 96.21%, Test Acc: 96.45%
+Post-Pruning Training Epoch [3/10]: Loss: 0.0986, Train Acc: 96.94%, Test Acc: 96.88%
+Post-Pruning Training Epoch [4/10]: Loss: 0.0844, Train Acc: 97.34%, Test Acc: 97.12%
+Post-Pruning Training Epoch [5/10]: Loss: 0.0723, Train Acc: 97.74%, Test Acc: 97.44%
+Post-Pruning Training Epoch [6/10]: Loss: 0.0642, Train Acc: 97.94%, Test Acc: 97.14%
+Post-Pruning Training Epoch [7/10]: Loss: 0.0579, Train Acc: 98.10%, Test Acc: 96.82%
+Post-Pruning Training Epoch [8/10]: Loss: 0.0528, Train Acc: 98.29%, Test Acc: 97.34%
+Post-Pruning Training Epoch [9/10]: Loss: 0.0459, Train Acc: 98.55%, Test Acc: 97.21%
+Post-Pruning Training Epoch [10/10]: Loss: 0.0435, Train Acc: 98.58%, Test Acc: 97.23%
+Initial Test Accuracy: 93.06%
+Post-Pruning Training Epoch [1/10]: Loss: 0.1798, Train Acc: 94.55%, Test Acc: 95.04%
+Post-Pruning Training Epoch [2/10]: Loss: 0.1233, Train Acc: 96.29%, Test Acc: 96.76%
+Post-Pruning Training Epoch [3/10]: Loss: 0.1005, Train Acc: 96.86%, Test Acc: 96.57%
+Post-Pruning Training Epoch [4/10]: Loss: 0.0852, Train Acc: 97.37%, Test Acc: 97.41%
+Post-Pruning Training Epoch [5/10]: Loss: 0.0736, Train Acc: 97.70%, Test Acc: 97.43%
+Post-Pruning Training Epoch [6/10]: Loss: 0.0660, Train Acc: 97.88%, Test Acc: 97.30%
+Post-Pruning Training Epoch [7/10]: Loss: 0.0578, Train Acc: 98.13%, Test Acc: 97.51%
+Post-Pruning Training Epoch [8/10]: Loss: 0.0519, Train Acc: 98.31%, Test Acc: 97.80%
+Post-Pruning Training Epoch [9/10]: Loss: 0.0470, Train Acc: 98.45%, Test Acc: 97.60%
+Post-Pruning Training Epoch [10/10]: Loss: 0.0431, Train Acc: 98.63%, Test Acc: 97.53%
+Post-Pruned Baseline Model Accuracy: 97.69%
+Post-Pruned Low Forgetting Model Accuracy: 97.23%
+Post-Pruned High Forgetting Model Accuracy: 97.53%
+Accuracy results saved to results/FCNet/MNIST/dr0.1/pr0.0/accuracies.csv.
+Post-pruning accuracy plot saved to results/FCNet/MNIST/dr0.1/pr0.0/post_pruning_accuracy.png.
+=============================================================================================================
+Loading precomputed forgetting scores and baseline model...
+Baseline model and forgetting scores loaded.
+Selected top 6000 highest-forgetting and top 6000 lowest-forgetting samples.
+Highest forgetting subset size: 6000, Lowest forgetting subset size: 6000
+Training model on high-forgetting subset...
+Starting training for 10 epochs...
+Epoch [1/10] complete: Loss: 0.8325, Accuracy: 74.50%
+Epoch [2/10] complete: Loss: 0.4048, Accuracy: 88.03%
+Epoch [3/10] complete: Loss: 0.3268, Accuracy: 90.48%
+Epoch [4/10] complete: Loss: 0.2906, Accuracy: 91.42%
+Epoch [5/10] complete: Loss: 0.2526, Accuracy: 92.38%
+Epoch [6/10] complete: Loss: 0.2221, Accuracy: 93.40%
+Epoch [7/10] complete: Loss: 0.1892, Accuracy: 94.53%
+Epoch [8/10] complete: Loss: 0.1709, Accuracy: 94.98%
+Epoch [9/10] complete: Loss: 0.1408, Accuracy: 95.80%
+Epoch [10/10] complete: Loss: 0.1335, Accuracy: 96.03%
+Training completed.
+Training model on low-forgetting subset...
+Starting training for 10 epochs...
+Epoch [1/10] complete: Loss: 0.7896, Accuracy: 77.77%
+Epoch [2/10] complete: Loss: 0.3676, Accuracy: 89.18%
+Epoch [3/10] complete: Loss: 0.3179, Accuracy: 90.77%
+Epoch [4/10] complete: Loss: 0.2739, Accuracy: 92.07%
+Epoch [5/10] complete: Loss: 0.2450, Accuracy: 92.92%
+Epoch [6/10] complete: Loss: 0.2074, Accuracy: 94.23%
+Epoch [7/10] complete: Loss: 0.1864, Accuracy: 94.72%
+Epoch [8/10] complete: Loss: 0.1684, Accuracy: 95.12%
+Epoch [9/10] complete: Loss: 0.1467, Accuracy: 95.60%
+Epoch [10/10] complete: Loss: 0.1304, Accuracy: 96.22%
+Training completed.
+Baseline Model Accuracy: 97.01%
+Low Forgetting Model Accuracy: 93.36%
+High Forgetting Model Accuracy: 93.97%
+Applying pruning with ratio 0.2...
+Pruning completed.
+Applying pruning with ratio 0.2...
+Pruning completed.
+Applying pruning with ratio 0.2...
+Pruning completed.
+Pruning accuracy comparison bar plot saved to results/FCNet/MNIST/dr0.1/pr0.2/pruning_accuracy_comparison.png.
+Pruned Baseline Model Accuracy: 97.05%
+Pruned Low Forgetting Model Accuracy: 93.34%
+Pruned High Forgetting Model Accuracy: 93.98%
+Post-Pruning Retraining...
+Initial Test Accuracy: 97.05%
+Post-Pruning Training Epoch [1/10]: Loss: 0.0426, Train Acc: 98.56%, Test Acc: 97.60%
+Post-Pruning Training Epoch [2/10]: Loss: 0.0381, Train Acc: 98.73%, Test Acc: 96.99%
+Post-Pruning Training Epoch [3/10]: Loss: 0.0362, Train Acc: 98.79%, Test Acc: 97.39%
+Post-Pruning Training Epoch [4/10]: Loss: 0.0347, Train Acc: 98.81%, Test Acc: 97.47%
+Post-Pruning Training Epoch [5/10]: Loss: 0.0300, Train Acc: 98.94%, Test Acc: 97.51%
+Post-Pruning Training Epoch [6/10]: Loss: 0.0275, Train Acc: 99.05%, Test Acc: 97.45%
+Post-Pruning Training Epoch [7/10]: Loss: 0.0299, Train Acc: 99.00%, Test Acc: 97.46%
+Post-Pruning Training Epoch [8/10]: Loss: 0.0244, Train Acc: 99.19%, Test Acc: 97.65%
+Post-Pruning Training Epoch [9/10]: Loss: 0.0269, Train Acc: 99.03%, Test Acc: 97.10%
+Post-Pruning Training Epoch [10/10]: Loss: 0.0241, Train Acc: 99.20%, Test Acc: 97.39%
+Initial Test Accuracy: 93.34%
+Post-Pruning Training Epoch [1/10]: Loss: 0.1838, Train Acc: 94.51%, Test Acc: 95.66%
+Post-Pruning Training Epoch [2/10]: Loss: 0.1252, Train Acc: 96.22%, Test Acc: 96.11%
+Post-Pruning Training Epoch [3/10]: Loss: 0.0986, Train Acc: 97.03%, Test Acc: 97.04%
+Post-Pruning Training Epoch [4/10]: Loss: 0.0818, Train Acc: 97.46%, Test Acc: 96.61%
+Post-Pruning Training Epoch [5/10]: Loss: 0.0717, Train Acc: 97.72%, Test Acc: 97.01%
+Post-Pruning Training Epoch [6/10]: Loss: 0.0641, Train Acc: 97.94%, Test Acc: 97.46%
+Post-Pruning Training Epoch [7/10]: Loss: 0.0564, Train Acc: 98.16%, Test Acc: 97.44%
+Post-Pruning Training Epoch [8/10]: Loss: 0.0516, Train Acc: 98.33%, Test Acc: 97.45%
+Post-Pruning Training Epoch [9/10]: Loss: 0.0475, Train Acc: 98.43%, Test Acc: 97.57%
+Post-Pruning Training Epoch [10/10]: Loss: 0.0438, Train Acc: 98.55%, Test Acc: 97.27%
+Initial Test Accuracy: 93.98%
+Post-Pruning Training Epoch [1/10]: Loss: 0.1799, Train Acc: 94.63%, Test Acc: 95.59%
+Post-Pruning Training Epoch [2/10]: Loss: 0.1234, Train Acc: 96.33%, Test Acc: 96.11%
+Post-Pruning Training Epoch [3/10]: Loss: 0.0959, Train Acc: 97.14%, Test Acc: 96.73%
+Post-Pruning Training Epoch [4/10]: Loss: 0.0829, Train Acc: 97.43%, Test Acc: 96.99%
+Post-Pruning Training Epoch [5/10]: Loss: 0.0714, Train Acc: 97.76%, Test Acc: 97.26%
+Post-Pruning Training Epoch [6/10]: Loss: 0.0648, Train Acc: 97.96%, Test Acc: 97.32%
+Post-Pruning Training Epoch [7/10]: Loss: 0.0578, Train Acc: 98.14%, Test Acc: 96.90%
+Post-Pruning Training Epoch [8/10]: Loss: 0.0529, Train Acc: 98.31%, Test Acc: 97.27%
+Post-Pruning Training Epoch [9/10]: Loss: 0.0476, Train Acc: 98.39%, Test Acc: 97.45%
+Post-Pruning Training Epoch [10/10]: Loss: 0.0427, Train Acc: 98.60%, Test Acc: 96.42%
+Post-Pruned Baseline Model Accuracy: 97.39%
+Post-Pruned Low Forgetting Model Accuracy: 97.27%
+Post-Pruned High Forgetting Model Accuracy: 96.42%
+Accuracy results saved to results/FCNet/MNIST/dr0.1/pr0.2/accuracies.csv.
+Post-pruning accuracy plot saved to results/FCNet/MNIST/dr0.1/pr0.2/post_pruning_accuracy.png.
+=============================================================================================================
+Loading precomputed forgetting scores and baseline model...
+Baseline model and forgetting scores loaded.
+Selected top 6000 highest-forgetting and top 6000 lowest-forgetting samples.
+Highest forgetting subset size: 6000, Lowest forgetting subset size: 6000
+Training model on high-forgetting subset...
+Starting training for 10 epochs...
+Epoch [1/10] complete: Loss: 0.8325, Accuracy: 74.50%
+Epoch [2/10] complete: Loss: 0.4048, Accuracy: 88.03%
+Epoch [3/10] complete: Loss: 0.3268, Accuracy: 90.48%
+Epoch [4/10] complete: Loss: 0.2906, Accuracy: 91.42%
+Epoch [5/10] complete: Loss: 0.2526, Accuracy: 92.38%
+Epoch [6/10] complete: Loss: 0.2221, Accuracy: 93.40%
+Epoch [7/10] complete: Loss: 0.1892, Accuracy: 94.53%
+Epoch [8/10] complete: Loss: 0.1709, Accuracy: 94.98%
+Epoch [9/10] complete: Loss: 0.1408, Accuracy: 95.80%
+Epoch [10/10] complete: Loss: 0.1335, Accuracy: 96.03%
+Training completed.
+Training model on low-forgetting subset...
+Starting training for 10 epochs...
+Epoch [1/10] complete: Loss: 0.7896, Accuracy: 77.77%
+Epoch [2/10] complete: Loss: 0.3676, Accuracy: 89.18%
+Epoch [3/10] complete: Loss: 0.3179, Accuracy: 90.77%
+Epoch [4/10] complete: Loss: 0.2739, Accuracy: 92.07%
+Epoch [5/10] complete: Loss: 0.2450, Accuracy: 92.92%
+Epoch [6/10] complete: Loss: 0.2074, Accuracy: 94.23%
+Epoch [7/10] complete: Loss: 0.1864, Accuracy: 94.72%
+Epoch [8/10] complete: Loss: 0.1684, Accuracy: 95.12%
+Epoch [9/10] complete: Loss: 0.1467, Accuracy: 95.60%
+Epoch [10/10] complete: Loss: 0.1304, Accuracy: 96.22%
+Training completed.
+Baseline Model Accuracy: 97.01%
+Low Forgetting Model Accuracy: 93.36%
+High Forgetting Model Accuracy: 93.97%
+Applying pruning with ratio 0.4...
+Pruning completed.
+Applying pruning with ratio 0.4...
+Pruning completed.
+Applying pruning with ratio 0.4...
+Pruning completed.
+Pruning accuracy comparison bar plot saved to results/FCNet/MNIST/dr0.1/pr0.4/pruning_accuracy_comparison.png.
+Pruned Baseline Model Accuracy: 97.05%
+Pruned Low Forgetting Model Accuracy: 93.22%
+Pruned High Forgetting Model Accuracy: 93.76%
+Post-Pruning Retraining...
+Initial Test Accuracy: 97.05%
+Post-Pruning Training Epoch [1/10]: Loss: 0.0421, Train Acc: 98.56%, Test Acc: 97.71%
+Post-Pruning Training Epoch [2/10]: Loss: 0.0394, Train Acc: 98.64%, Test Acc: 97.50%
+Post-Pruning Training Epoch [3/10]: Loss: 0.0352, Train Acc: 98.79%, Test Acc: 97.64%
+Post-Pruning Training Epoch [4/10]: Loss: 0.0367, Train Acc: 98.72%, Test Acc: 97.39%
+Post-Pruning Training Epoch [5/10]: Loss: 0.0299, Train Acc: 99.01%, Test Acc: 97.73%
+Post-Pruning Training Epoch [6/10]: Loss: 0.0267, Train Acc: 99.03%, Test Acc: 97.69%
+Post-Pruning Training Epoch [7/10]: Loss: 0.0287, Train Acc: 99.05%, Test Acc: 97.38%
+Post-Pruning Training Epoch [8/10]: Loss: 0.0246, Train Acc: 99.15%, Test Acc: 97.79%
+Post-Pruning Training Epoch [9/10]: Loss: 0.0245, Train Acc: 99.18%, Test Acc: 97.56%
+Post-Pruning Training Epoch [10/10]: Loss: 0.0225, Train Acc: 99.21%, Test Acc: 97.60%
+Initial Test Accuracy: 93.22%
+Post-Pruning Training Epoch [1/10]: Loss: 0.1845, Train Acc: 94.50%, Test Acc: 95.59%
+Post-Pruning Training Epoch [2/10]: Loss: 0.1242, Train Acc: 96.26%, Test Acc: 96.09%
+Post-Pruning Training Epoch [3/10]: Loss: 0.0994, Train Acc: 96.97%, Test Acc: 96.89%
+Post-Pruning Training Epoch [4/10]: Loss: 0.0830, Train Acc: 97.44%, Test Acc: 96.61%
+Post-Pruning Training Epoch [5/10]: Loss: 0.0714, Train Acc: 97.78%, Test Acc: 97.15%
+Post-Pruning Training Epoch [6/10]: Loss: 0.0656, Train Acc: 97.85%, Test Acc: 97.65%
+Post-Pruning Training Epoch [7/10]: Loss: 0.0569, Train Acc: 98.19%, Test Acc: 97.46%
+Post-Pruning Training Epoch [8/10]: Loss: 0.0504, Train Acc: 98.36%, Test Acc: 97.60%
+Post-Pruning Training Epoch [9/10]: Loss: 0.0473, Train Acc: 98.49%, Test Acc: 97.66%
+Post-Pruning Training Epoch [10/10]: Loss: 0.0427, Train Acc: 98.59%, Test Acc: 97.06%
+Initial Test Accuracy: 93.76%
+Post-Pruning Training Epoch [1/10]: Loss: 0.1799, Train Acc: 94.70%, Test Acc: 95.63%
+Post-Pruning Training Epoch [2/10]: Loss: 0.1233, Train Acc: 96.37%, Test Acc: 96.43%
+Post-Pruning Training Epoch [3/10]: Loss: 0.0961, Train Acc: 97.09%, Test Acc: 96.84%
+Post-Pruning Training Epoch [4/10]: Loss: 0.0822, Train Acc: 97.42%, Test Acc: 97.07%
+Post-Pruning Training Epoch [5/10]: Loss: 0.0714, Train Acc: 97.70%, Test Acc: 97.52%
+Post-Pruning Training Epoch [6/10]: Loss: 0.0637, Train Acc: 97.98%, Test Acc: 97.28%
+Post-Pruning Training Epoch [7/10]: Loss: 0.0565, Train Acc: 98.18%, Test Acc: 97.01%
+Post-Pruning Training Epoch [8/10]: Loss: 0.0529, Train Acc: 98.27%, Test Acc: 97.18%
+Post-Pruning Training Epoch [9/10]: Loss: 0.0484, Train Acc: 98.36%, Test Acc: 97.53%
+Post-Pruning Training Epoch [10/10]: Loss: 0.0420, Train Acc: 98.64%, Test Acc: 97.01%
+Post-Pruned Baseline Model Accuracy: 97.60%
+Post-Pruned Low Forgetting Model Accuracy: 97.06%
+Post-Pruned High Forgetting Model Accuracy: 97.01%
+Accuracy results saved to results/FCNet/MNIST/dr0.1/pr0.4/accuracies.csv.
+Post-pruning accuracy plot saved to results/FCNet/MNIST/dr0.1/pr0.4/post_pruning_accuracy.png.
+=============================================================================================================
+Loading precomputed forgetting scores and baseline model...
+Baseline model and forgetting scores loaded.
+Selected top 6000 highest-forgetting and top 6000 lowest-forgetting samples.
+Highest forgetting subset size: 6000, Lowest forgetting subset size: 6000
+Training model on high-forgetting subset...
+Starting training for 10 epochs...
+Epoch [1/10] complete: Loss: 0.8325, Accuracy: 74.50%
+Epoch [2/10] complete: Loss: 0.4048, Accuracy: 88.03%
+Epoch [3/10] complete: Loss: 0.3268, Accuracy: 90.48%
+Epoch [4/10] complete: Loss: 0.2906, Accuracy: 91.42%
+Epoch [5/10] complete: Loss: 0.2526, Accuracy: 92.38%
+Epoch [6/10] complete: Loss: 0.2221, Accuracy: 93.40%
+Epoch [7/10] complete: Loss: 0.1892, Accuracy: 94.53%
+Epoch [8/10] complete: Loss: 0.1709, Accuracy: 94.98%
+Epoch [9/10] complete: Loss: 0.1408, Accuracy: 95.80%
+Epoch [10/10] complete: Loss: 0.1335, Accuracy: 96.03%
+Training completed.
+Training model on low-forgetting subset...
+Starting training for 10 epochs...
+Epoch [1/10] complete: Loss: 0.7896, Accuracy: 77.77%
+Epoch [2/10] complete: Loss: 0.3676, Accuracy: 89.18%
+Epoch [3/10] complete: Loss: 0.3179, Accuracy: 90.77%
+Epoch [4/10] complete: Loss: 0.2739, Accuracy: 92.07%
+Epoch [5/10] complete: Loss: 0.2450, Accuracy: 92.92%
+Epoch [6/10] complete: Loss: 0.2074, Accuracy: 94.23%
+Epoch [7/10] complete: Loss: 0.1864, Accuracy: 94.72%
+Epoch [8/10] complete: Loss: 0.1684, Accuracy: 95.12%
+Epoch [9/10] complete: Loss: 0.1467, Accuracy: 95.60%
+Epoch [10/10] complete: Loss: 0.1304, Accuracy: 96.22%
+Training completed.
+Baseline Model Accuracy: 97.01%
+Low Forgetting Model Accuracy: 93.36%
+High Forgetting Model Accuracy: 93.97%
+Applying pruning with ratio 0.6...
+Pruning completed.
+Applying pruning with ratio 0.6...
+Pruning completed.
+Applying pruning with ratio 0.6...
+Pruning completed.
+Pruning accuracy comparison bar plot saved to results/FCNet/MNIST/dr0.1/pr0.6/pruning_accuracy_comparison.png.
+Pruned Baseline Model Accuracy: 96.24%
+Pruned Low Forgetting Model Accuracy: 91.69%
+Pruned High Forgetting Model Accuracy: 93.74%
+Post-Pruning Retraining...
+Initial Test Accuracy: 96.24%
+Post-Pruning Training Epoch [1/10]: Loss: 0.0431, Train Acc: 98.59%, Test Acc: 97.69%
+Post-Pruning Training Epoch [2/10]: Loss: 0.0403, Train Acc: 98.69%, Test Acc: 97.49%
+Post-Pruning Training Epoch [3/10]: Loss: 0.0357, Train Acc: 98.76%, Test Acc: 97.76%
+Post-Pruning Training Epoch [4/10]: Loss: 0.0341, Train Acc: 98.83%, Test Acc: 97.81%
+Post-Pruning Training Epoch [5/10]: Loss: 0.0292, Train Acc: 99.00%, Test Acc: 97.62%
+Post-Pruning Training Epoch [6/10]: Loss: 0.0294, Train Acc: 99.00%, Test Acc: 97.71%
+Post-Pruning Training Epoch [7/10]: Loss: 0.0262, Train Acc: 99.10%, Test Acc: 97.65%
+Post-Pruning Training Epoch [8/10]: Loss: 0.0249, Train Acc: 99.15%, Test Acc: 97.40%
+Post-Pruning Training Epoch [9/10]: Loss: 0.0245, Train Acc: 99.16%, Test Acc: 97.58%
+Post-Pruning Training Epoch [10/10]: Loss: 0.0249, Train Acc: 99.15%, Test Acc: 97.14%
+Initial Test Accuracy: 91.69%
+Post-Pruning Training Epoch [1/10]: Loss: 0.1851, Train Acc: 94.45%, Test Acc: 95.56%
+Post-Pruning Training Epoch [2/10]: Loss: 0.1261, Train Acc: 96.22%, Test Acc: 96.58%
+Post-Pruning Training Epoch [3/10]: Loss: 0.1002, Train Acc: 96.93%, Test Acc: 96.88%
+Post-Pruning Training Epoch [4/10]: Loss: 0.0833, Train Acc: 97.41%, Test Acc: 96.30%
+Post-Pruning Training Epoch [5/10]: Loss: 0.0719, Train Acc: 97.74%, Test Acc: 97.36%
+Post-Pruning Training Epoch [6/10]: Loss: 0.0661, Train Acc: 97.82%, Test Acc: 97.58%
+Post-Pruning Training Epoch [7/10]: Loss: 0.0580, Train Acc: 98.14%, Test Acc: 97.53%
+Post-Pruning Training Epoch [8/10]: Loss: 0.0524, Train Acc: 98.26%, Test Acc: 97.57%
+Post-Pruning Training Epoch [9/10]: Loss: 0.0480, Train Acc: 98.41%, Test Acc: 97.73%
+Post-Pruning Training Epoch [10/10]: Loss: 0.0432, Train Acc: 98.58%, Test Acc: 97.62%
+Initial Test Accuracy: 93.74%
+Post-Pruning Training Epoch [1/10]: Loss: 0.1804, Train Acc: 94.70%, Test Acc: 95.63%
+Post-Pruning Training Epoch [2/10]: Loss: 0.1237, Train Acc: 96.30%, Test Acc: 96.35%
+Post-Pruning Training Epoch [3/10]: Loss: 0.0971, Train Acc: 97.06%, Test Acc: 96.75%
+Post-Pruning Training Epoch [4/10]: Loss: 0.0827, Train Acc: 97.47%, Test Acc: 96.67%
+Post-Pruning Training Epoch [5/10]: Loss: 0.0716, Train Acc: 97.71%, Test Acc: 97.43%
+Post-Pruning Training Epoch [6/10]: Loss: 0.0654, Train Acc: 97.91%, Test Acc: 96.95%
+Post-Pruning Training Epoch [7/10]: Loss: 0.0573, Train Acc: 98.17%, Test Acc: 97.30%
+Post-Pruning Training Epoch [8/10]: Loss: 0.0527, Train Acc: 98.32%, Test Acc: 97.28%
+Post-Pruning Training Epoch [9/10]: Loss: 0.0479, Train Acc: 98.46%, Test Acc: 97.46%
+Post-Pruning Training Epoch [10/10]: Loss: 0.0428, Train Acc: 98.53%, Test Acc: 97.29%
+Post-Pruned Baseline Model Accuracy: 97.14%
+Post-Pruned Low Forgetting Model Accuracy: 97.62%
+Post-Pruned High Forgetting Model Accuracy: 97.29%
+Accuracy results saved to results/FCNet/MNIST/dr0.1/pr0.6/accuracies.csv.
+Post-pruning accuracy plot saved to results/FCNet/MNIST/dr0.1/pr0.6/post_pruning_accuracy.png.
+=============================================================================================================
+Loading precomputed forgetting scores and baseline model...
+Baseline model and forgetting scores loaded.
+Selected top 6000 highest-forgetting and top 6000 lowest-forgetting samples.
+Highest forgetting subset size: 6000, Lowest forgetting subset size: 6000
+Training model on high-forgetting subset...
+Starting training for 10 epochs...
+Epoch [1/10] complete: Loss: 0.8325, Accuracy: 74.50%
+Epoch [2/10] complete: Loss: 0.4048, Accuracy: 88.03%
+Epoch [3/10] complete: Loss: 0.3268, Accuracy: 90.48%
+Epoch [4/10] complete: Loss: 0.2906, Accuracy: 91.42%
+Epoch [5/10] complete: Loss: 0.2526, Accuracy: 92.38%
+Epoch [6/10] complete: Loss: 0.2221, Accuracy: 93.40%
+Epoch [7/10] complete: Loss: 0.1892, Accuracy: 94.53%
+Epoch [8/10] complete: Loss: 0.1709, Accuracy: 94.98%
+Epoch [9/10] complete: Loss: 0.1408, Accuracy: 95.80%
+Epoch [10/10] complete: Loss: 0.1335, Accuracy: 96.03%
+Training completed.
+Training model on low-forgetting subset...
+Starting training for 10 epochs...
+Epoch [1/10] complete: Loss: 0.7896, Accuracy: 77.77%
+Epoch [2/10] complete: Loss: 0.3676, Accuracy: 89.18%
+Epoch [3/10] complete: Loss: 0.3179, Accuracy: 90.77%
+Epoch [4/10] complete: Loss: 0.2739, Accuracy: 92.07%
+Epoch [5/10] complete: Loss: 0.2450, Accuracy: 92.92%
+Epoch [6/10] complete: Loss: 0.2074, Accuracy: 94.23%
+Epoch [7/10] complete: Loss: 0.1864, Accuracy: 94.72%
+Epoch [8/10] complete: Loss: 0.1684, Accuracy: 95.12%
+Epoch [9/10] complete: Loss: 0.1467, Accuracy: 95.60%
+Epoch [10/10] complete: Loss: 0.1304, Accuracy: 96.22%
+Training completed.
+Baseline Model Accuracy: 97.01%
+Low Forgetting Model Accuracy: 93.36%
+High Forgetting Model Accuracy: 93.97%
+Applying pruning with ratio 0.8...
+Pruning completed.
+Applying pruning with ratio 0.8...
+Pruning completed.
+Applying pruning with ratio 0.8...
+Pruning completed.
+Pruning accuracy comparison bar plot saved to results/FCNet/MNIST/dr0.1/pr0.8/pruning_accuracy_comparison.png.
+Pruned Baseline Model Accuracy: 61.81%
+Pruned Low Forgetting Model Accuracy: 81.06%
+Pruned High Forgetting Model Accuracy: 91.04%
+Post-Pruning Retraining...
+Initial Test Accuracy: 61.81%
+Post-Pruning Training Epoch [1/10]: Loss: 0.0556, Train Acc: 98.33%, Test Acc: 97.50%
+Post-Pruning Training Epoch [2/10]: Loss: 0.0408, Train Acc: 98.63%, Test Acc: 97.29%
+Post-Pruning Training Epoch [3/10]: Loss: 0.0379, Train Acc: 98.73%, Test Acc: 97.48%
+Post-Pruning Training Epoch [4/10]: Loss: 0.0365, Train Acc: 98.75%, Test Acc: 96.89%
+Post-Pruning Training Epoch [5/10]: Loss: 0.0314, Train Acc: 98.92%, Test Acc: 97.66%
+Post-Pruning Training Epoch [6/10]: Loss: 0.0313, Train Acc: 98.93%, Test Acc: 97.21%
+Post-Pruning Training Epoch [7/10]: Loss: 0.0286, Train Acc: 99.03%, Test Acc: 97.43%
+Post-Pruning Training Epoch [8/10]: Loss: 0.0261, Train Acc: 99.11%, Test Acc: 97.72%
+Post-Pruning Training Epoch [9/10]: Loss: 0.0255, Train Acc: 99.16%, Test Acc: 97.34%
+Post-Pruning Training Epoch [10/10]: Loss: 0.0251, Train Acc: 99.15%, Test Acc: 97.24%
+Initial Test Accuracy: 81.06%
+Post-Pruning Training Epoch [1/10]: Loss: 0.1901, Train Acc: 94.30%, Test Acc: 95.75%
+Post-Pruning Training Epoch [2/10]: Loss: 0.1271, Train Acc: 96.21%, Test Acc: 96.38%
+Post-Pruning Training Epoch [3/10]: Loss: 0.0995, Train Acc: 96.99%, Test Acc: 97.11%
+Post-Pruning Training Epoch [4/10]: Loss: 0.0841, Train Acc: 97.38%, Test Acc: 96.84%
+Post-Pruning Training Epoch [5/10]: Loss: 0.0717, Train Acc: 97.76%, Test Acc: 97.21%
+Post-Pruning Training Epoch [6/10]: Loss: 0.0647, Train Acc: 97.90%, Test Acc: 97.52%
+Post-Pruning Training Epoch [7/10]: Loss: 0.0574, Train Acc: 98.12%, Test Acc: 97.29%
+Post-Pruning Training Epoch [8/10]: Loss: 0.0521, Train Acc: 98.31%, Test Acc: 97.89%
+Post-Pruning Training Epoch [9/10]: Loss: 0.0462, Train Acc: 98.49%, Test Acc: 97.44%
+Post-Pruning Training Epoch [10/10]: Loss: 0.0435, Train Acc: 98.62%, Test Acc: 97.14%
+Initial Test Accuracy: 91.04%
+Post-Pruning Training Epoch [1/10]: Loss: 0.1844, Train Acc: 94.54%, Test Acc: 95.76%
+Post-Pruning Training Epoch [2/10]: Loss: 0.1246, Train Acc: 96.24%, Test Acc: 96.24%
+Post-Pruning Training Epoch [3/10]: Loss: 0.0972, Train Acc: 97.07%, Test Acc: 96.58%
+Post-Pruning Training Epoch [4/10]: Loss: 0.0837, Train Acc: 97.40%, Test Acc: 96.66%
+Post-Pruning Training Epoch [5/10]: Loss: 0.0720, Train Acc: 97.75%, Test Acc: 96.85%
+Post-Pruning Training Epoch [6/10]: Loss: 0.0656, Train Acc: 97.92%, Test Acc: 97.05%
+Post-Pruning Training Epoch [7/10]: Loss: 0.0570, Train Acc: 98.16%, Test Acc: 97.02%
+Post-Pruning Training Epoch [8/10]: Loss: 0.0544, Train Acc: 98.24%, Test Acc: 97.04%
+Post-Pruning Training Epoch [9/10]: Loss: 0.0467, Train Acc: 98.49%, Test Acc: 97.34%
+Post-Pruning Training Epoch [10/10]: Loss: 0.0422, Train Acc: 98.58%, Test Acc: 97.20%
+Post-Pruned Baseline Model Accuracy: 97.24%
+Post-Pruned Low Forgetting Model Accuracy: 97.14%
+Post-Pruned High Forgetting Model Accuracy: 97.20%
+Accuracy results saved to results/FCNet/MNIST/dr0.1/pr0.8/accuracies.csv.
+Post-pruning accuracy plot saved to results/FCNet/MNIST/dr0.1/pr0.8/post_pruning_accuracy.png.
+=============================================================================================================
+Loading precomputed forgetting scores and baseline model...
+Baseline model and forgetting scores loaded.
+Selected top 12000 highest-forgetting and top 12000 lowest-forgetting samples.
+Highest forgetting subset size: 12000, Lowest forgetting subset size: 12000
+Training model on high-forgetting subset...
+Starting training for 10 epochs...
+Epoch [1/10] complete: Loss: 0.6343, Accuracy: 81.29%
+Epoch [2/10] complete: Loss: 0.3293, Accuracy: 90.30%
+Epoch [3/10] complete: Loss: 0.2657, Accuracy: 92.28%
+Epoch [4/10] complete: Loss: 0.2275, Accuracy: 93.33%
+Epoch [5/10] complete: Loss: 0.1839, Accuracy: 94.67%
+Epoch [6/10] complete: Loss: 0.1505, Accuracy: 95.48%
+Epoch [7/10] complete: Loss: 0.1251, Accuracy: 96.43%
+Epoch [8/10] complete: Loss: 0.1119, Accuracy: 96.62%
+Epoch [9/10] complete: Loss: 0.0916, Accuracy: 97.26%
+Epoch [10/10] complete: Loss: 0.0802, Accuracy: 97.58%
+Training completed.
+Training model on low-forgetting subset...
+Starting training for 10 epochs...
+Epoch [1/10] complete: Loss: 0.6128, Accuracy: 81.83%
+Epoch [2/10] complete: Loss: 0.3327, Accuracy: 90.20%
+Epoch [3/10] complete: Loss: 0.2690, Accuracy: 92.12%
+Epoch [4/10] complete: Loss: 0.2283, Accuracy: 93.12%
+Epoch [5/10] complete: Loss: 0.1898, Accuracy: 94.37%
+Epoch [6/10] complete: Loss: 0.1621, Accuracy: 95.15%
+Epoch [7/10] complete: Loss: 0.1398, Accuracy: 95.89%
+Epoch [8/10] complete: Loss: 0.1165, Accuracy: 96.38%
+Epoch [9/10] complete: Loss: 0.1009, Accuracy: 96.89%
+Epoch [10/10] complete: Loss: 0.0878, Accuracy: 97.38%
+Training completed.
+Baseline Model Accuracy: 97.01%
+Low Forgetting Model Accuracy: 95.29%
+High Forgetting Model Accuracy: 95.31%
+Applying pruning with ratio 0.0...
+Pruning completed.
+Applying pruning with ratio 0.0...
+Pruning completed.
+Applying pruning with ratio 0.0...
+Pruning completed.
+Pruning accuracy comparison bar plot saved to results/FCNet/MNIST/dr0.2/pr0.0/pruning_accuracy_comparison.png.
+Pruned Baseline Model Accuracy: 97.01%
+Pruned Low Forgetting Model Accuracy: 95.29%
+Pruned High Forgetting Model Accuracy: 95.31%
+Post-Pruning Retraining...
+Initial Test Accuracy: 97.01%
+Post-Pruning Training Epoch [1/10]: Loss: 0.0438, Train Acc: 98.52%, Test Acc: 97.25%
+Post-Pruning Training Epoch [2/10]: Loss: 0.0394, Train Acc: 98.69%, Test Acc: 97.09%
+Post-Pruning Training Epoch [3/10]: Loss: 0.0351, Train Acc: 98.84%, Test Acc: 97.37%
+Post-Pruning Training Epoch [4/10]: Loss: 0.0339, Train Acc: 98.84%, Test Acc: 97.59%
+Post-Pruning Training Epoch [5/10]: Loss: 0.0303, Train Acc: 98.98%, Test Acc: 97.73%
+Post-Pruning Training Epoch [6/10]: Loss: 0.0297, Train Acc: 98.97%, Test Acc: 97.03%
+Post-Pruning Training Epoch [7/10]: Loss: 0.0264, Train Acc: 99.09%, Test Acc: 97.49%
+Post-Pruning Training Epoch [8/10]: Loss: 0.0236, Train Acc: 99.20%, Test Acc: 97.64%
+Post-Pruning Training Epoch [9/10]: Loss: 0.0243, Train Acc: 99.18%, Test Acc: 97.46%
+Post-Pruning Training Epoch [10/10]: Loss: 0.0230, Train Acc: 99.18%, Test Acc: 97.59%
+Initial Test Accuracy: 95.29%
+Post-Pruning Training Epoch [1/10]: Loss: 0.1398, Train Acc: 95.84%, Test Acc: 96.41%
+Post-Pruning Training Epoch [2/10]: Loss: 0.1049, Train Acc: 96.80%, Test Acc: 96.33%
+Post-Pruning Training Epoch [3/10]: Loss: 0.0862, Train Acc: 97.33%, Test Acc: 97.13%
+Post-Pruning Training Epoch [4/10]: Loss: 0.0755, Train Acc: 97.70%, Test Acc: 97.07%
+Post-Pruning Training Epoch [5/10]: Loss: 0.0653, Train Acc: 97.94%, Test Acc: 96.70%
+Post-Pruning Training Epoch [6/10]: Loss: 0.0593, Train Acc: 98.11%, Test Acc: 97.53%
+Post-Pruning Training Epoch [7/10]: Loss: 0.0540, Train Acc: 98.23%, Test Acc: 97.28%
+Post-Pruning Training Epoch [8/10]: Loss: 0.0475, Train Acc: 98.46%, Test Acc: 97.59%
+Post-Pruning Training Epoch [9/10]: Loss: 0.0455, Train Acc: 98.56%, Test Acc: 97.71%
+Post-Pruning Training Epoch [10/10]: Loss: 0.0400, Train Acc: 98.68%, Test Acc: 97.07%
+Initial Test Accuracy: 95.31%
+Post-Pruning Training Epoch [1/10]: Loss: 0.1408, Train Acc: 95.79%, Test Acc: 96.76%
+Post-Pruning Training Epoch [2/10]: Loss: 0.1061, Train Acc: 96.85%, Test Acc: 96.81%
+Post-Pruning Training Epoch [3/10]: Loss: 0.0899, Train Acc: 97.24%, Test Acc: 97.12%
+Post-Pruning Training Epoch [4/10]: Loss: 0.0784, Train Acc: 97.50%, Test Acc: 96.89%
+Post-Pruning Training Epoch [5/10]: Loss: 0.0687, Train Acc: 97.88%, Test Acc: 97.32%
+Post-Pruning Training Epoch [6/10]: Loss: 0.0627, Train Acc: 98.03%, Test Acc: 97.18%
+Post-Pruning Training Epoch [7/10]: Loss: 0.0572, Train Acc: 98.16%, Test Acc: 97.18%
+Post-Pruning Training Epoch [8/10]: Loss: 0.0516, Train Acc: 98.32%, Test Acc: 97.57%
+Post-Pruning Training Epoch [9/10]: Loss: 0.0471, Train Acc: 98.47%, Test Acc: 97.03%
+Post-Pruning Training Epoch [10/10]: Loss: 0.0410, Train Acc: 98.68%, Test Acc: 97.31%
+Post-Pruned Baseline Model Accuracy: 97.59%
+Post-Pruned Low Forgetting Model Accuracy: 97.07%
+Post-Pruned High Forgetting Model Accuracy: 97.31%
+Accuracy results saved to results/FCNet/MNIST/dr0.2/pr0.0/accuracies.csv.
+Post-pruning accuracy plot saved to results/FCNet/MNIST/dr0.2/pr0.0/post_pruning_accuracy.png.
+=============================================================================================================
+Loading precomputed forgetting scores and baseline model...
+Baseline model and forgetting scores loaded.
+Selected top 12000 highest-forgetting and top 12000 lowest-forgetting samples.
+Highest forgetting subset size: 12000, Lowest forgetting subset size: 12000
+Training model on high-forgetting subset...
+Starting training for 10 epochs...
+Epoch [1/10] complete: Loss: 0.6343, Accuracy: 81.29%
+Epoch [2/10] complete: Loss: 0.3293, Accuracy: 90.30%
+Epoch [3/10] complete: Loss: 0.2657, Accuracy: 92.28%
+Epoch [4/10] complete: Loss: 0.2275, Accuracy: 93.33%
+Epoch [5/10] complete: Loss: 0.1839, Accuracy: 94.67%
+Epoch [6/10] complete: Loss: 0.1505, Accuracy: 95.48%
+Epoch [7/10] complete: Loss: 0.1251, Accuracy: 96.43%
+Epoch [8/10] complete: Loss: 0.1119, Accuracy: 96.62%
+Epoch [9/10] complete: Loss: 0.0916, Accuracy: 97.26%
+Epoch [10/10] complete: Loss: 0.0802, Accuracy: 97.58%
+Training completed.
+Training model on low-forgetting subset...
+Starting training for 10 epochs...
+Epoch [1/10] complete: Loss: 0.6128, Accuracy: 81.83%
+Epoch [2/10] complete: Loss: 0.3327, Accuracy: 90.20%
+Epoch [3/10] complete: Loss: 0.2690, Accuracy: 92.12%
+Epoch [4/10] complete: Loss: 0.2283, Accuracy: 93.12%
+Epoch [5/10] complete: Loss: 0.1898, Accuracy: 94.37%
+Epoch [6/10] complete: Loss: 0.1621, Accuracy: 95.15%
+Epoch [7/10] complete: Loss: 0.1398, Accuracy: 95.89%
+Epoch [8/10] complete: Loss: 0.1165, Accuracy: 96.38%
+Epoch [9/10] complete: Loss: 0.1009, Accuracy: 96.89%
+Epoch [10/10] complete: Loss: 0.0878, Accuracy: 97.38%
+Training completed.
+Baseline Model Accuracy: 97.01%
+Low Forgetting Model Accuracy: 95.29%
+High Forgetting Model Accuracy: 95.31%
+Applying pruning with ratio 0.2...
+Pruning completed.
+Applying pruning with ratio 0.2...
+Pruning completed.
+Applying pruning with ratio 0.2...
+Pruning completed.
+Pruning accuracy comparison bar plot saved to results/FCNet/MNIST/dr0.2/pr0.2/pruning_accuracy_comparison.png.
+Pruned Baseline Model Accuracy: 97.05%
+Pruned Low Forgetting Model Accuracy: 95.21%
+Pruned High Forgetting Model Accuracy: 95.38%
+Post-Pruning Retraining...
+Initial Test Accuracy: 97.05%
+Post-Pruning Training Epoch [1/10]: Loss: 0.0426, Train Acc: 98.56%, Test Acc: 97.60%
+Post-Pruning Training Epoch [2/10]: Loss: 0.0381, Train Acc: 98.73%, Test Acc: 96.99%
+Post-Pruning Training Epoch [3/10]: Loss: 0.0362, Train Acc: 98.79%, Test Acc: 97.39%
+Post-Pruning Training Epoch [4/10]: Loss: 0.0347, Train Acc: 98.81%, Test Acc: 97.47%
+Post-Pruning Training Epoch [5/10]: Loss: 0.0300, Train Acc: 98.94%, Test Acc: 97.51%
+Post-Pruning Training Epoch [6/10]: Loss: 0.0275, Train Acc: 99.05%, Test Acc: 97.45%
+Post-Pruning Training Epoch [7/10]: Loss: 0.0299, Train Acc: 99.00%, Test Acc: 97.46%
+Post-Pruning Training Epoch [8/10]: Loss: 0.0244, Train Acc: 99.19%, Test Acc: 97.65%
+Post-Pruning Training Epoch [9/10]: Loss: 0.0269, Train Acc: 99.03%, Test Acc: 97.10%
+Post-Pruning Training Epoch [10/10]: Loss: 0.0241, Train Acc: 99.20%, Test Acc: 97.39%
+Initial Test Accuracy: 95.21%
+Post-Pruning Training Epoch [1/10]: Loss: 0.1394, Train Acc: 95.89%, Test Acc: 96.49%
+Post-Pruning Training Epoch [2/10]: Loss: 0.1048, Train Acc: 96.79%, Test Acc: 96.87%
+Post-Pruning Training Epoch [3/10]: Loss: 0.0858, Train Acc: 97.31%, Test Acc: 97.19%
+Post-Pruning Training Epoch [4/10]: Loss: 0.0733, Train Acc: 97.77%, Test Acc: 97.30%
+Post-Pruning Training Epoch [5/10]: Loss: 0.0652, Train Acc: 97.94%, Test Acc: 96.85%
+Post-Pruning Training Epoch [6/10]: Loss: 0.0597, Train Acc: 98.09%, Test Acc: 97.56%
+Post-Pruning Training Epoch [7/10]: Loss: 0.0530, Train Acc: 98.27%, Test Acc: 97.73%
+Post-Pruning Training Epoch [8/10]: Loss: 0.0466, Train Acc: 98.47%, Test Acc: 97.34%
+Post-Pruning Training Epoch [9/10]: Loss: 0.0449, Train Acc: 98.52%, Test Acc: 97.59%
+Post-Pruning Training Epoch [10/10]: Loss: 0.0399, Train Acc: 98.66%, Test Acc: 97.46%
+Initial Test Accuracy: 95.38%
+Post-Pruning Training Epoch [1/10]: Loss: 0.1408, Train Acc: 95.71%, Test Acc: 96.68%
+Post-Pruning Training Epoch [2/10]: Loss: 0.1053, Train Acc: 96.88%, Test Acc: 96.59%
+Post-Pruning Training Epoch [3/10]: Loss: 0.0875, Train Acc: 97.30%, Test Acc: 97.28%
+Post-Pruning Training Epoch [4/10]: Loss: 0.0780, Train Acc: 97.53%, Test Acc: 97.07%
+Post-Pruning Training Epoch [5/10]: Loss: 0.0673, Train Acc: 97.90%, Test Acc: 97.27%
+Post-Pruning Training Epoch [6/10]: Loss: 0.0619, Train Acc: 97.99%, Test Acc: 97.50%
+Post-Pruning Training Epoch [7/10]: Loss: 0.0558, Train Acc: 98.20%, Test Acc: 97.47%
+Post-Pruning Training Epoch [8/10]: Loss: 0.0490, Train Acc: 98.43%, Test Acc: 97.43%
+Post-Pruning Training Epoch [9/10]: Loss: 0.0464, Train Acc: 98.48%, Test Acc: 97.49%
+Post-Pruning Training Epoch [10/10]: Loss: 0.0417, Train Acc: 98.58%, Test Acc: 97.13%
+Post-Pruned Baseline Model Accuracy: 97.39%
+Post-Pruned Low Forgetting Model Accuracy: 97.46%
+Post-Pruned High Forgetting Model Accuracy: 97.13%
+Accuracy results saved to results/FCNet/MNIST/dr0.2/pr0.2/accuracies.csv.
+Post-pruning accuracy plot saved to results/FCNet/MNIST/dr0.2/pr0.2/post_pruning_accuracy.png.
+=============================================================================================================
+Loading precomputed forgetting scores and baseline model...
+Baseline model and forgetting scores loaded.
+Selected top 12000 highest-forgetting and top 12000 lowest-forgetting samples.
+Highest forgetting subset size: 12000, Lowest forgetting subset size: 12000
+Training model on high-forgetting subset...
+Starting training for 10 epochs...
+Epoch [1/10] complete: Loss: 0.6343, Accuracy: 81.29%
+Epoch [2/10] complete: Loss: 0.3293, Accuracy: 90.30%
+Epoch [3/10] complete: Loss: 0.2657, Accuracy: 92.28%
+Epoch [4/10] complete: Loss: 0.2275, Accuracy: 93.33%
+Epoch [5/10] complete: Loss: 0.1839, Accuracy: 94.67%
+Epoch [6/10] complete: Loss: 0.1505, Accuracy: 95.48%
+Epoch [7/10] complete: Loss: 0.1251, Accuracy: 96.43%
+Epoch [8/10] complete: Loss: 0.1119, Accuracy: 96.62%
+Epoch [9/10] complete: Loss: 0.0916, Accuracy: 97.26%
+Epoch [10/10] complete: Loss: 0.0802, Accuracy: 97.58%
+Training completed.
+Training model on low-forgetting subset...
+Starting training for 10 epochs...
+Epoch [1/10] complete: Loss: 0.6128, Accuracy: 81.83%
+Epoch [2/10] complete: Loss: 0.3327, Accuracy: 90.20%
+Epoch [3/10] complete: Loss: 0.2690, Accuracy: 92.12%
+Epoch [4/10] complete: Loss: 0.2283, Accuracy: 93.12%
+Epoch [5/10] complete: Loss: 0.1898, Accuracy: 94.37%
+Epoch [6/10] complete: Loss: 0.1621, Accuracy: 95.15%
+Epoch [7/10] complete: Loss: 0.1398, Accuracy: 95.89%
+Epoch [8/10] complete: Loss: 0.1165, Accuracy: 96.38%
+Epoch [9/10] complete: Loss: 0.1009, Accuracy: 96.89%
+Epoch [10/10] complete: Loss: 0.0878, Accuracy: 97.38%
+Training completed.
+Baseline Model Accuracy: 97.01%
+Low Forgetting Model Accuracy: 95.29%
+High Forgetting Model Accuracy: 95.31%
+Applying pruning with ratio 0.4...
+Pruning completed.
+Applying pruning with ratio 0.4...
+Pruning completed.
+Applying pruning with ratio 0.4...
+Pruning completed.
+Pruning accuracy comparison bar plot saved to results/FCNet/MNIST/dr0.2/pr0.4/pruning_accuracy_comparison.png.
+Pruned Baseline Model Accuracy: 97.05%
+Pruned Low Forgetting Model Accuracy: 95.10%
+Pruned High Forgetting Model Accuracy: 95.05%
+Post-Pruning Retraining...
+Initial Test Accuracy: 97.05%
+Post-Pruning Training Epoch [1/10]: Loss: 0.0421, Train Acc: 98.56%, Test Acc: 97.71%
+Post-Pruning Training Epoch [2/10]: Loss: 0.0394, Train Acc: 98.64%, Test Acc: 97.50%
+Post-Pruning Training Epoch [3/10]: Loss: 0.0352, Train Acc: 98.79%, Test Acc: 97.64%
+Post-Pruning Training Epoch [4/10]: Loss: 0.0367, Train Acc: 98.72%, Test Acc: 97.39%
+Post-Pruning Training Epoch [5/10]: Loss: 0.0299, Train Acc: 99.01%, Test Acc: 97.73%
+Post-Pruning Training Epoch [6/10]: Loss: 0.0267, Train Acc: 99.03%, Test Acc: 97.69%
+Post-Pruning Training Epoch [7/10]: Loss: 0.0287, Train Acc: 99.05%, Test Acc: 97.38%
+Post-Pruning Training Epoch [8/10]: Loss: 0.0246, Train Acc: 99.15%, Test Acc: 97.79%
+Post-Pruning Training Epoch [9/10]: Loss: 0.0245, Train Acc: 99.18%, Test Acc: 97.56%
+Post-Pruning Training Epoch [10/10]: Loss: 0.0225, Train Acc: 99.21%, Test Acc: 97.60%
+Initial Test Accuracy: 95.10%
+Post-Pruning Training Epoch [1/10]: Loss: 0.1396, Train Acc: 95.76%, Test Acc: 96.55%
+Post-Pruning Training Epoch [2/10]: Loss: 0.1040, Train Acc: 96.82%, Test Acc: 96.58%
+Post-Pruning Training Epoch [3/10]: Loss: 0.0851, Train Acc: 97.34%, Test Acc: 97.12%
+Post-Pruning Training Epoch [4/10]: Loss: 0.0731, Train Acc: 97.75%, Test Acc: 97.33%
+Post-Pruning Training Epoch [5/10]: Loss: 0.0647, Train Acc: 97.97%, Test Acc: 96.64%
+Post-Pruning Training Epoch [6/10]: Loss: 0.0603, Train Acc: 98.02%, Test Acc: 97.66%
+Post-Pruning Training Epoch [7/10]: Loss: 0.0539, Train Acc: 98.23%, Test Acc: 97.73%
+Post-Pruning Training Epoch [8/10]: Loss: 0.0457, Train Acc: 98.49%, Test Acc: 97.62%
+Post-Pruning Training Epoch [9/10]: Loss: 0.0449, Train Acc: 98.53%, Test Acc: 97.82%
+Post-Pruning Training Epoch [10/10]: Loss: 0.0394, Train Acc: 98.68%, Test Acc: 97.07%
+Initial Test Accuracy: 95.05%
+Post-Pruning Training Epoch [1/10]: Loss: 0.1412, Train Acc: 95.72%, Test Acc: 96.69%
+Post-Pruning Training Epoch [2/10]: Loss: 0.1059, Train Acc: 96.82%, Test Acc: 97.00%
+Post-Pruning Training Epoch [3/10]: Loss: 0.0888, Train Acc: 97.27%, Test Acc: 97.15%
+Post-Pruning Training Epoch [4/10]: Loss: 0.0786, Train Acc: 97.53%, Test Acc: 96.81%
+Post-Pruning Training Epoch [5/10]: Loss: 0.0673, Train Acc: 97.89%, Test Acc: 97.55%
+Post-Pruning Training Epoch [6/10]: Loss: 0.0619, Train Acc: 98.00%, Test Acc: 96.77%
+Post-Pruning Training Epoch [7/10]: Loss: 0.0565, Train Acc: 98.19%, Test Acc: 97.07%
+Post-Pruning Training Epoch [8/10]: Loss: 0.0509, Train Acc: 98.42%, Test Acc: 97.43%
+Post-Pruning Training Epoch [9/10]: Loss: 0.0476, Train Acc: 98.39%, Test Acc: 96.70%
+Post-Pruning Training Epoch [10/10]: Loss: 0.0397, Train Acc: 98.67%, Test Acc: 97.13%
+Post-Pruned Baseline Model Accuracy: 97.60%
+Post-Pruned Low Forgetting Model Accuracy: 97.07%
+Post-Pruned High Forgetting Model Accuracy: 97.13%
+Accuracy results saved to results/FCNet/MNIST/dr0.2/pr0.4/accuracies.csv.
+Post-pruning accuracy plot saved to results/FCNet/MNIST/dr0.2/pr0.4/post_pruning_accuracy.png.
+=============================================================================================================
+Loading precomputed forgetting scores and baseline model...
+Baseline model and forgetting scores loaded.
+Selected top 12000 highest-forgetting and top 12000 lowest-forgetting samples.
+Highest forgetting subset size: 12000, Lowest forgetting subset size: 12000
+Training model on high-forgetting subset...
+Starting training for 10 epochs...
+Epoch [1/10] complete: Loss: 0.6343, Accuracy: 81.29%
+Epoch [2/10] complete: Loss: 0.3293, Accuracy: 90.30%
+Epoch [3/10] complete: Loss: 0.2657, Accuracy: 92.28%
+Epoch [4/10] complete: Loss: 0.2275, Accuracy: 93.33%
+Epoch [5/10] complete: Loss: 0.1839, Accuracy: 94.67%
+Epoch [6/10] complete: Loss: 0.1505, Accuracy: 95.48%
+Epoch [7/10] complete: Loss: 0.1251, Accuracy: 96.43%
+Epoch [8/10] complete: Loss: 0.1119, Accuracy: 96.62%
+Epoch [9/10] complete: Loss: 0.0916, Accuracy: 97.26%
+Epoch [10/10] complete: Loss: 0.0802, Accuracy: 97.58%
+Training completed.
+Training model on low-forgetting subset...
+Starting training for 10 epochs...
+Epoch [1/10] complete: Loss: 0.6128, Accuracy: 81.83%
+Epoch [2/10] complete: Loss: 0.3327, Accuracy: 90.20%
+Epoch [3/10] complete: Loss: 0.2690, Accuracy: 92.12%
+Epoch [4/10] complete: Loss: 0.2283, Accuracy: 93.12%
+Epoch [5/10] complete: Loss: 0.1898, Accuracy: 94.37%
+Epoch [6/10] complete: Loss: 0.1621, Accuracy: 95.15%
+Epoch [7/10] complete: Loss: 0.1398, Accuracy: 95.89%
+Epoch [8/10] complete: Loss: 0.1165, Accuracy: 96.38%
+Epoch [9/10] complete: Loss: 0.1009, Accuracy: 96.89%
+Epoch [10/10] complete: Loss: 0.0878, Accuracy: 97.38%
+Training completed.
+Baseline Model Accuracy: 97.01%
+Low Forgetting Model Accuracy: 95.29%
+High Forgetting Model Accuracy: 95.31%
+Applying pruning with ratio 0.6...
+Pruning completed.
+Applying pruning with ratio 0.6...
+Pruning completed.
+Applying pruning with ratio 0.6...
+Pruning completed.
+Pruning accuracy comparison bar plot saved to results/FCNet/MNIST/dr0.2/pr0.6/pruning_accuracy_comparison.png.
+Pruned Baseline Model Accuracy: 96.24%
+Pruned Low Forgetting Model Accuracy: 95.06%
+Pruned High Forgetting Model Accuracy: 94.79%
+Post-Pruning Retraining...
+Initial Test Accuracy: 96.24%
+Post-Pruning Training Epoch [1/10]: Loss: 0.0431, Train Acc: 98.59%, Test Acc: 97.69%
+Post-Pruning Training Epoch [2/10]: Loss: 0.0403, Train Acc: 98.69%, Test Acc: 97.49%
+Post-Pruning Training Epoch [3/10]: Loss: 0.0357, Train Acc: 98.76%, Test Acc: 97.76%
+Post-Pruning Training Epoch [4/10]: Loss: 0.0341, Train Acc: 98.83%, Test Acc: 97.81%
+Post-Pruning Training Epoch [5/10]: Loss: 0.0292, Train Acc: 99.00%, Test Acc: 97.62%
+Post-Pruning Training Epoch [6/10]: Loss: 0.0294, Train Acc: 99.00%, Test Acc: 97.71%
+Post-Pruning Training Epoch [7/10]: Loss: 0.0262, Train Acc: 99.10%, Test Acc: 97.65%
+Post-Pruning Training Epoch [8/10]: Loss: 0.0249, Train Acc: 99.15%, Test Acc: 97.40%
+Post-Pruning Training Epoch [9/10]: Loss: 0.0245, Train Acc: 99.16%, Test Acc: 97.58%
+Post-Pruning Training Epoch [10/10]: Loss: 0.0249, Train Acc: 99.15%, Test Acc: 97.14%
+Initial Test Accuracy: 95.06%
+Post-Pruning Training Epoch [1/10]: Loss: 0.1401, Train Acc: 95.75%, Test Acc: 96.55%
+Post-Pruning Training Epoch [2/10]: Loss: 0.1052, Train Acc: 96.76%, Test Acc: 96.43%
+Post-Pruning Training Epoch [3/10]: Loss: 0.0863, Train Acc: 97.33%, Test Acc: 97.12%
+Post-Pruning Training Epoch [4/10]: Loss: 0.0735, Train Acc: 97.78%, Test Acc: 97.24%
+Post-Pruning Training Epoch [5/10]: Loss: 0.0657, Train Acc: 97.92%, Test Acc: 96.78%
+Post-Pruning Training Epoch [6/10]: Loss: 0.0593, Train Acc: 98.07%, Test Acc: 97.34%
+Post-Pruning Training Epoch [7/10]: Loss: 0.0529, Train Acc: 98.29%, Test Acc: 97.68%
+Post-Pruning Training Epoch [8/10]: Loss: 0.0464, Train Acc: 98.50%, Test Acc: 97.32%
+Post-Pruning Training Epoch [9/10]: Loss: 0.0453, Train Acc: 98.51%, Test Acc: 97.26%
+Post-Pruning Training Epoch [10/10]: Loss: 0.0399, Train Acc: 98.70%, Test Acc: 97.42%
+Initial Test Accuracy: 94.79%
+Post-Pruning Training Epoch [1/10]: Loss: 0.1406, Train Acc: 95.78%, Test Acc: 96.51%
+Post-Pruning Training Epoch [2/10]: Loss: 0.1050, Train Acc: 96.90%, Test Acc: 96.88%
+Post-Pruning Training Epoch [3/10]: Loss: 0.0889, Train Acc: 97.33%, Test Acc: 97.27%
+Post-Pruning Training Epoch [4/10]: Loss: 0.0786, Train Acc: 97.55%, Test Acc: 97.06%
+Post-Pruning Training Epoch [5/10]: Loss: 0.0672, Train Acc: 97.95%, Test Acc: 97.35%
+Post-Pruning Training Epoch [6/10]: Loss: 0.0616, Train Acc: 98.03%, Test Acc: 96.99%
+Post-Pruning Training Epoch [7/10]: Loss: 0.0567, Train Acc: 98.19%, Test Acc: 97.32%
+Post-Pruning Training Epoch [8/10]: Loss: 0.0510, Train Acc: 98.34%, Test Acc: 97.40%
+Post-Pruning Training Epoch [9/10]: Loss: 0.0497, Train Acc: 98.37%, Test Acc: 97.46%
+Post-Pruning Training Epoch [10/10]: Loss: 0.0419, Train Acc: 98.64%, Test Acc: 97.20%
+Post-Pruned Baseline Model Accuracy: 97.14%
+Post-Pruned Low Forgetting Model Accuracy: 97.42%
+Post-Pruned High Forgetting Model Accuracy: 97.20%
+Accuracy results saved to results/FCNet/MNIST/dr0.2/pr0.6/accuracies.csv.
+Post-pruning accuracy plot saved to results/FCNet/MNIST/dr0.2/pr0.6/post_pruning_accuracy.png.
+=============================================================================================================
+Loading precomputed forgetting scores and baseline model...
+Baseline model and forgetting scores loaded.
+Selected top 12000 highest-forgetting and top 12000 lowest-forgetting samples.
+Highest forgetting subset size: 12000, Lowest forgetting subset size: 12000
+Training model on high-forgetting subset...
+Starting training for 10 epochs...
+Epoch [1/10] complete: Loss: 0.6343, Accuracy: 81.29%
+Epoch [2/10] complete: Loss: 0.3293, Accuracy: 90.30%
+Epoch [3/10] complete: Loss: 0.2657, Accuracy: 92.28%
+Epoch [4/10] complete: Loss: 0.2275, Accuracy: 93.33%
+Epoch [5/10] complete: Loss: 0.1839, Accuracy: 94.67%
+Epoch [6/10] complete: Loss: 0.1505, Accuracy: 95.48%
+Epoch [7/10] complete: Loss: 0.1251, Accuracy: 96.43%
+Epoch [8/10] complete: Loss: 0.1119, Accuracy: 96.62%
+Epoch [9/10] complete: Loss: 0.0916, Accuracy: 97.26%
+Epoch [10/10] complete: Loss: 0.0802, Accuracy: 97.58%
+Training completed.
+Training model on low-forgetting subset...
+Starting training for 10 epochs...
+Epoch [1/10] complete: Loss: 0.6128, Accuracy: 81.83%
+Epoch [2/10] complete: Loss: 0.3327, Accuracy: 90.20%
+Epoch [3/10] complete: Loss: 0.2690, Accuracy: 92.12%
+Epoch [4/10] complete: Loss: 0.2283, Accuracy: 93.12%
+Epoch [5/10] complete: Loss: 0.1898, Accuracy: 94.37%
+Epoch [6/10] complete: Loss: 0.1621, Accuracy: 95.15%
+Epoch [7/10] complete: Loss: 0.1398, Accuracy: 95.89%
+Epoch [8/10] complete: Loss: 0.1165, Accuracy: 96.38%
+Epoch [9/10] complete: Loss: 0.1009, Accuracy: 96.89%
+Epoch [10/10] complete: Loss: 0.0878, Accuracy: 97.38%
+Training completed.
+Baseline Model Accuracy: 97.01%
+Low Forgetting Model Accuracy: 95.29%
+High Forgetting Model Accuracy: 95.31%
+Applying pruning with ratio 0.8...
+Pruning completed.
+Applying pruning with ratio 0.8...
+Pruning completed.
+Applying pruning with ratio 0.8...
+Pruning completed.
+Pruning accuracy comparison bar plot saved to results/FCNet/MNIST/dr0.2/pr0.8/pruning_accuracy_comparison.png.
+Pruned Baseline Model Accuracy: 61.81%
+Pruned Low Forgetting Model Accuracy: 81.67%
+Pruned High Forgetting Model Accuracy: 89.39%
+Post-Pruning Retraining...
+Initial Test Accuracy: 61.81%
+Post-Pruning Training Epoch [1/10]: Loss: 0.0556, Train Acc: 98.33%, Test Acc: 97.50%
+Post-Pruning Training Epoch [2/10]: Loss: 0.0408, Train Acc: 98.63%, Test Acc: 97.29%
+Post-Pruning Training Epoch [3/10]: Loss: 0.0379, Train Acc: 98.73%, Test Acc: 97.48%
+Post-Pruning Training Epoch [4/10]: Loss: 0.0365, Train Acc: 98.75%, Test Acc: 96.89%
+Post-Pruning Training Epoch [5/10]: Loss: 0.0314, Train Acc: 98.92%, Test Acc: 97.66%
+Post-Pruning Training Epoch [6/10]: Loss: 0.0313, Train Acc: 98.93%, Test Acc: 97.21%
+Post-Pruning Training Epoch [7/10]: Loss: 0.0286, Train Acc: 99.03%, Test Acc: 97.43%
+Post-Pruning Training Epoch [8/10]: Loss: 0.0261, Train Acc: 99.11%, Test Acc: 97.72%
+Post-Pruning Training Epoch [9/10]: Loss: 0.0255, Train Acc: 99.16%, Test Acc: 97.34%
+Post-Pruning Training Epoch [10/10]: Loss: 0.0251, Train Acc: 99.15%, Test Acc: 97.24%
+Initial Test Accuracy: 81.67%
+Post-Pruning Training Epoch [1/10]: Loss: 0.1449, Train Acc: 95.69%, Test Acc: 96.51%
+Post-Pruning Training Epoch [2/10]: Loss: 0.1045, Train Acc: 96.83%, Test Acc: 96.47%
+Post-Pruning Training Epoch [3/10]: Loss: 0.0866, Train Acc: 97.34%, Test Acc: 97.02%
+Post-Pruning Training Epoch [4/10]: Loss: 0.0753, Train Acc: 97.69%, Test Acc: 97.14%
+Post-Pruning Training Epoch [5/10]: Loss: 0.0667, Train Acc: 97.90%, Test Acc: 97.09%
+Post-Pruning Training Epoch [6/10]: Loss: 0.0593, Train Acc: 98.12%, Test Acc: 97.46%
+Post-Pruning Training Epoch [7/10]: Loss: 0.0539, Train Acc: 98.20%, Test Acc: 97.33%
+Post-Pruning Training Epoch [8/10]: Loss: 0.0480, Train Acc: 98.39%, Test Acc: 97.19%
+Post-Pruning Training Epoch [9/10]: Loss: 0.0457, Train Acc: 98.48%, Test Acc: 97.57%
+Post-Pruning Training Epoch [10/10]: Loss: 0.0381, Train Acc: 98.77%, Test Acc: 97.27%
+Initial Test Accuracy: 89.39%
+Post-Pruning Training Epoch [1/10]: Loss: 0.1430, Train Acc: 95.67%, Test Acc: 96.53%
+Post-Pruning Training Epoch [2/10]: Loss: 0.1061, Train Acc: 96.79%, Test Acc: 96.64%
+Post-Pruning Training Epoch [3/10]: Loss: 0.0891, Train Acc: 97.30%, Test Acc: 97.20%
+Post-Pruning Training Epoch [4/10]: Loss: 0.0782, Train Acc: 97.57%, Test Acc: 97.06%
+Post-Pruning Training Epoch [5/10]: Loss: 0.0681, Train Acc: 97.86%, Test Acc: 97.53%
+Post-Pruning Training Epoch [6/10]: Loss: 0.0628, Train Acc: 97.95%, Test Acc: 96.97%
+Post-Pruning Training Epoch [7/10]: Loss: 0.0578, Train Acc: 98.20%, Test Acc: 97.38%
+Post-Pruning Training Epoch [8/10]: Loss: 0.0507, Train Acc: 98.39%, Test Acc: 97.18%
+Post-Pruning Training Epoch [9/10]: Loss: 0.0482, Train Acc: 98.39%, Test Acc: 97.62%
+Post-Pruning Training Epoch [10/10]: Loss: 0.0422, Train Acc: 98.60%, Test Acc: 97.61%
+Post-Pruned Baseline Model Accuracy: 97.24%
+Post-Pruned Low Forgetting Model Accuracy: 97.27%
+Post-Pruned High Forgetting Model Accuracy: 97.61%
+Accuracy results saved to results/FCNet/MNIST/dr0.2/pr0.8/accuracies.csv.
+Post-pruning accuracy plot saved to results/FCNet/MNIST/dr0.2/pr0.8/post_pruning_accuracy.png.
+=============================================================================================================
+Loading precomputed forgetting scores and baseline model...
+Baseline model and forgetting scores loaded.
+Selected top 18000 highest-forgetting and top 18000 lowest-forgetting samples.
+Highest forgetting subset size: 18000, Lowest forgetting subset size: 18000
+Training model on high-forgetting subset...
+Starting training for 10 epochs...
+Epoch [1/10] complete: Loss: 0.5398, Accuracy: 84.11%
+Epoch [2/10] complete: Loss: 0.3040, Accuracy: 90.91%
+Epoch [3/10] complete: Loss: 0.2249, Accuracy: 93.14%
+Epoch [4/10] complete: Loss: 0.1796, Accuracy: 94.60%
+Epoch [5/10] complete: Loss: 0.1449, Accuracy: 95.58%
+Epoch [6/10] complete: Loss: 0.1172, Accuracy: 96.46%
+Epoch [7/10] complete: Loss: 0.1042, Accuracy: 96.83%
+Epoch [8/10] complete: Loss: 0.0853, Accuracy: 97.49%
+Epoch [9/10] complete: Loss: 0.0773, Accuracy: 97.58%
+Epoch [10/10] complete: Loss: 0.0663, Accuracy: 97.91%
+Training completed.
+Training model on low-forgetting subset...
+Starting training for 10 epochs...
+Epoch [1/10] complete: Loss: 0.5167, Accuracy: 84.92%
+Epoch [2/10] complete: Loss: 0.2934, Accuracy: 91.29%
+Epoch [3/10] complete: Loss: 0.2287, Accuracy: 93.40%
+Epoch [4/10] complete: Loss: 0.1821, Accuracy: 94.61%
+Epoch [5/10] complete: Loss: 0.1515, Accuracy: 95.61%
+Epoch [6/10] complete: Loss: 0.1231, Accuracy: 96.51%
+Epoch [7/10] complete: Loss: 0.1065, Accuracy: 96.87%
+Epoch [8/10] complete: Loss: 0.0895, Accuracy: 97.41%
+Epoch [9/10] complete: Loss: 0.0777, Accuracy: 97.64%
+Epoch [10/10] complete: Loss: 0.0669, Accuracy: 97.99%
+Training completed.
+Baseline Model Accuracy: 97.01%
+Low Forgetting Model Accuracy: 96.20%
+High Forgetting Model Accuracy: 95.78%
+Applying pruning with ratio 0.0...
+Pruning completed.
+Applying pruning with ratio 0.0...
+Pruning completed.
+Applying pruning with ratio 0.0...
+Pruning completed.
+Pruning accuracy comparison bar plot saved to results/FCNet/MNIST/dr0.3/pr0.0/pruning_accuracy_comparison.png.
+Pruned Baseline Model Accuracy: 97.01%
+Pruned Low Forgetting Model Accuracy: 96.20%
+Pruned High Forgetting Model Accuracy: 95.78%
+Post-Pruning Retraining...
+Initial Test Accuracy: 97.01%
+Post-Pruning Training Epoch [1/10]: Loss: 0.0438, Train Acc: 98.52%, Test Acc: 97.25%
+Post-Pruning Training Epoch [2/10]: Loss: 0.0394, Train Acc: 98.69%, Test Acc: 97.09%
+Post-Pruning Training Epoch [3/10]: Loss: 0.0351, Train Acc: 98.84%, Test Acc: 97.37%
+Post-Pruning Training Epoch [4/10]: Loss: 0.0339, Train Acc: 98.84%, Test Acc: 97.59%
+Post-Pruning Training Epoch [5/10]: Loss: 0.0303, Train Acc: 98.98%, Test Acc: 97.73%
+Post-Pruning Training Epoch [6/10]: Loss: 0.0297, Train Acc: 98.97%, Test Acc: 97.03%
+Post-Pruning Training Epoch [7/10]: Loss: 0.0264, Train Acc: 99.09%, Test Acc: 97.49%
+Post-Pruning Training Epoch [8/10]: Loss: 0.0236, Train Acc: 99.20%, Test Acc: 97.64%
+Post-Pruning Training Epoch [9/10]: Loss: 0.0243, Train Acc: 99.18%, Test Acc: 97.46%
+Post-Pruning Training Epoch [10/10]: Loss: 0.0230, Train Acc: 99.18%, Test Acc: 97.59%
+Initial Test Accuracy: 96.20%
+Post-Pruning Training Epoch [1/10]: Loss: 0.1133, Train Acc: 96.60%, Test Acc: 96.63%
+Post-Pruning Training Epoch [2/10]: Loss: 0.0892, Train Acc: 97.27%, Test Acc: 96.66%
+Post-Pruning Training Epoch [3/10]: Loss: 0.0760, Train Acc: 97.70%, Test Acc: 97.29%
+Post-Pruning Training Epoch [4/10]: Loss: 0.0644, Train Acc: 98.02%, Test Acc: 97.50%
+Post-Pruning Training Epoch [5/10]: Loss: 0.0590, Train Acc: 98.07%, Test Acc: 97.31%
+Post-Pruning Training Epoch [6/10]: Loss: 0.0543, Train Acc: 98.26%, Test Acc: 97.23%
+Post-Pruning Training Epoch [7/10]: Loss: 0.0480, Train Acc: 98.42%, Test Acc: 97.30%
+Post-Pruning Training Epoch [8/10]: Loss: 0.0431, Train Acc: 98.61%, Test Acc: 97.43%
+Post-Pruning Training Epoch [9/10]: Loss: 0.0402, Train Acc: 98.67%, Test Acc: 97.77%
+Post-Pruning Training Epoch [10/10]: Loss: 0.0359, Train Acc: 98.79%, Test Acc: 97.43%
+Initial Test Accuracy: 95.78%
+Post-Pruning Training Epoch [1/10]: Loss: 0.1143, Train Acc: 96.60%, Test Acc: 97.03%
+Post-Pruning Training Epoch [2/10]: Loss: 0.0894, Train Acc: 97.31%, Test Acc: 96.48%
+Post-Pruning Training Epoch [3/10]: Loss: 0.0763, Train Acc: 97.58%, Test Acc: 97.05%
+Post-Pruning Training Epoch [4/10]: Loss: 0.0673, Train Acc: 97.88%, Test Acc: 96.91%
+Post-Pruning Training Epoch [5/10]: Loss: 0.0585, Train Acc: 98.13%, Test Acc: 97.57%
+Post-Pruning Training Epoch [6/10]: Loss: 0.0549, Train Acc: 98.27%, Test Acc: 97.01%
+Post-Pruning Training Epoch [7/10]: Loss: 0.0479, Train Acc: 98.47%, Test Acc: 97.18%
+Post-Pruning Training Epoch [8/10]: Loss: 0.0467, Train Acc: 98.45%, Test Acc: 97.47%
+Post-Pruning Training Epoch [9/10]: Loss: 0.0420, Train Acc: 98.58%, Test Acc: 97.63%
+Post-Pruning Training Epoch [10/10]: Loss: 0.0362, Train Acc: 98.80%, Test Acc: 97.20%
+Post-Pruned Baseline Model Accuracy: 97.59%
+Post-Pruned Low Forgetting Model Accuracy: 97.43%
+Post-Pruned High Forgetting Model Accuracy: 97.20%
+Accuracy results saved to results/FCNet/MNIST/dr0.3/pr0.0/accuracies.csv.
+Post-pruning accuracy plot saved to results/FCNet/MNIST/dr0.3/pr0.0/post_pruning_accuracy.png.
+=============================================================================================================
+Loading precomputed forgetting scores and baseline model...
+Baseline model and forgetting scores loaded.
+Selected top 18000 highest-forgetting and top 18000 lowest-forgetting samples.
+Highest forgetting subset size: 18000, Lowest forgetting subset size: 18000
+Training model on high-forgetting subset...
+Starting training for 10 epochs...
+Epoch [1/10] complete: Loss: 0.5398, Accuracy: 84.11%
+Epoch [2/10] complete: Loss: 0.3040, Accuracy: 90.91%
+Epoch [3/10] complete: Loss: 0.2249, Accuracy: 93.14%
+Epoch [4/10] complete: Loss: 0.1796, Accuracy: 94.60%
+Epoch [5/10] complete: Loss: 0.1449, Accuracy: 95.58%
+Epoch [6/10] complete: Loss: 0.1172, Accuracy: 96.46%
+Epoch [7/10] complete: Loss: 0.1042, Accuracy: 96.83%
+Epoch [8/10] complete: Loss: 0.0853, Accuracy: 97.49%
+Epoch [9/10] complete: Loss: 0.0773, Accuracy: 97.58%
+Epoch [10/10] complete: Loss: 0.0663, Accuracy: 97.91%
+Training completed.
+Training model on low-forgetting subset...
+Starting training for 10 epochs...
+Epoch [1/10] complete: Loss: 0.5167, Accuracy: 84.92%
+Epoch [2/10] complete: Loss: 0.2934, Accuracy: 91.29%
+Epoch [3/10] complete: Loss: 0.2287, Accuracy: 93.40%
+Epoch [4/10] complete: Loss: 0.1821, Accuracy: 94.61%
+Epoch [5/10] complete: Loss: 0.1515, Accuracy: 95.61%
+Epoch [6/10] complete: Loss: 0.1231, Accuracy: 96.51%
+Epoch [7/10] complete: Loss: 0.1065, Accuracy: 96.87%
+Epoch [8/10] complete: Loss: 0.0895, Accuracy: 97.41%
+Epoch [9/10] complete: Loss: 0.0777, Accuracy: 97.64%
+Epoch [10/10] complete: Loss: 0.0669, Accuracy: 97.99%
+Training completed.
+Baseline Model Accuracy: 97.01%
+Low Forgetting Model Accuracy: 96.20%
+High Forgetting Model Accuracy: 95.78%
+Applying pruning with ratio 0.2...
+Pruning completed.
+Applying pruning with ratio 0.2...
+Pruning completed.
+Applying pruning with ratio 0.2...
+Pruning completed.
+Pruning accuracy comparison bar plot saved to results/FCNet/MNIST/dr0.3/pr0.2/pruning_accuracy_comparison.png.
+Pruned Baseline Model Accuracy: 97.05%
+Pruned Low Forgetting Model Accuracy: 96.20%
+Pruned High Forgetting Model Accuracy: 95.73%
+Post-Pruning Retraining...
+Initial Test Accuracy: 97.05%
+Post-Pruning Training Epoch [1/10]: Loss: 0.0426, Train Acc: 98.56%, Test Acc: 97.60%
+Post-Pruning Training Epoch [2/10]: Loss: 0.0381, Train Acc: 98.73%, Test Acc: 96.99%
+Post-Pruning Training Epoch [3/10]: Loss: 0.0362, Train Acc: 98.79%, Test Acc: 97.39%
+Post-Pruning Training Epoch [4/10]: Loss: 0.0347, Train Acc: 98.81%, Test Acc: 97.47%
+Post-Pruning Training Epoch [5/10]: Loss: 0.0300, Train Acc: 98.94%, Test Acc: 97.51%
+Post-Pruning Training Epoch [6/10]: Loss: 0.0275, Train Acc: 99.05%, Test Acc: 97.45%
+Post-Pruning Training Epoch [7/10]: Loss: 0.0299, Train Acc: 99.00%, Test Acc: 97.46%
+Post-Pruning Training Epoch [8/10]: Loss: 0.0244, Train Acc: 99.19%, Test Acc: 97.65%
+Post-Pruning Training Epoch [9/10]: Loss: 0.0269, Train Acc: 99.03%, Test Acc: 97.10%
+Post-Pruning Training Epoch [10/10]: Loss: 0.0241, Train Acc: 99.20%, Test Acc: 97.39%
+Initial Test Accuracy: 96.20%
+Post-Pruning Training Epoch [1/10]: Loss: 0.1133, Train Acc: 96.63%, Test Acc: 96.64%
+Post-Pruning Training Epoch [2/10]: Loss: 0.0890, Train Acc: 97.26%, Test Acc: 96.97%
+Post-Pruning Training Epoch [3/10]: Loss: 0.0763, Train Acc: 97.67%, Test Acc: 97.13%
+Post-Pruning Training Epoch [4/10]: Loss: 0.0648, Train Acc: 98.04%, Test Acc: 97.45%
+Post-Pruning Training Epoch [5/10]: Loss: 0.0595, Train Acc: 98.12%, Test Acc: 97.46%
+Post-Pruning Training Epoch [6/10]: Loss: 0.0550, Train Acc: 98.23%, Test Acc: 97.53%
+Post-Pruning Training Epoch [7/10]: Loss: 0.0497, Train Acc: 98.34%, Test Acc: 97.28%
+Post-Pruning Training Epoch [8/10]: Loss: 0.0443, Train Acc: 98.50%, Test Acc: 97.65%
+Post-Pruning Training Epoch [9/10]: Loss: 0.0414, Train Acc: 98.63%, Test Acc: 97.65%
+Post-Pruning Training Epoch [10/10]: Loss: 0.0374, Train Acc: 98.72%, Test Acc: 97.07%
+Initial Test Accuracy: 95.73%
+Post-Pruning Training Epoch [1/10]: Loss: 0.1155, Train Acc: 96.57%, Test Acc: 97.05%
+Post-Pruning Training Epoch [2/10]: Loss: 0.0911, Train Acc: 97.25%, Test Acc: 96.81%
+Post-Pruning Training Epoch [3/10]: Loss: 0.0762, Train Acc: 97.58%, Test Acc: 97.02%
+Post-Pruning Training Epoch [4/10]: Loss: 0.0689, Train Acc: 97.80%, Test Acc: 96.86%
+Post-Pruning Training Epoch [5/10]: Loss: 0.0581, Train Acc: 98.13%, Test Acc: 97.47%
+Post-Pruning Training Epoch [6/10]: Loss: 0.0545, Train Acc: 98.25%, Test Acc: 96.95%
+Post-Pruning Training Epoch [7/10]: Loss: 0.0477, Train Acc: 98.47%, Test Acc: 96.87%
+Post-Pruning Training Epoch [8/10]: Loss: 0.0459, Train Acc: 98.45%, Test Acc: 97.66%
+Post-Pruning Training Epoch [9/10]: Loss: 0.0412, Train Acc: 98.63%, Test Acc: 97.37%
+Post-Pruning Training Epoch [10/10]: Loss: 0.0362, Train Acc: 98.79%, Test Acc: 96.80%
+Post-Pruned Baseline Model Accuracy: 97.39%
+Post-Pruned Low Forgetting Model Accuracy: 97.07%
+Post-Pruned High Forgetting Model Accuracy: 96.80%
+Accuracy results saved to results/FCNet/MNIST/dr0.3/pr0.2/accuracies.csv.
+Post-pruning accuracy plot saved to results/FCNet/MNIST/dr0.3/pr0.2/post_pruning_accuracy.png.
+=============================================================================================================
+Loading precomputed forgetting scores and baseline model...
+Baseline model and forgetting scores loaded.
+Selected top 18000 highest-forgetting and top 18000 lowest-forgetting samples.
+Highest forgetting subset size: 18000, Lowest forgetting subset size: 18000
+Training model on high-forgetting subset...
+Starting training for 10 epochs...
+Epoch [1/10] complete: Loss: 0.5398, Accuracy: 84.11%
+Epoch [2/10] complete: Loss: 0.3040, Accuracy: 90.91%
+Epoch [3/10] complete: Loss: 0.2249, Accuracy: 93.14%
+Epoch [4/10] complete: Loss: 0.1796, Accuracy: 94.60%
+Epoch [5/10] complete: Loss: 0.1449, Accuracy: 95.58%
+Epoch [6/10] complete: Loss: 0.1172, Accuracy: 96.46%
+Epoch [7/10] complete: Loss: 0.1042, Accuracy: 96.83%
+Epoch [8/10] complete: Loss: 0.0853, Accuracy: 97.49%
+Epoch [9/10] complete: Loss: 0.0773, Accuracy: 97.58%
+Epoch [10/10] complete: Loss: 0.0663, Accuracy: 97.91%
+Training completed.
+Training model on low-forgetting subset...
+Starting training for 10 epochs...
+Epoch [1/10] complete: Loss: 0.5167, Accuracy: 84.92%
+Epoch [2/10] complete: Loss: 0.2934, Accuracy: 91.29%
+Epoch [3/10] complete: Loss: 0.2287, Accuracy: 93.40%
+Epoch [4/10] complete: Loss: 0.1821, Accuracy: 94.61%
+Epoch [5/10] complete: Loss: 0.1515, Accuracy: 95.61%
+Epoch [6/10] complete: Loss: 0.1231, Accuracy: 96.51%
+Epoch [7/10] complete: Loss: 0.1065, Accuracy: 96.87%
+Epoch [8/10] complete: Loss: 0.0895, Accuracy: 97.41%
+Epoch [9/10] complete: Loss: 0.0777, Accuracy: 97.64%
+Epoch [10/10] complete: Loss: 0.0669, Accuracy: 97.99%
+Training completed.
+Baseline Model Accuracy: 97.01%
+Low Forgetting Model Accuracy: 96.20%
+High Forgetting Model Accuracy: 95.78%
+Applying pruning with ratio 0.4...
+Pruning completed.
+Applying pruning with ratio 0.4...
+Pruning completed.
+Applying pruning with ratio 0.4...
+Pruning completed.
+Pruning accuracy comparison bar plot saved to results/FCNet/MNIST/dr0.3/pr0.4/pruning_accuracy_comparison.png.
+Pruned Baseline Model Accuracy: 97.05%
+Pruned Low Forgetting Model Accuracy: 96.20%
+Pruned High Forgetting Model Accuracy: 95.91%
+Post-Pruning Retraining...
+Initial Test Accuracy: 97.05%
+Post-Pruning Training Epoch [1/10]: Loss: 0.0421, Train Acc: 98.56%, Test Acc: 97.71%
+Post-Pruning Training Epoch [2/10]: Loss: 0.0394, Train Acc: 98.64%, Test Acc: 97.50%
+Post-Pruning Training Epoch [3/10]: Loss: 0.0352, Train Acc: 98.79%, Test Acc: 97.64%
+Post-Pruning Training Epoch [4/10]: Loss: 0.0367, Train Acc: 98.72%, Test Acc: 97.39%
+Post-Pruning Training Epoch [5/10]: Loss: 0.0299, Train Acc: 99.01%, Test Acc: 97.73%
+Post-Pruning Training Epoch [6/10]: Loss: 0.0267, Train Acc: 99.03%, Test Acc: 97.69%
+Post-Pruning Training Epoch [7/10]: Loss: 0.0287, Train Acc: 99.05%, Test Acc: 97.38%
+Post-Pruning Training Epoch [8/10]: Loss: 0.0246, Train Acc: 99.15%, Test Acc: 97.79%
+Post-Pruning Training Epoch [9/10]: Loss: 0.0245, Train Acc: 99.18%, Test Acc: 97.56%
+Post-Pruning Training Epoch [10/10]: Loss: 0.0225, Train Acc: 99.21%, Test Acc: 97.60%
+Initial Test Accuracy: 96.20%
+Post-Pruning Training Epoch [1/10]: Loss: 0.1136, Train Acc: 96.64%, Test Acc: 96.36%
+Post-Pruning Training Epoch [2/10]: Loss: 0.0889, Train Acc: 97.26%, Test Acc: 96.92%
+Post-Pruning Training Epoch [3/10]: Loss: 0.0771, Train Acc: 97.64%, Test Acc: 96.94%
+Post-Pruning Training Epoch [4/10]: Loss: 0.0644, Train Acc: 98.01%, Test Acc: 97.12%
+Post-Pruning Training Epoch [5/10]: Loss: 0.0585, Train Acc: 98.12%, Test Acc: 97.47%
+Post-Pruning Training Epoch [6/10]: Loss: 0.0538, Train Acc: 98.23%, Test Acc: 97.53%
+Post-Pruning Training Epoch [7/10]: Loss: 0.0479, Train Acc: 98.37%, Test Acc: 97.45%
+Post-Pruning Training Epoch [8/10]: Loss: 0.0420, Train Acc: 98.56%, Test Acc: 97.45%
+Post-Pruning Training Epoch [9/10]: Loss: 0.0425, Train Acc: 98.64%, Test Acc: 97.83%
+Post-Pruning Training Epoch [10/10]: Loss: 0.0359, Train Acc: 98.78%, Test Acc: 97.44%
+Initial Test Accuracy: 95.91%
+Post-Pruning Training Epoch [1/10]: Loss: 0.1150, Train Acc: 96.56%, Test Acc: 96.91%
+Post-Pruning Training Epoch [2/10]: Loss: 0.0904, Train Acc: 97.32%, Test Acc: 96.64%
+Post-Pruning Training Epoch [3/10]: Loss: 0.0770, Train Acc: 97.59%, Test Acc: 97.03%
+Post-Pruning Training Epoch [4/10]: Loss: 0.0684, Train Acc: 97.79%, Test Acc: 96.67%
+Post-Pruning Training Epoch [5/10]: Loss: 0.0593, Train Acc: 98.08%, Test Acc: 97.35%
+Post-Pruning Training Epoch [6/10]: Loss: 0.0538, Train Acc: 98.29%, Test Acc: 97.06%
+Post-Pruning Training Epoch [7/10]: Loss: 0.0480, Train Acc: 98.47%, Test Acc: 97.28%
+Post-Pruning Training Epoch [8/10]: Loss: 0.0453, Train Acc: 98.48%, Test Acc: 97.15%
+Post-Pruning Training Epoch [9/10]: Loss: 0.0421, Train Acc: 98.60%, Test Acc: 97.19%
+Post-Pruning Training Epoch [10/10]: Loss: 0.0361, Train Acc: 98.79%, Test Acc: 97.02%
+Post-Pruned Baseline Model Accuracy: 97.60%
+Post-Pruned Low Forgetting Model Accuracy: 97.44%
+Post-Pruned High Forgetting Model Accuracy: 97.02%
+Accuracy results saved to results/FCNet/MNIST/dr0.3/pr0.4/accuracies.csv.
+Post-pruning accuracy plot saved to results/FCNet/MNIST/dr0.3/pr0.4/post_pruning_accuracy.png.
+=============================================================================================================
+Loading precomputed forgetting scores and baseline model...
+Baseline model and forgetting scores loaded.
+Selected top 18000 highest-forgetting and top 18000 lowest-forgetting samples.
+Highest forgetting subset size: 18000, Lowest forgetting subset size: 18000
+Training model on high-forgetting subset...
+Starting training for 10 epochs...
+Epoch [1/10] complete: Loss: 0.5398, Accuracy: 84.11%
+Epoch [2/10] complete: Loss: 0.3040, Accuracy: 90.91%
+Epoch [3/10] complete: Loss: 0.2249, Accuracy: 93.14%
+Epoch [4/10] complete: Loss: 0.1796, Accuracy: 94.60%
+Epoch [5/10] complete: Loss: 0.1449, Accuracy: 95.58%
+Epoch [6/10] complete: Loss: 0.1172, Accuracy: 96.46%
+Epoch [7/10] complete: Loss: 0.1042, Accuracy: 96.83%
+Epoch [8/10] complete: Loss: 0.0853, Accuracy: 97.49%
+Epoch [9/10] complete: Loss: 0.0773, Accuracy: 97.58%
+Epoch [10/10] complete: Loss: 0.0663, Accuracy: 97.91%
+Training completed.
+Training model on low-forgetting subset...
+Starting training for 10 epochs...
+Epoch [1/10] complete: Loss: 0.5167, Accuracy: 84.92%
+Epoch [2/10] complete: Loss: 0.2934, Accuracy: 91.29%
+Epoch [3/10] complete: Loss: 0.2287, Accuracy: 93.40%
+Epoch [4/10] complete: Loss: 0.1821, Accuracy: 94.61%
+Epoch [5/10] complete: Loss: 0.1515, Accuracy: 95.61%
+Epoch [6/10] complete: Loss: 0.1231, Accuracy: 96.51%
+Epoch [7/10] complete: Loss: 0.1065, Accuracy: 96.87%
+Epoch [8/10] complete: Loss: 0.0895, Accuracy: 97.41%
+Epoch [9/10] complete: Loss: 0.0777, Accuracy: 97.64%
+Epoch [10/10] complete: Loss: 0.0669, Accuracy: 97.99%
+Training completed.
+Baseline Model Accuracy: 97.01%
+Low Forgetting Model Accuracy: 96.20%
+High Forgetting Model Accuracy: 95.78%
+Applying pruning with ratio 0.6...
+Pruning completed.
+Applying pruning with ratio 0.6...
+Pruning completed.
+Applying pruning with ratio 0.6...
+Pruning completed.
+Pruning accuracy comparison bar plot saved to results/FCNet/MNIST/dr0.3/pr0.6/pruning_accuracy_comparison.png.
+Pruned Baseline Model Accuracy: 96.24%
+Pruned Low Forgetting Model Accuracy: 95.57%
+Pruned High Forgetting Model Accuracy: 95.38%
+Post-Pruning Retraining...
+Initial Test Accuracy: 96.24%
+Post-Pruning Training Epoch [1/10]: Loss: 0.0431, Train Acc: 98.59%, Test Acc: 97.69%
+Post-Pruning Training Epoch [2/10]: Loss: 0.0403, Train Acc: 98.69%, Test Acc: 97.49%
+Post-Pruning Training Epoch [3/10]: Loss: 0.0357, Train Acc: 98.76%, Test Acc: 97.76%
+Post-Pruning Training Epoch [4/10]: Loss: 0.0341, Train Acc: 98.83%, Test Acc: 97.81%
+Post-Pruning Training Epoch [5/10]: Loss: 0.0292, Train Acc: 99.00%, Test Acc: 97.62%
+Post-Pruning Training Epoch [6/10]: Loss: 0.0294, Train Acc: 99.00%, Test Acc: 97.71%
+Post-Pruning Training Epoch [7/10]: Loss: 0.0262, Train Acc: 99.10%, Test Acc: 97.65%
+Post-Pruning Training Epoch [8/10]: Loss: 0.0249, Train Acc: 99.15%, Test Acc: 97.40%
+Post-Pruning Training Epoch [9/10]: Loss: 0.0245, Train Acc: 99.16%, Test Acc: 97.58%
+Post-Pruning Training Epoch [10/10]: Loss: 0.0249, Train Acc: 99.15%, Test Acc: 97.14%
+Initial Test Accuracy: 95.57%
+Post-Pruning Training Epoch [1/10]: Loss: 0.1139, Train Acc: 96.59%, Test Acc: 96.76%
+Post-Pruning Training Epoch [2/10]: Loss: 0.0886, Train Acc: 97.33%, Test Acc: 96.96%
+Post-Pruning Training Epoch [3/10]: Loss: 0.0755, Train Acc: 97.69%, Test Acc: 97.13%
+Post-Pruning Training Epoch [4/10]: Loss: 0.0646, Train Acc: 97.99%, Test Acc: 97.13%
+Post-Pruning Training Epoch [5/10]: Loss: 0.0592, Train Acc: 98.08%, Test Acc: 97.07%
+Post-Pruning Training Epoch [6/10]: Loss: 0.0531, Train Acc: 98.28%, Test Acc: 97.42%
+Post-Pruning Training Epoch [7/10]: Loss: 0.0483, Train Acc: 98.40%, Test Acc: 97.73%
+Post-Pruning Training Epoch [8/10]: Loss: 0.0428, Train Acc: 98.56%, Test Acc: 97.66%
+Post-Pruning Training Epoch [9/10]: Loss: 0.0406, Train Acc: 98.67%, Test Acc: 97.59%
+Post-Pruning Training Epoch [10/10]: Loss: 0.0361, Train Acc: 98.74%, Test Acc: 97.32%
+Initial Test Accuracy: 95.38%
+Post-Pruning Training Epoch [1/10]: Loss: 0.1160, Train Acc: 96.56%, Test Acc: 96.97%
+Post-Pruning Training Epoch [2/10]: Loss: 0.0894, Train Acc: 97.37%, Test Acc: 96.93%
+Post-Pruning Training Epoch [3/10]: Loss: 0.0762, Train Acc: 97.63%, Test Acc: 97.01%
+Post-Pruning Training Epoch [4/10]: Loss: 0.0679, Train Acc: 97.86%, Test Acc: 96.80%
+Post-Pruning Training Epoch [5/10]: Loss: 0.0589, Train Acc: 98.11%, Test Acc: 97.22%
+Post-Pruning Training Epoch [6/10]: Loss: 0.0542, Train Acc: 98.26%, Test Acc: 97.16%
+Post-Pruning Training Epoch [7/10]: Loss: 0.0494, Train Acc: 98.41%, Test Acc: 97.29%
+Post-Pruning Training Epoch [8/10]: Loss: 0.0467, Train Acc: 98.49%, Test Acc: 97.17%
+Post-Pruning Training Epoch [9/10]: Loss: 0.0419, Train Acc: 98.64%, Test Acc: 97.62%
+Post-Pruning Training Epoch [10/10]: Loss: 0.0377, Train Acc: 98.79%, Test Acc: 96.92%
+Post-Pruned Baseline Model Accuracy: 97.14%
+Post-Pruned Low Forgetting Model Accuracy: 97.32%
+Post-Pruned High Forgetting Model Accuracy: 96.92%
+Accuracy results saved to results/FCNet/MNIST/dr0.3/pr0.6/accuracies.csv.
+Post-pruning accuracy plot saved to results/FCNet/MNIST/dr0.3/pr0.6/post_pruning_accuracy.png.
+=============================================================================================================
+Loading precomputed forgetting scores and baseline model...
+Baseline model and forgetting scores loaded.
+Selected top 18000 highest-forgetting and top 18000 lowest-forgetting samples.
+Highest forgetting subset size: 18000, Lowest forgetting subset size: 18000
+Training model on high-forgetting subset...
+Starting training for 10 epochs...
+Epoch [1/10] complete: Loss: 0.5398, Accuracy: 84.11%
+Epoch [2/10] complete: Loss: 0.3040, Accuracy: 90.91%
+Epoch [3/10] complete: Loss: 0.2249, Accuracy: 93.14%
+Epoch [4/10] complete: Loss: 0.1796, Accuracy: 94.60%
+Epoch [5/10] complete: Loss: 0.1449, Accuracy: 95.58%
+Epoch [6/10] complete: Loss: 0.1172, Accuracy: 96.46%
+Epoch [7/10] complete: Loss: 0.1042, Accuracy: 96.83%
+Epoch [8/10] complete: Loss: 0.0853, Accuracy: 97.49%
+Epoch [9/10] complete: Loss: 0.0773, Accuracy: 97.58%
+Epoch [10/10] complete: Loss: 0.0663, Accuracy: 97.91%
+Training completed.
+Training model on low-forgetting subset...
+Starting training for 10 epochs...
+Epoch [1/10] complete: Loss: 0.5167, Accuracy: 84.92%
+Epoch [2/10] complete: Loss: 0.2934, Accuracy: 91.29%
+Epoch [3/10] complete: Loss: 0.2287, Accuracy: 93.40%
+Epoch [4/10] complete: Loss: 0.1821, Accuracy: 94.61%
+Epoch [5/10] complete: Loss: 0.1515, Accuracy: 95.61%
+Epoch [6/10] complete: Loss: 0.1231, Accuracy: 96.51%
+Epoch [7/10] complete: Loss: 0.1065, Accuracy: 96.87%
+Epoch [8/10] complete: Loss: 0.0895, Accuracy: 97.41%
+Epoch [9/10] complete: Loss: 0.0777, Accuracy: 97.64%
+Epoch [10/10] complete: Loss: 0.0669, Accuracy: 97.99%
+Training completed.
+Baseline Model Accuracy: 97.01%
+Low Forgetting Model Accuracy: 96.20%
+High Forgetting Model Accuracy: 95.78%
+Applying pruning with ratio 0.8...
+Pruning completed.
+Applying pruning with ratio 0.8...
+Pruning completed.
+Applying pruning with ratio 0.8...
+Pruning completed.
+Pruning accuracy comparison bar plot saved to results/FCNet/MNIST/dr0.3/pr0.8/pruning_accuracy_comparison.png.
+Pruned Baseline Model Accuracy: 61.81%
+Pruned Low Forgetting Model Accuracy: 77.24%
+Pruned High Forgetting Model Accuracy: 80.01%
+Post-Pruning Retraining...
+Initial Test Accuracy: 61.81%
+Post-Pruning Training Epoch [1/10]: Loss: 0.0556, Train Acc: 98.33%, Test Acc: 97.50%
+Post-Pruning Training Epoch [2/10]: Loss: 0.0408, Train Acc: 98.63%, Test Acc: 97.29%
+Post-Pruning Training Epoch [3/10]: Loss: 0.0379, Train Acc: 98.73%, Test Acc: 97.48%
+Post-Pruning Training Epoch [4/10]: Loss: 0.0365, Train Acc: 98.75%, Test Acc: 96.89%
+Post-Pruning Training Epoch [5/10]: Loss: 0.0314, Train Acc: 98.92%, Test Acc: 97.66%
+Post-Pruning Training Epoch [6/10]: Loss: 0.0313, Train Acc: 98.93%, Test Acc: 97.21%
+Post-Pruning Training Epoch [7/10]: Loss: 0.0286, Train Acc: 99.03%, Test Acc: 97.43%
+Post-Pruning Training Epoch [8/10]: Loss: 0.0261, Train Acc: 99.11%, Test Acc: 97.72%
+Post-Pruning Training Epoch [9/10]: Loss: 0.0255, Train Acc: 99.16%, Test Acc: 97.34%
+Post-Pruning Training Epoch [10/10]: Loss: 0.0251, Train Acc: 99.15%, Test Acc: 97.24%
+Initial Test Accuracy: 77.24%
+Post-Pruning Training Epoch [1/10]: Loss: 0.1188, Train Acc: 96.47%, Test Acc: 96.24%
+Post-Pruning Training Epoch [2/10]: Loss: 0.0914, Train Acc: 97.16%, Test Acc: 96.90%
+Post-Pruning Training Epoch [3/10]: Loss: 0.0773, Train Acc: 97.61%, Test Acc: 97.07%
+Post-Pruning Training Epoch [4/10]: Loss: 0.0664, Train Acc: 97.94%, Test Acc: 96.97%
+Post-Pruning Training Epoch [5/10]: Loss: 0.0605, Train Acc: 98.10%, Test Acc: 97.11%
+Post-Pruning Training Epoch [6/10]: Loss: 0.0550, Train Acc: 98.18%, Test Acc: 97.66%
+Post-Pruning Training Epoch [7/10]: Loss: 0.0486, Train Acc: 98.40%, Test Acc: 97.25%
+Post-Pruning Training Epoch [8/10]: Loss: 0.0444, Train Acc: 98.50%, Test Acc: 97.54%
+Post-Pruning Training Epoch [9/10]: Loss: 0.0413, Train Acc: 98.64%, Test Acc: 97.70%
+Post-Pruning Training Epoch [10/10]: Loss: 0.0387, Train Acc: 98.72%, Test Acc: 97.26%
+Initial Test Accuracy: 80.01%
+Post-Pruning Training Epoch [1/10]: Loss: 0.1200, Train Acc: 96.38%, Test Acc: 96.95%
+Post-Pruning Training Epoch [2/10]: Loss: 0.0928, Train Acc: 97.27%, Test Acc: 96.66%
+Post-Pruning Training Epoch [3/10]: Loss: 0.0783, Train Acc: 97.56%, Test Acc: 97.19%
+Post-Pruning Training Epoch [4/10]: Loss: 0.0702, Train Acc: 97.75%, Test Acc: 96.65%
+Post-Pruning Training Epoch [5/10]: Loss: 0.0608, Train Acc: 98.09%, Test Acc: 97.35%
+Post-Pruning Training Epoch [6/10]: Loss: 0.0567, Train Acc: 98.19%, Test Acc: 96.61%
+Post-Pruning Training Epoch [7/10]: Loss: 0.0506, Train Acc: 98.36%, Test Acc: 96.98%
+Post-Pruning Training Epoch [8/10]: Loss: 0.0477, Train Acc: 98.41%, Test Acc: 97.25%
+Post-Pruning Training Epoch [9/10]: Loss: 0.0450, Train Acc: 98.49%, Test Acc: 97.24%
+Post-Pruning Training Epoch [10/10]: Loss: 0.0382, Train Acc: 98.74%, Test Acc: 96.78%
+Post-Pruned Baseline Model Accuracy: 97.24%
+Post-Pruned Low Forgetting Model Accuracy: 97.26%
+Post-Pruned High Forgetting Model Accuracy: 96.78%
+Accuracy results saved to results/FCNet/MNIST/dr0.3/pr0.8/accuracies.csv.
+Post-pruning accuracy plot saved to results/FCNet/MNIST/dr0.3/pr0.8/post_pruning_accuracy.png.
+=============================================================================================================
+Loading precomputed forgetting scores and baseline model...
+Baseline model and forgetting scores loaded.
+Selected top 24000 highest-forgetting and top 24000 lowest-forgetting samples.
+Highest forgetting subset size: 24000, Lowest forgetting subset size: 24000
+Training model on high-forgetting subset...
+Starting training for 10 epochs...
+Epoch [1/10] complete: Loss: 0.4905, Accuracy: 85.62%
+Epoch [2/10] complete: Loss: 0.2715, Accuracy: 91.75%
+Epoch [3/10] complete: Loss: 0.1914, Accuracy: 94.31%
+Epoch [4/10] complete: Loss: 0.1474, Accuracy: 95.59%
+Epoch [5/10] complete: Loss: 0.1212, Accuracy: 96.37%
+Epoch [6/10] complete: Loss: 0.1021, Accuracy: 96.88%
+Epoch [7/10] complete: Loss: 0.0860, Accuracy: 97.45%
+Epoch [8/10] complete: Loss: 0.0747, Accuracy: 97.60%
+Epoch [9/10] complete: Loss: 0.0667, Accuracy: 97.96%
+Epoch [10/10] complete: Loss: 0.0549, Accuracy: 98.33%
+Training completed.
+Training model on low-forgetting subset...
+Starting training for 10 epochs...
+Epoch [1/10] complete: Loss: 0.4734, Accuracy: 86.01%
+Epoch [2/10] complete: Loss: 0.2509, Accuracy: 92.70%
+Epoch [3/10] complete: Loss: 0.1915, Accuracy: 94.26%
+Epoch [4/10] complete: Loss: 0.1498, Accuracy: 95.47%
+Epoch [5/10] complete: Loss: 0.1208, Accuracy: 96.45%
+Epoch [6/10] complete: Loss: 0.1038, Accuracy: 96.87%
+Epoch [7/10] complete: Loss: 0.0895, Accuracy: 97.25%
+Epoch [8/10] complete: Loss: 0.0808, Accuracy: 97.45%
+Epoch [9/10] complete: Loss: 0.0701, Accuracy: 97.76%
+Epoch [10/10] complete: Loss: 0.0593, Accuracy: 98.21%
+Training completed.
+Baseline Model Accuracy: 97.01%
+Low Forgetting Model Accuracy: 96.74%
+High Forgetting Model Accuracy: 96.60%
+Applying pruning with ratio 0.0...
+Pruning completed.
+Applying pruning with ratio 0.0...
+Pruning completed.
+Applying pruning with ratio 0.0...
+Pruning completed.
+Pruning accuracy comparison bar plot saved to results/FCNet/MNIST/dr0.4/pr0.0/pruning_accuracy_comparison.png.
+Pruned Baseline Model Accuracy: 97.01%
+Pruned Low Forgetting Model Accuracy: 96.74%
+Pruned High Forgetting Model Accuracy: 96.60%
+Post-Pruning Retraining...
+Initial Test Accuracy: 97.01%
+Post-Pruning Training Epoch [1/10]: Loss: 0.0438, Train Acc: 98.52%, Test Acc: 97.25%
+Post-Pruning Training Epoch [2/10]: Loss: 0.0394, Train Acc: 98.69%, Test Acc: 97.09%
+Post-Pruning Training Epoch [3/10]: Loss: 0.0351, Train Acc: 98.84%, Test Acc: 97.37%
+Post-Pruning Training Epoch [4/10]: Loss: 0.0339, Train Acc: 98.84%, Test Acc: 97.59%
+Post-Pruning Training Epoch [5/10]: Loss: 0.0303, Train Acc: 98.98%, Test Acc: 97.73%
+Post-Pruning Training Epoch [6/10]: Loss: 0.0297, Train Acc: 98.97%, Test Acc: 97.03%
+Post-Pruning Training Epoch [7/10]: Loss: 0.0264, Train Acc: 99.09%, Test Acc: 97.49%
+Post-Pruning Training Epoch [8/10]: Loss: 0.0236, Train Acc: 99.20%, Test Acc: 97.64%
+Post-Pruning Training Epoch [9/10]: Loss: 0.0243, Train Acc: 99.18%, Test Acc: 97.46%
+Post-Pruning Training Epoch [10/10]: Loss: 0.0230, Train Acc: 99.18%, Test Acc: 97.59%
+Initial Test Accuracy: 96.74%
+Post-Pruning Training Epoch [1/10]: Loss: 0.0990, Train Acc: 97.00%, Test Acc: 96.99%
+Post-Pruning Training Epoch [2/10]: Loss: 0.0799, Train Acc: 97.56%, Test Acc: 96.83%
+Post-Pruning Training Epoch [3/10]: Loss: 0.0687, Train Acc: 97.83%, Test Acc: 97.19%
+Post-Pruning Training Epoch [4/10]: Loss: 0.0594, Train Acc: 98.14%, Test Acc: 97.29%
+Post-Pruning Training Epoch [5/10]: Loss: 0.0537, Train Acc: 98.27%, Test Acc: 97.38%
+Post-Pruning Training Epoch [6/10]: Loss: 0.0488, Train Acc: 98.46%, Test Acc: 97.53%
+Post-Pruning Training Epoch [7/10]: Loss: 0.0441, Train Acc: 98.54%, Test Acc: 97.50%
+Post-Pruning Training Epoch [8/10]: Loss: 0.0398, Train Acc: 98.71%, Test Acc: 97.26%
+Post-Pruning Training Epoch [9/10]: Loss: 0.0365, Train Acc: 98.75%, Test Acc: 97.33%
+Post-Pruning Training Epoch [10/10]: Loss: 0.0341, Train Acc: 98.87%, Test Acc: 97.20%
+Initial Test Accuracy: 96.60%
+Post-Pruning Training Epoch [1/10]: Loss: 0.0958, Train Acc: 97.15%, Test Acc: 96.96%
+Post-Pruning Training Epoch [2/10]: Loss: 0.0780, Train Acc: 97.62%, Test Acc: 97.25%
+Post-Pruning Training Epoch [3/10]: Loss: 0.0661, Train Acc: 97.97%, Test Acc: 97.31%
+Post-Pruning Training Epoch [4/10]: Loss: 0.0604, Train Acc: 98.12%, Test Acc: 97.51%
+Post-Pruning Training Epoch [5/10]: Loss: 0.0532, Train Acc: 98.27%, Test Acc: 97.43%
+Post-Pruning Training Epoch [6/10]: Loss: 0.0503, Train Acc: 98.34%, Test Acc: 96.88%
+Post-Pruning Training Epoch [7/10]: Loss: 0.0435, Train Acc: 98.59%, Test Acc: 97.16%
+Post-Pruning Training Epoch [8/10]: Loss: 0.0432, Train Acc: 98.58%, Test Acc: 97.36%
+Post-Pruning Training Epoch [9/10]: Loss: 0.0363, Train Acc: 98.83%, Test Acc: 97.18%
+Post-Pruning Training Epoch [10/10]: Loss: 0.0339, Train Acc: 98.86%, Test Acc: 97.25%
+Post-Pruned Baseline Model Accuracy: 97.59%
+Post-Pruned Low Forgetting Model Accuracy: 97.20%
+Post-Pruned High Forgetting Model Accuracy: 97.25%
+Accuracy results saved to results/FCNet/MNIST/dr0.4/pr0.0/accuracies.csv.
+Post-pruning accuracy plot saved to results/FCNet/MNIST/dr0.4/pr0.0/post_pruning_accuracy.png.
+=============================================================================================================
+Loading precomputed forgetting scores and baseline model...
+Baseline model and forgetting scores loaded.
+Selected top 24000 highest-forgetting and top 24000 lowest-forgetting samples.
+Highest forgetting subset size: 24000, Lowest forgetting subset size: 24000
+Training model on high-forgetting subset...
+Starting training for 10 epochs...
+Epoch [1/10] complete: Loss: 0.4905, Accuracy: 85.62%
+Epoch [2/10] complete: Loss: 0.2715, Accuracy: 91.75%
+Epoch [3/10] complete: Loss: 0.1914, Accuracy: 94.31%
+Epoch [4/10] complete: Loss: 0.1474, Accuracy: 95.59%
+Epoch [5/10] complete: Loss: 0.1212, Accuracy: 96.37%
+Epoch [6/10] complete: Loss: 0.1021, Accuracy: 96.88%
+Epoch [7/10] complete: Loss: 0.0860, Accuracy: 97.45%
+Epoch [8/10] complete: Loss: 0.0747, Accuracy: 97.60%
+Epoch [9/10] complete: Loss: 0.0667, Accuracy: 97.96%
+Epoch [10/10] complete: Loss: 0.0549, Accuracy: 98.33%
+Training completed.
+Training model on low-forgetting subset...
+Starting training for 10 epochs...
+Epoch [1/10] complete: Loss: 0.4734, Accuracy: 86.01%
+Epoch [2/10] complete: Loss: 0.2509, Accuracy: 92.70%
+Epoch [3/10] complete: Loss: 0.1915, Accuracy: 94.26%
+Epoch [4/10] complete: Loss: 0.1498, Accuracy: 95.47%
+Epoch [5/10] complete: Loss: 0.1208, Accuracy: 96.45%
+Epoch [6/10] complete: Loss: 0.1038, Accuracy: 96.87%
+Epoch [7/10] complete: Loss: 0.0895, Accuracy: 97.25%
+Epoch [8/10] complete: Loss: 0.0808, Accuracy: 97.45%
+Epoch [9/10] complete: Loss: 0.0701, Accuracy: 97.76%
+Epoch [10/10] complete: Loss: 0.0593, Accuracy: 98.21%
+Training completed.
+Baseline Model Accuracy: 97.01%
+Low Forgetting Model Accuracy: 96.74%
+High Forgetting Model Accuracy: 96.60%
+Applying pruning with ratio 0.2...
+Pruning completed.
+Applying pruning with ratio 0.2...
+Pruning completed.
+Applying pruning with ratio 0.2...
+Pruning completed.
+Pruning accuracy comparison bar plot saved to results/FCNet/MNIST/dr0.4/pr0.2/pruning_accuracy_comparison.png.
+Pruned Baseline Model Accuracy: 97.05%
+Pruned Low Forgetting Model Accuracy: 96.74%
+Pruned High Forgetting Model Accuracy: 96.58%
+Post-Pruning Retraining...
+Initial Test Accuracy: 97.05%
+Post-Pruning Training Epoch [1/10]: Loss: 0.0426, Train Acc: 98.56%, Test Acc: 97.60%
+Post-Pruning Training Epoch [2/10]: Loss: 0.0381, Train Acc: 98.73%, Test Acc: 96.99%
+Post-Pruning Training Epoch [3/10]: Loss: 0.0362, Train Acc: 98.79%, Test Acc: 97.39%
+Post-Pruning Training Epoch [4/10]: Loss: 0.0347, Train Acc: 98.81%, Test Acc: 97.47%
+Post-Pruning Training Epoch [5/10]: Loss: 0.0300, Train Acc: 98.94%, Test Acc: 97.51%
+Post-Pruning Training Epoch [6/10]: Loss: 0.0275, Train Acc: 99.05%, Test Acc: 97.45%
+Post-Pruning Training Epoch [7/10]: Loss: 0.0299, Train Acc: 99.00%, Test Acc: 97.46%
+Post-Pruning Training Epoch [8/10]: Loss: 0.0244, Train Acc: 99.19%, Test Acc: 97.65%
+Post-Pruning Training Epoch [9/10]: Loss: 0.0269, Train Acc: 99.03%, Test Acc: 97.10%
+Post-Pruning Training Epoch [10/10]: Loss: 0.0241, Train Acc: 99.20%, Test Acc: 97.39%
+Initial Test Accuracy: 96.74%
+Post-Pruning Training Epoch [1/10]: Loss: 0.0985, Train Acc: 97.05%, Test Acc: 97.09%
+Post-Pruning Training Epoch [2/10]: Loss: 0.0795, Train Acc: 97.55%, Test Acc: 96.94%
+Post-Pruning Training Epoch [3/10]: Loss: 0.0674, Train Acc: 97.95%, Test Acc: 97.40%
+Post-Pruning Training Epoch [4/10]: Loss: 0.0583, Train Acc: 98.14%, Test Acc: 97.39%
+Post-Pruning Training Epoch [5/10]: Loss: 0.0539, Train Acc: 98.25%, Test Acc: 97.47%
+Post-Pruning Training Epoch [6/10]: Loss: 0.0493, Train Acc: 98.34%, Test Acc: 97.61%
+Post-Pruning Training Epoch [7/10]: Loss: 0.0429, Train Acc: 98.56%, Test Acc: 97.50%
+Post-Pruning Training Epoch [8/10]: Loss: 0.0385, Train Acc: 98.72%, Test Acc: 97.52%
+Post-Pruning Training Epoch [9/10]: Loss: 0.0401, Train Acc: 98.62%, Test Acc: 97.61%
+Post-Pruning Training Epoch [10/10]: Loss: 0.0331, Train Acc: 98.91%, Test Acc: 97.71%
+Initial Test Accuracy: 96.58%
+Post-Pruning Training Epoch [1/10]: Loss: 0.0957, Train Acc: 97.13%, Test Acc: 96.92%
+Post-Pruning Training Epoch [2/10]: Loss: 0.0788, Train Acc: 97.56%, Test Acc: 97.01%
+Post-Pruning Training Epoch [3/10]: Loss: 0.0663, Train Acc: 97.92%, Test Acc: 97.25%
+Post-Pruning Training Epoch [4/10]: Loss: 0.0607, Train Acc: 98.07%, Test Acc: 97.56%
+Post-Pruning Training Epoch [5/10]: Loss: 0.0528, Train Acc: 98.31%, Test Acc: 97.45%
+Post-Pruning Training Epoch [6/10]: Loss: 0.0486, Train Acc: 98.39%, Test Acc: 97.28%
+Post-Pruning Training Epoch [7/10]: Loss: 0.0448, Train Acc: 98.50%, Test Acc: 97.20%
+Post-Pruning Training Epoch [8/10]: Loss: 0.0426, Train Acc: 98.55%, Test Acc: 97.18%
+Post-Pruning Training Epoch [9/10]: Loss: 0.0364, Train Acc: 98.79%, Test Acc: 96.75%
+Post-Pruning Training Epoch [10/10]: Loss: 0.0342, Train Acc: 98.86%, Test Acc: 96.85%
+Post-Pruned Baseline Model Accuracy: 97.39%
+Post-Pruned Low Forgetting Model Accuracy: 97.71%
+Post-Pruned High Forgetting Model Accuracy: 96.85%
+Accuracy results saved to results/FCNet/MNIST/dr0.4/pr0.2/accuracies.csv.
+Post-pruning accuracy plot saved to results/FCNet/MNIST/dr0.4/pr0.2/post_pruning_accuracy.png.
+=============================================================================================================
+Loading precomputed forgetting scores and baseline model...
+Baseline model and forgetting scores loaded.
+Selected top 24000 highest-forgetting and top 24000 lowest-forgetting samples.
+Highest forgetting subset size: 24000, Lowest forgetting subset size: 24000
+Training model on high-forgetting subset...
+Starting training for 10 epochs...
+Epoch [1/10] complete: Loss: 0.4905, Accuracy: 85.62%
+Epoch [2/10] complete: Loss: 0.2715, Accuracy: 91.75%
+Epoch [3/10] complete: Loss: 0.1914, Accuracy: 94.31%
+Epoch [4/10] complete: Loss: 0.1474, Accuracy: 95.59%
+Epoch [5/10] complete: Loss: 0.1212, Accuracy: 96.37%
+Epoch [6/10] complete: Loss: 0.1021, Accuracy: 96.88%
+Epoch [7/10] complete: Loss: 0.0860, Accuracy: 97.45%
+Epoch [8/10] complete: Loss: 0.0747, Accuracy: 97.60%
+Epoch [9/10] complete: Loss: 0.0667, Accuracy: 97.96%
+Epoch [10/10] complete: Loss: 0.0549, Accuracy: 98.33%
+Training completed.
+Training model on low-forgetting subset...
+Starting training for 10 epochs...
+Epoch [1/10] complete: Loss: 0.4734, Accuracy: 86.01%
+Epoch [2/10] complete: Loss: 0.2509, Accuracy: 92.70%
+Epoch [3/10] complete: Loss: 0.1915, Accuracy: 94.26%
+Epoch [4/10] complete: Loss: 0.1498, Accuracy: 95.47%
+Epoch [5/10] complete: Loss: 0.1208, Accuracy: 96.45%
+Epoch [6/10] complete: Loss: 0.1038, Accuracy: 96.87%
+Epoch [7/10] complete: Loss: 0.0895, Accuracy: 97.25%
+Epoch [8/10] complete: Loss: 0.0808, Accuracy: 97.45%
+Epoch [9/10] complete: Loss: 0.0701, Accuracy: 97.76%
+Epoch [10/10] complete: Loss: 0.0593, Accuracy: 98.21%
+Training completed.
+Baseline Model Accuracy: 97.01%
+Low Forgetting Model Accuracy: 96.74%
+High Forgetting Model Accuracy: 96.60%
+Applying pruning with ratio 0.4...
+Pruning completed.
+Applying pruning with ratio 0.4...
+Pruning completed.
+Applying pruning with ratio 0.4...
+Pruning completed.
+Pruning accuracy comparison bar plot saved to results/FCNet/MNIST/dr0.4/pr0.4/pruning_accuracy_comparison.png.
+Pruned Baseline Model Accuracy: 97.05%
+Pruned Low Forgetting Model Accuracy: 96.70%
+Pruned High Forgetting Model Accuracy: 96.64%
+Post-Pruning Retraining...
+Initial Test Accuracy: 97.05%
+Post-Pruning Training Epoch [1/10]: Loss: 0.0421, Train Acc: 98.56%, Test Acc: 97.71%
+Post-Pruning Training Epoch [2/10]: Loss: 0.0394, Train Acc: 98.64%, Test Acc: 97.50%
+Post-Pruning Training Epoch [3/10]: Loss: 0.0352, Train Acc: 98.79%, Test Acc: 97.64%
+Post-Pruning Training Epoch [4/10]: Loss: 0.0367, Train Acc: 98.72%, Test Acc: 97.39%
+Post-Pruning Training Epoch [5/10]: Loss: 0.0299, Train Acc: 99.01%, Test Acc: 97.73%
+Post-Pruning Training Epoch [6/10]: Loss: 0.0267, Train Acc: 99.03%, Test Acc: 97.69%
+Post-Pruning Training Epoch [7/10]: Loss: 0.0287, Train Acc: 99.05%, Test Acc: 97.38%
+Post-Pruning Training Epoch [8/10]: Loss: 0.0246, Train Acc: 99.15%, Test Acc: 97.79%
+Post-Pruning Training Epoch [9/10]: Loss: 0.0245, Train Acc: 99.18%, Test Acc: 97.56%
+Post-Pruning Training Epoch [10/10]: Loss: 0.0225, Train Acc: 99.21%, Test Acc: 97.60%
+Initial Test Accuracy: 96.70%
+Post-Pruning Training Epoch [1/10]: Loss: 0.0991, Train Acc: 97.03%, Test Acc: 96.93%
+Post-Pruning Training Epoch [2/10]: Loss: 0.0794, Train Acc: 97.57%, Test Acc: 97.29%
+Post-Pruning Training Epoch [3/10]: Loss: 0.0678, Train Acc: 97.86%, Test Acc: 97.13%
+Post-Pruning Training Epoch [4/10]: Loss: 0.0600, Train Acc: 98.09%, Test Acc: 97.34%
+Post-Pruning Training Epoch [5/10]: Loss: 0.0543, Train Acc: 98.23%, Test Acc: 97.38%
+Post-Pruning Training Epoch [6/10]: Loss: 0.0492, Train Acc: 98.41%, Test Acc: 97.68%
+Post-Pruning Training Epoch [7/10]: Loss: 0.0443, Train Acc: 98.52%, Test Acc: 97.69%
+Post-Pruning Training Epoch [8/10]: Loss: 0.0395, Train Acc: 98.64%, Test Acc: 96.98%
+Post-Pruning Training Epoch [9/10]: Loss: 0.0378, Train Acc: 98.74%, Test Acc: 97.25%
+Post-Pruning Training Epoch [10/10]: Loss: 0.0324, Train Acc: 98.93%, Test Acc: 97.12%
+Initial Test Accuracy: 96.64%
+Post-Pruning Training Epoch [1/10]: Loss: 0.0963, Train Acc: 97.11%, Test Acc: 96.76%
+Post-Pruning Training Epoch [2/10]: Loss: 0.0786, Train Acc: 97.62%, Test Acc: 97.18%
+Post-Pruning Training Epoch [3/10]: Loss: 0.0661, Train Acc: 97.90%, Test Acc: 97.08%
+Post-Pruning Training Epoch [4/10]: Loss: 0.0601, Train Acc: 98.12%, Test Acc: 97.49%
+Post-Pruning Training Epoch [5/10]: Loss: 0.0541, Train Acc: 98.19%, Test Acc: 97.47%
+Post-Pruning Training Epoch [6/10]: Loss: 0.0491, Train Acc: 98.41%, Test Acc: 97.52%
+Post-Pruning Training Epoch [7/10]: Loss: 0.0438, Train Acc: 98.59%, Test Acc: 97.39%
+Post-Pruning Training Epoch [8/10]: Loss: 0.0401, Train Acc: 98.68%, Test Acc: 97.61%
+Post-Pruning Training Epoch [9/10]: Loss: 0.0369, Train Acc: 98.84%, Test Acc: 97.42%
+Post-Pruning Training Epoch [10/10]: Loss: 0.0354, Train Acc: 98.79%, Test Acc: 97.22%
+Post-Pruned Baseline Model Accuracy: 97.60%
+Post-Pruned Low Forgetting Model Accuracy: 97.12%
+Post-Pruned High Forgetting Model Accuracy: 97.22%
+Accuracy results saved to results/FCNet/MNIST/dr0.4/pr0.4/accuracies.csv.
+Post-pruning accuracy plot saved to results/FCNet/MNIST/dr0.4/pr0.4/post_pruning_accuracy.png.
+=============================================================================================================
+Loading precomputed forgetting scores and baseline model...
+Baseline model and forgetting scores loaded.
+Selected top 24000 highest-forgetting and top 24000 lowest-forgetting samples.
+Highest forgetting subset size: 24000, Lowest forgetting subset size: 24000
+Training model on high-forgetting subset...
+Starting training for 10 epochs...
+Epoch [1/10] complete: Loss: 0.4905, Accuracy: 85.62%
+Epoch [2/10] complete: Loss: 0.2715, Accuracy: 91.75%
+Epoch [3/10] complete: Loss: 0.1914, Accuracy: 94.31%
+Epoch [4/10] complete: Loss: 0.1474, Accuracy: 95.59%
+Epoch [5/10] complete: Loss: 0.1212, Accuracy: 96.37%
+Epoch [6/10] complete: Loss: 0.1021, Accuracy: 96.88%
+Epoch [7/10] complete: Loss: 0.0860, Accuracy: 97.45%
+Epoch [8/10] complete: Loss: 0.0747, Accuracy: 97.60%
+Epoch [9/10] complete: Loss: 0.0667, Accuracy: 97.96%
+Epoch [10/10] complete: Loss: 0.0549, Accuracy: 98.33%
+Training completed.
+Training model on low-forgetting subset...
+Starting training for 10 epochs...
+Epoch [1/10] complete: Loss: 0.4734, Accuracy: 86.01%
+Epoch [2/10] complete: Loss: 0.2509, Accuracy: 92.70%
+Epoch [3/10] complete: Loss: 0.1915, Accuracy: 94.26%
+Epoch [4/10] complete: Loss: 0.1498, Accuracy: 95.47%
+Epoch [5/10] complete: Loss: 0.1208, Accuracy: 96.45%
+Epoch [6/10] complete: Loss: 0.1038, Accuracy: 96.87%
+Epoch [7/10] complete: Loss: 0.0895, Accuracy: 97.25%
+Epoch [8/10] complete: Loss: 0.0808, Accuracy: 97.45%
+Epoch [9/10] complete: Loss: 0.0701, Accuracy: 97.76%
+Epoch [10/10] complete: Loss: 0.0593, Accuracy: 98.21%
+Training completed.
+Baseline Model Accuracy: 97.01%
+Low Forgetting Model Accuracy: 96.74%
+High Forgetting Model Accuracy: 96.60%
+Applying pruning with ratio 0.6...
+Pruning completed.
+Applying pruning with ratio 0.6...
+Pruning completed.
+Applying pruning with ratio 0.6...
+Pruning completed.
+Pruning accuracy comparison bar plot saved to results/FCNet/MNIST/dr0.4/pr0.6/pruning_accuracy_comparison.png.
+Pruned Baseline Model Accuracy: 96.24%
+Pruned Low Forgetting Model Accuracy: 95.84%
+Pruned High Forgetting Model Accuracy: 96.05%
+Post-Pruning Retraining...
+Initial Test Accuracy: 96.24%
+Post-Pruning Training Epoch [1/10]: Loss: 0.0431, Train Acc: 98.59%, Test Acc: 97.69%
+Post-Pruning Training Epoch [2/10]: Loss: 0.0403, Train Acc: 98.69%, Test Acc: 97.49%
+Post-Pruning Training Epoch [3/10]: Loss: 0.0357, Train Acc: 98.76%, Test Acc: 97.76%
+Post-Pruning Training Epoch [4/10]: Loss: 0.0341, Train Acc: 98.83%, Test Acc: 97.81%
+Post-Pruning Training Epoch [5/10]: Loss: 0.0292, Train Acc: 99.00%, Test Acc: 97.62%
+Post-Pruning Training Epoch [6/10]: Loss: 0.0294, Train Acc: 99.00%, Test Acc: 97.71%
+Post-Pruning Training Epoch [7/10]: Loss: 0.0262, Train Acc: 99.10%, Test Acc: 97.65%
+Post-Pruning Training Epoch [8/10]: Loss: 0.0249, Train Acc: 99.15%, Test Acc: 97.40%
+Post-Pruning Training Epoch [9/10]: Loss: 0.0245, Train Acc: 99.16%, Test Acc: 97.58%
+Post-Pruning Training Epoch [10/10]: Loss: 0.0249, Train Acc: 99.15%, Test Acc: 97.14%
+Initial Test Accuracy: 95.84%
+Post-Pruning Training Epoch [1/10]: Loss: 0.0995, Train Acc: 97.03%, Test Acc: 96.71%
+Post-Pruning Training Epoch [2/10]: Loss: 0.0799, Train Acc: 97.56%, Test Acc: 96.86%
+Post-Pruning Training Epoch [3/10]: Loss: 0.0695, Train Acc: 97.80%, Test Acc: 97.28%
+Post-Pruning Training Epoch [4/10]: Loss: 0.0590, Train Acc: 98.15%, Test Acc: 97.38%
+Post-Pruning Training Epoch [5/10]: Loss: 0.0524, Train Acc: 98.28%, Test Acc: 97.45%
+Post-Pruning Training Epoch [6/10]: Loss: 0.0510, Train Acc: 98.33%, Test Acc: 97.41%
+Post-Pruning Training Epoch [7/10]: Loss: 0.0434, Train Acc: 98.56%, Test Acc: 97.29%
+Post-Pruning Training Epoch [8/10]: Loss: 0.0390, Train Acc: 98.70%, Test Acc: 97.33%
+Post-Pruning Training Epoch [9/10]: Loss: 0.0385, Train Acc: 98.71%, Test Acc: 97.55%
+Post-Pruning Training Epoch [10/10]: Loss: 0.0339, Train Acc: 98.84%, Test Acc: 97.55%
+Initial Test Accuracy: 96.05%
+Post-Pruning Training Epoch [1/10]: Loss: 0.0980, Train Acc: 97.01%, Test Acc: 96.84%
+Post-Pruning Training Epoch [2/10]: Loss: 0.0784, Train Acc: 97.64%, Test Acc: 97.14%
+Post-Pruning Training Epoch [3/10]: Loss: 0.0670, Train Acc: 97.92%, Test Acc: 97.32%
+Post-Pruning Training Epoch [4/10]: Loss: 0.0599, Train Acc: 98.11%, Test Acc: 97.08%
+Post-Pruning Training Epoch [5/10]: Loss: 0.0538, Train Acc: 98.23%, Test Acc: 97.66%
+Post-Pruning Training Epoch [6/10]: Loss: 0.0510, Train Acc: 98.31%, Test Acc: 97.10%
+Post-Pruning Training Epoch [7/10]: Loss: 0.0436, Train Acc: 98.63%, Test Acc: 97.14%
+Post-Pruning Training Epoch [8/10]: Loss: 0.0416, Train Acc: 98.64%, Test Acc: 97.46%
+Post-Pruning Training Epoch [9/10]: Loss: 0.0369, Train Acc: 98.83%, Test Acc: 97.48%
+Post-Pruning Training Epoch [10/10]: Loss: 0.0335, Train Acc: 98.88%, Test Acc: 97.16%
+Post-Pruned Baseline Model Accuracy: 97.14%
+Post-Pruned Low Forgetting Model Accuracy: 97.55%
+Post-Pruned High Forgetting Model Accuracy: 97.16%
+Accuracy results saved to results/FCNet/MNIST/dr0.4/pr0.6/accuracies.csv.
+Post-pruning accuracy plot saved to results/FCNet/MNIST/dr0.4/pr0.6/post_pruning_accuracy.png.
+=============================================================================================================
+Loading precomputed forgetting scores and baseline model...
+Baseline model and forgetting scores loaded.
+Selected top 24000 highest-forgetting and top 24000 lowest-forgetting samples.
+Highest forgetting subset size: 24000, Lowest forgetting subset size: 24000
+Training model on high-forgetting subset...
+Starting training for 10 epochs...
+Epoch [1/10] complete: Loss: 0.4905, Accuracy: 85.62%
+Epoch [2/10] complete: Loss: 0.2715, Accuracy: 91.75%
+Epoch [3/10] complete: Loss: 0.1914, Accuracy: 94.31%
+Epoch [4/10] complete: Loss: 0.1474, Accuracy: 95.59%
+Epoch [5/10] complete: Loss: 0.1212, Accuracy: 96.37%
+Epoch [6/10] complete: Loss: 0.1021, Accuracy: 96.88%
+Epoch [7/10] complete: Loss: 0.0860, Accuracy: 97.45%
+Epoch [8/10] complete: Loss: 0.0747, Accuracy: 97.60%
+Epoch [9/10] complete: Loss: 0.0667, Accuracy: 97.96%
+Epoch [10/10] complete: Loss: 0.0549, Accuracy: 98.33%
+Training completed.
+Training model on low-forgetting subset...
+Starting training for 10 epochs...
+Epoch [1/10] complete: Loss: 0.4734, Accuracy: 86.01%
+Epoch [2/10] complete: Loss: 0.2509, Accuracy: 92.70%
+Epoch [3/10] complete: Loss: 0.1915, Accuracy: 94.26%
+Epoch [4/10] complete: Loss: 0.1498, Accuracy: 95.47%
+Epoch [5/10] complete: Loss: 0.1208, Accuracy: 96.45%
+Epoch [6/10] complete: Loss: 0.1038, Accuracy: 96.87%
+Epoch [7/10] complete: Loss: 0.0895, Accuracy: 97.25%
+Epoch [8/10] complete: Loss: 0.0808, Accuracy: 97.45%
+Epoch [9/10] complete: Loss: 0.0701, Accuracy: 97.76%
+Epoch [10/10] complete: Loss: 0.0593, Accuracy: 98.21%
+Training completed.
+Baseline Model Accuracy: 97.01%
+Low Forgetting Model Accuracy: 96.74%
+High Forgetting Model Accuracy: 96.60%
+Applying pruning with ratio 0.8...
+Pruning completed.
+Applying pruning with ratio 0.8...
+Pruning completed.
+Applying pruning with ratio 0.8...
+Pruning completed.
+Pruning accuracy comparison bar plot saved to results/FCNet/MNIST/dr0.4/pr0.8/pruning_accuracy_comparison.png.
+Pruned Baseline Model Accuracy: 61.81%
+Pruned Low Forgetting Model Accuracy: 72.61%
+Pruned High Forgetting Model Accuracy: 78.96%
+Post-Pruning Retraining...
+Initial Test Accuracy: 61.81%
+Post-Pruning Training Epoch [1/10]: Loss: 0.0556, Train Acc: 98.33%, Test Acc: 97.50%
+Post-Pruning Training Epoch [2/10]: Loss: 0.0408, Train Acc: 98.63%, Test Acc: 97.29%
+Post-Pruning Training Epoch [3/10]: Loss: 0.0379, Train Acc: 98.73%, Test Acc: 97.48%
+Post-Pruning Training Epoch [4/10]: Loss: 0.0365, Train Acc: 98.75%, Test Acc: 96.89%
+Post-Pruning Training Epoch [5/10]: Loss: 0.0314, Train Acc: 98.92%, Test Acc: 97.66%
+Post-Pruning Training Epoch [6/10]: Loss: 0.0313, Train Acc: 98.93%, Test Acc: 97.21%
+Post-Pruning Training Epoch [7/10]: Loss: 0.0286, Train Acc: 99.03%, Test Acc: 97.43%
+Post-Pruning Training Epoch [8/10]: Loss: 0.0261, Train Acc: 99.11%, Test Acc: 97.72%
+Post-Pruning Training Epoch [9/10]: Loss: 0.0255, Train Acc: 99.16%, Test Acc: 97.34%
+Post-Pruning Training Epoch [10/10]: Loss: 0.0251, Train Acc: 99.15%, Test Acc: 97.24%
+Initial Test Accuracy: 72.61%
+Post-Pruning Training Epoch [1/10]: Loss: 0.1035, Train Acc: 96.96%, Test Acc: 96.83%
+Post-Pruning Training Epoch [2/10]: Loss: 0.0814, Train Acc: 97.44%, Test Acc: 97.09%
+Post-Pruning Training Epoch [3/10]: Loss: 0.0699, Train Acc: 97.83%, Test Acc: 97.43%
+Post-Pruning Training Epoch [4/10]: Loss: 0.0602, Train Acc: 98.11%, Test Acc: 97.08%
+Post-Pruning Training Epoch [5/10]: Loss: 0.0560, Train Acc: 98.23%, Test Acc: 97.50%
+Post-Pruning Training Epoch [6/10]: Loss: 0.0512, Train Acc: 98.33%, Test Acc: 97.62%
+Post-Pruning Training Epoch [7/10]: Loss: 0.0447, Train Acc: 98.55%, Test Acc: 97.75%
+Post-Pruning Training Epoch [8/10]: Loss: 0.0397, Train Acc: 98.72%, Test Acc: 97.28%
+Post-Pruning Training Epoch [9/10]: Loss: 0.0395, Train Acc: 98.69%, Test Acc: 97.71%
+Post-Pruning Training Epoch [10/10]: Loss: 0.0340, Train Acc: 98.84%, Test Acc: 97.38%
+Initial Test Accuracy: 78.96%
+Post-Pruning Training Epoch [1/10]: Loss: 0.1000, Train Acc: 96.99%, Test Acc: 96.92%
+Post-Pruning Training Epoch [2/10]: Loss: 0.0808, Train Acc: 97.55%, Test Acc: 97.09%
+Post-Pruning Training Epoch [3/10]: Loss: 0.0679, Train Acc: 97.92%, Test Acc: 97.46%
+Post-Pruning Training Epoch [4/10]: Loss: 0.0611, Train Acc: 98.06%, Test Acc: 97.16%
+Post-Pruning Training Epoch [5/10]: Loss: 0.0553, Train Acc: 98.19%, Test Acc: 97.52%
+Post-Pruning Training Epoch [6/10]: Loss: 0.0514, Train Acc: 98.33%, Test Acc: 97.29%
+Post-Pruning Training Epoch [7/10]: Loss: 0.0437, Train Acc: 98.58%, Test Acc: 97.07%
+Post-Pruning Training Epoch [8/10]: Loss: 0.0441, Train Acc: 98.58%, Test Acc: 97.17%
+Post-Pruning Training Epoch [9/10]: Loss: 0.0381, Train Acc: 98.75%, Test Acc: 97.82%
+Post-Pruning Training Epoch [10/10]: Loss: 0.0348, Train Acc: 98.87%, Test Acc: 97.19%
+Post-Pruned Baseline Model Accuracy: 97.24%
+Post-Pruned Low Forgetting Model Accuracy: 97.38%
+Post-Pruned High Forgetting Model Accuracy: 97.19%
+Accuracy results saved to results/FCNet/MNIST/dr0.4/pr0.8/accuracies.csv.
+Post-pruning accuracy plot saved to results/FCNet/MNIST/dr0.4/pr0.8/post_pruning_accuracy.png.
+=============================================================================================================
+Loading precomputed forgetting scores and baseline model...
+Baseline model and forgetting scores loaded.
+Selected top 30000 highest-forgetting and top 30000 lowest-forgetting samples.
+Highest forgetting subset size: 30000, Lowest forgetting subset size: 30000
+Training model on high-forgetting subset...
+Starting training for 10 epochs...
+Epoch [1/10] complete: Loss: 0.4499, Accuracy: 86.77%
+Epoch [2/10] complete: Loss: 0.2311, Accuracy: 93.17%
+Epoch [3/10] complete: Loss: 0.1716, Accuracy: 94.99%
+Epoch [4/10] complete: Loss: 0.1337, Accuracy: 96.07%
+Epoch [5/10] complete: Loss: 0.1094, Accuracy: 96.74%
+Epoch [6/10] complete: Loss: 0.0941, Accuracy: 97.18%
+Epoch [7/10] complete: Loss: 0.0786, Accuracy: 97.62%
+Epoch [8/10] complete: Loss: 0.0686, Accuracy: 97.89%
+Epoch [9/10] complete: Loss: 0.0634, Accuracy: 98.07%
+Epoch [10/10] complete: Loss: 0.0523, Accuracy: 98.42%
+Training completed.
+Training model on low-forgetting subset...
+Starting training for 10 epochs...
+Epoch [1/10] complete: Loss: 0.4469, Accuracy: 86.70%
+Epoch [2/10] complete: Loss: 0.2374, Accuracy: 93.03%
+Epoch [3/10] complete: Loss: 0.1718, Accuracy: 94.81%
+Epoch [4/10] complete: Loss: 0.1333, Accuracy: 96.01%
+Epoch [5/10] complete: Loss: 0.1120, Accuracy: 96.55%
+Epoch [6/10] complete: Loss: 0.0967, Accuracy: 97.08%
+Epoch [7/10] complete: Loss: 0.0829, Accuracy: 97.43%
+Epoch [8/10] complete: Loss: 0.0707, Accuracy: 97.78%
+Epoch [9/10] complete: Loss: 0.0659, Accuracy: 97.92%
+Epoch [10/10] complete: Loss: 0.0567, Accuracy: 98.23%
+Training completed.
+Baseline Model Accuracy: 97.01%
+Low Forgetting Model Accuracy: 96.35%
+High Forgetting Model Accuracy: 96.24%
+Applying pruning with ratio 0.0...
+Pruning completed.
+Applying pruning with ratio 0.0...
+Pruning completed.
+Applying pruning with ratio 0.0...
+Pruning completed.
+Pruning accuracy comparison bar plot saved to results/FCNet/MNIST/dr0.5/pr0.0/pruning_accuracy_comparison.png.
+Pruned Baseline Model Accuracy: 97.01%
+Pruned Low Forgetting Model Accuracy: 96.35%
+Pruned High Forgetting Model Accuracy: 96.24%
+Post-Pruning Retraining...
+Initial Test Accuracy: 97.01%
+Post-Pruning Training Epoch [1/10]: Loss: 0.0438, Train Acc: 98.52%, Test Acc: 97.25%
+Post-Pruning Training Epoch [2/10]: Loss: 0.0394, Train Acc: 98.69%, Test Acc: 97.09%
+Post-Pruning Training Epoch [3/10]: Loss: 0.0351, Train Acc: 98.84%, Test Acc: 97.37%
+Post-Pruning Training Epoch [4/10]: Loss: 0.0339, Train Acc: 98.84%, Test Acc: 97.59%
+Post-Pruning Training Epoch [5/10]: Loss: 0.0303, Train Acc: 98.98%, Test Acc: 97.73%
+Post-Pruning Training Epoch [6/10]: Loss: 0.0297, Train Acc: 98.97%, Test Acc: 97.03%
+Post-Pruning Training Epoch [7/10]: Loss: 0.0264, Train Acc: 99.09%, Test Acc: 97.49%
+Post-Pruning Training Epoch [8/10]: Loss: 0.0236, Train Acc: 99.20%, Test Acc: 97.64%
+Post-Pruning Training Epoch [9/10]: Loss: 0.0243, Train Acc: 99.18%, Test Acc: 97.46%
+Post-Pruning Training Epoch [10/10]: Loss: 0.0230, Train Acc: 99.18%, Test Acc: 97.59%
+Initial Test Accuracy: 96.35%
+Post-Pruning Training Epoch [1/10]: Loss: 0.0850, Train Acc: 97.40%, Test Acc: 97.17%
+Post-Pruning Training Epoch [2/10]: Loss: 0.0711, Train Acc: 97.81%, Test Acc: 97.27%
+Post-Pruning Training Epoch [3/10]: Loss: 0.0602, Train Acc: 98.13%, Test Acc: 97.42%
+Post-Pruning Training Epoch [4/10]: Loss: 0.0532, Train Acc: 98.29%, Test Acc: 97.26%
+Post-Pruning Training Epoch [5/10]: Loss: 0.0461, Train Acc: 98.54%, Test Acc: 97.22%
+Post-Pruning Training Epoch [6/10]: Loss: 0.0444, Train Acc: 98.58%, Test Acc: 97.83%
+Post-Pruning Training Epoch [7/10]: Loss: 0.0410, Train Acc: 98.66%, Test Acc: 97.44%
+Post-Pruning Training Epoch [8/10]: Loss: 0.0350, Train Acc: 98.82%, Test Acc: 97.65%
+Post-Pruning Training Epoch [9/10]: Loss: 0.0337, Train Acc: 98.84%, Test Acc: 97.81%
+Post-Pruning Training Epoch [10/10]: Loss: 0.0284, Train Acc: 99.08%, Test Acc: 97.20%
+Initial Test Accuracy: 96.24%
+Post-Pruning Training Epoch [1/10]: Loss: 0.0868, Train Acc: 97.41%, Test Acc: 97.14%
+Post-Pruning Training Epoch [2/10]: Loss: 0.0725, Train Acc: 97.72%, Test Acc: 96.72%
+Post-Pruning Training Epoch [3/10]: Loss: 0.0645, Train Acc: 97.94%, Test Acc: 97.25%
+Post-Pruning Training Epoch [4/10]: Loss: 0.0565, Train Acc: 98.17%, Test Acc: 97.60%
+Post-Pruning Training Epoch [5/10]: Loss: 0.0520, Train Acc: 98.31%, Test Acc: 97.53%
+Post-Pruning Training Epoch [6/10]: Loss: 0.0471, Train Acc: 98.42%, Test Acc: 97.21%
+Post-Pruning Training Epoch [7/10]: Loss: 0.0429, Train Acc: 98.63%, Test Acc: 97.35%
+Post-Pruning Training Epoch [8/10]: Loss: 0.0399, Train Acc: 98.66%, Test Acc: 97.38%
+Post-Pruning Training Epoch [9/10]: Loss: 0.0371, Train Acc: 98.76%, Test Acc: 97.51%
+Post-Pruning Training Epoch [10/10]: Loss: 0.0351, Train Acc: 98.81%, Test Acc: 97.22%
+Post-Pruned Baseline Model Accuracy: 97.59%
+Post-Pruned Low Forgetting Model Accuracy: 97.20%
+Post-Pruned High Forgetting Model Accuracy: 97.22%
+Accuracy results saved to results/FCNet/MNIST/dr0.5/pr0.0/accuracies.csv.
+Post-pruning accuracy plot saved to results/FCNet/MNIST/dr0.5/pr0.0/post_pruning_accuracy.png.
+=============================================================================================================
+Loading precomputed forgetting scores and baseline model...
+Baseline model and forgetting scores loaded.
+Selected top 30000 highest-forgetting and top 30000 lowest-forgetting samples.
+Highest forgetting subset size: 30000, Lowest forgetting subset size: 30000
+Training model on high-forgetting subset...
+Starting training for 10 epochs...
+Epoch [1/10] complete: Loss: 0.4499, Accuracy: 86.77%
+Epoch [2/10] complete: Loss: 0.2311, Accuracy: 93.17%
+Epoch [3/10] complete: Loss: 0.1716, Accuracy: 94.99%
+Epoch [4/10] complete: Loss: 0.1337, Accuracy: 96.07%
+Epoch [5/10] complete: Loss: 0.1094, Accuracy: 96.74%
+Epoch [6/10] complete: Loss: 0.0941, Accuracy: 97.18%
+Epoch [7/10] complete: Loss: 0.0786, Accuracy: 97.62%
+Epoch [8/10] complete: Loss: 0.0686, Accuracy: 97.89%
+Epoch [9/10] complete: Loss: 0.0634, Accuracy: 98.07%
+Epoch [10/10] complete: Loss: 0.0523, Accuracy: 98.42%
+Training completed.
+Training model on low-forgetting subset...
+Starting training for 10 epochs...
+Epoch [1/10] complete: Loss: 0.4469, Accuracy: 86.70%
+Epoch [2/10] complete: Loss: 0.2374, Accuracy: 93.03%
+Epoch [3/10] complete: Loss: 0.1718, Accuracy: 94.81%
+Epoch [4/10] complete: Loss: 0.1333, Accuracy: 96.01%
+Epoch [5/10] complete: Loss: 0.1120, Accuracy: 96.55%
+Epoch [6/10] complete: Loss: 0.0967, Accuracy: 97.08%
+Epoch [7/10] complete: Loss: 0.0829, Accuracy: 97.43%
+Epoch [8/10] complete: Loss: 0.0707, Accuracy: 97.78%
+Epoch [9/10] complete: Loss: 0.0659, Accuracy: 97.92%
+Epoch [10/10] complete: Loss: 0.0567, Accuracy: 98.23%
+Training completed.
+Baseline Model Accuracy: 97.01%
+Low Forgetting Model Accuracy: 96.35%
+High Forgetting Model Accuracy: 96.24%
+Applying pruning with ratio 0.2...
+Pruning completed.
+Applying pruning with ratio 0.2...
+Pruning completed.
+Applying pruning with ratio 0.2...
+Pruning completed.
+Pruning accuracy comparison bar plot saved to results/FCNet/MNIST/dr0.5/pr0.2/pruning_accuracy_comparison.png.
+Pruned Baseline Model Accuracy: 97.05%
+Pruned Low Forgetting Model Accuracy: 96.36%
+Pruned High Forgetting Model Accuracy: 96.23%
+Post-Pruning Retraining...
+Initial Test Accuracy: 97.05%
+Post-Pruning Training Epoch [1/10]: Loss: 0.0426, Train Acc: 98.56%, Test Acc: 97.60%
+Post-Pruning Training Epoch [2/10]: Loss: 0.0381, Train Acc: 98.73%, Test Acc: 96.99%
+Post-Pruning Training Epoch [3/10]: Loss: 0.0362, Train Acc: 98.79%, Test Acc: 97.39%
+Post-Pruning Training Epoch [4/10]: Loss: 0.0347, Train Acc: 98.81%, Test Acc: 97.47%
+Post-Pruning Training Epoch [5/10]: Loss: 0.0300, Train Acc: 98.94%, Test Acc: 97.51%
+Post-Pruning Training Epoch [6/10]: Loss: 0.0275, Train Acc: 99.05%, Test Acc: 97.45%
+Post-Pruning Training Epoch [7/10]: Loss: 0.0299, Train Acc: 99.00%, Test Acc: 97.46%
+Post-Pruning Training Epoch [8/10]: Loss: 0.0244, Train Acc: 99.19%, Test Acc: 97.65%
+Post-Pruning Training Epoch [9/10]: Loss: 0.0269, Train Acc: 99.03%, Test Acc: 97.10%
+Post-Pruning Training Epoch [10/10]: Loss: 0.0241, Train Acc: 99.20%, Test Acc: 97.39%
+Initial Test Accuracy: 96.36%
+Post-Pruning Training Epoch [1/10]: Loss: 0.0854, Train Acc: 97.39%, Test Acc: 97.07%
+Post-Pruning Training Epoch [2/10]: Loss: 0.0704, Train Acc: 97.79%, Test Acc: 97.46%
+Post-Pruning Training Epoch [3/10]: Loss: 0.0610, Train Acc: 98.14%, Test Acc: 97.59%
+Post-Pruning Training Epoch [4/10]: Loss: 0.0531, Train Acc: 98.34%, Test Acc: 97.32%
+Post-Pruning Training Epoch [5/10]: Loss: 0.0485, Train Acc: 98.44%, Test Acc: 97.47%
+Post-Pruning Training Epoch [6/10]: Loss: 0.0442, Train Acc: 98.54%, Test Acc: 97.38%
+Post-Pruning Training Epoch [7/10]: Loss: 0.0400, Train Acc: 98.66%, Test Acc: 97.59%
+Post-Pruning Training Epoch [8/10]: Loss: 0.0334, Train Acc: 98.86%, Test Acc: 97.75%
+Post-Pruning Training Epoch [9/10]: Loss: 0.0342, Train Acc: 98.82%, Test Acc: 97.36%
+Post-Pruning Training Epoch [10/10]: Loss: 0.0326, Train Acc: 98.94%, Test Acc: 97.27%
+Initial Test Accuracy: 96.23%
+Post-Pruning Training Epoch [1/10]: Loss: 0.0869, Train Acc: 97.36%, Test Acc: 97.05%
+Post-Pruning Training Epoch [2/10]: Loss: 0.0726, Train Acc: 97.72%, Test Acc: 96.92%
+Post-Pruning Training Epoch [3/10]: Loss: 0.0622, Train Acc: 97.99%, Test Acc: 97.35%
+Post-Pruning Training Epoch [4/10]: Loss: 0.0576, Train Acc: 98.16%, Test Acc: 97.14%
+Post-Pruning Training Epoch [5/10]: Loss: 0.0526, Train Acc: 98.27%, Test Acc: 97.53%
+Post-Pruning Training Epoch [6/10]: Loss: 0.0488, Train Acc: 98.39%, Test Acc: 97.20%
+Post-Pruning Training Epoch [7/10]: Loss: 0.0420, Train Acc: 98.63%, Test Acc: 97.30%
+Post-Pruning Training Epoch [8/10]: Loss: 0.0409, Train Acc: 98.64%, Test Acc: 97.65%
+Post-Pruning Training Epoch [9/10]: Loss: 0.0342, Train Acc: 98.88%, Test Acc: 97.34%
+Post-Pruning Training Epoch [10/10]: Loss: 0.0340, Train Acc: 98.83%, Test Acc: 97.60%
+Post-Pruned Baseline Model Accuracy: 97.39%
+Post-Pruned Low Forgetting Model Accuracy: 97.27%
+Post-Pruned High Forgetting Model Accuracy: 97.60%
+Accuracy results saved to results/FCNet/MNIST/dr0.5/pr0.2/accuracies.csv.
+Post-pruning accuracy plot saved to results/FCNet/MNIST/dr0.5/pr0.2/post_pruning_accuracy.png.
+=============================================================================================================
+Loading precomputed forgetting scores and baseline model...
+Baseline model and forgetting scores loaded.
+Selected top 30000 highest-forgetting and top 30000 lowest-forgetting samples.
+Highest forgetting subset size: 30000, Lowest forgetting subset size: 30000
+Training model on high-forgetting subset...
+Starting training for 10 epochs...
+Epoch [1/10] complete: Loss: 0.4499, Accuracy: 86.77%
+Epoch [2/10] complete: Loss: 0.2311, Accuracy: 93.17%
+Epoch [3/10] complete: Loss: 0.1716, Accuracy: 94.99%
+Epoch [4/10] complete: Loss: 0.1337, Accuracy: 96.07%
+Epoch [5/10] complete: Loss: 0.1094, Accuracy: 96.74%
+Epoch [6/10] complete: Loss: 0.0941, Accuracy: 97.18%
+Epoch [7/10] complete: Loss: 0.0786, Accuracy: 97.62%
+Epoch [8/10] complete: Loss: 0.0686, Accuracy: 97.89%
+Epoch [9/10] complete: Loss: 0.0634, Accuracy: 98.07%
+Epoch [10/10] complete: Loss: 0.0523, Accuracy: 98.42%
+Training completed.
+Training model on low-forgetting subset...
+Starting training for 10 epochs...
+Epoch [1/10] complete: Loss: 0.4469, Accuracy: 86.70%
+Epoch [2/10] complete: Loss: 0.2374, Accuracy: 93.03%
+Epoch [3/10] complete: Loss: 0.1718, Accuracy: 94.81%
+Epoch [4/10] complete: Loss: 0.1333, Accuracy: 96.01%
+Epoch [5/10] complete: Loss: 0.1120, Accuracy: 96.55%
+Epoch [6/10] complete: Loss: 0.0967, Accuracy: 97.08%
+Epoch [7/10] complete: Loss: 0.0829, Accuracy: 97.43%
+Epoch [8/10] complete: Loss: 0.0707, Accuracy: 97.78%
+Epoch [9/10] complete: Loss: 0.0659, Accuracy: 97.92%
+Epoch [10/10] complete: Loss: 0.0567, Accuracy: 98.23%
+Training completed.
+Baseline Model Accuracy: 97.01%
+Low Forgetting Model Accuracy: 96.35%
+High Forgetting Model Accuracy: 96.24%
+Applying pruning with ratio 0.4...
+Pruning completed.
+Applying pruning with ratio 0.4...
+Pruning completed.
+Applying pruning with ratio 0.4...
+Pruning completed.
+Pruning accuracy comparison bar plot saved to results/FCNet/MNIST/dr0.5/pr0.4/pruning_accuracy_comparison.png.
+Pruned Baseline Model Accuracy: 97.05%
+Pruned Low Forgetting Model Accuracy: 96.01%
+Pruned High Forgetting Model Accuracy: 96.08%
+Post-Pruning Retraining...
+Initial Test Accuracy: 97.05%
+Post-Pruning Training Epoch [1/10]: Loss: 0.0421, Train Acc: 98.56%, Test Acc: 97.71%
+Post-Pruning Training Epoch [2/10]: Loss: 0.0394, Train Acc: 98.64%, Test Acc: 97.50%
+Post-Pruning Training Epoch [3/10]: Loss: 0.0352, Train Acc: 98.79%, Test Acc: 97.64%
+Post-Pruning Training Epoch [4/10]: Loss: 0.0367, Train Acc: 98.72%, Test Acc: 97.39%
+Post-Pruning Training Epoch [5/10]: Loss: 0.0299, Train Acc: 99.01%, Test Acc: 97.73%
+Post-Pruning Training Epoch [6/10]: Loss: 0.0267, Train Acc: 99.03%, Test Acc: 97.69%
+Post-Pruning Training Epoch [7/10]: Loss: 0.0287, Train Acc: 99.05%, Test Acc: 97.38%
+Post-Pruning Training Epoch [8/10]: Loss: 0.0246, Train Acc: 99.15%, Test Acc: 97.79%
+Post-Pruning Training Epoch [9/10]: Loss: 0.0245, Train Acc: 99.18%, Test Acc: 97.56%
+Post-Pruning Training Epoch [10/10]: Loss: 0.0225, Train Acc: 99.21%, Test Acc: 97.60%
+Initial Test Accuracy: 96.01%
+Post-Pruning Training Epoch [1/10]: Loss: 0.0863, Train Acc: 97.36%, Test Acc: 97.26%
+Post-Pruning Training Epoch [2/10]: Loss: 0.0700, Train Acc: 97.76%, Test Acc: 97.41%
+Post-Pruning Training Epoch [3/10]: Loss: 0.0596, Train Acc: 98.11%, Test Acc: 97.55%
+Post-Pruning Training Epoch [4/10]: Loss: 0.0534, Train Acc: 98.28%, Test Acc: 97.49%
+Post-Pruning Training Epoch [5/10]: Loss: 0.0470, Train Acc: 98.46%, Test Acc: 97.40%
+Post-Pruning Training Epoch [6/10]: Loss: 0.0429, Train Acc: 98.59%, Test Acc: 97.36%
+Post-Pruning Training Epoch [7/10]: Loss: 0.0389, Train Acc: 98.70%, Test Acc: 97.68%
+Post-Pruning Training Epoch [8/10]: Loss: 0.0348, Train Acc: 98.83%, Test Acc: 97.86%
+Post-Pruning Training Epoch [9/10]: Loss: 0.0342, Train Acc: 98.89%, Test Acc: 97.77%
+Post-Pruning Training Epoch [10/10]: Loss: 0.0295, Train Acc: 98.99%, Test Acc: 97.49%
+Initial Test Accuracy: 96.08%
+Post-Pruning Training Epoch [1/10]: Loss: 0.0865, Train Acc: 97.40%, Test Acc: 96.96%
+Post-Pruning Training Epoch [2/10]: Loss: 0.0735, Train Acc: 97.71%, Test Acc: 96.83%
+Post-Pruning Training Epoch [3/10]: Loss: 0.0627, Train Acc: 97.96%, Test Acc: 97.26%
+Post-Pruning Training Epoch [4/10]: Loss: 0.0573, Train Acc: 98.16%, Test Acc: 97.27%
+Post-Pruning Training Epoch [5/10]: Loss: 0.0518, Train Acc: 98.38%, Test Acc: 97.46%
+Post-Pruning Training Epoch [6/10]: Loss: 0.0490, Train Acc: 98.33%, Test Acc: 97.32%
+Post-Pruning Training Epoch [7/10]: Loss: 0.0433, Train Acc: 98.58%, Test Acc: 97.51%
+Post-Pruning Training Epoch [8/10]: Loss: 0.0401, Train Acc: 98.72%, Test Acc: 97.63%
+Post-Pruning Training Epoch [9/10]: Loss: 0.0356, Train Acc: 98.82%, Test Acc: 97.22%
+Post-Pruning Training Epoch [10/10]: Loss: 0.0351, Train Acc: 98.79%, Test Acc: 97.41%
+Post-Pruned Baseline Model Accuracy: 97.60%
+Post-Pruned Low Forgetting Model Accuracy: 97.49%
+Post-Pruned High Forgetting Model Accuracy: 97.41%
+Accuracy results saved to results/FCNet/MNIST/dr0.5/pr0.4/accuracies.csv.
+Post-pruning accuracy plot saved to results/FCNet/MNIST/dr0.5/pr0.4/post_pruning_accuracy.png.
+=============================================================================================================
+Loading precomputed forgetting scores and baseline model...
+Baseline model and forgetting scores loaded.
+Selected top 30000 highest-forgetting and top 30000 lowest-forgetting samples.
+Highest forgetting subset size: 30000, Lowest forgetting subset size: 30000
+Training model on high-forgetting subset...
+Starting training for 10 epochs...
+Epoch [1/10] complete: Loss: 0.4499, Accuracy: 86.77%
+Epoch [2/10] complete: Loss: 0.2311, Accuracy: 93.17%
+Epoch [3/10] complete: Loss: 0.1716, Accuracy: 94.99%
+Epoch [4/10] complete: Loss: 0.1337, Accuracy: 96.07%
+Epoch [5/10] complete: Loss: 0.1094, Accuracy: 96.74%
+Epoch [6/10] complete: Loss: 0.0941, Accuracy: 97.18%
+Epoch [7/10] complete: Loss: 0.0786, Accuracy: 97.62%
+Epoch [8/10] complete: Loss: 0.0686, Accuracy: 97.89%
+Epoch [9/10] complete: Loss: 0.0634, Accuracy: 98.07%
+Epoch [10/10] complete: Loss: 0.0523, Accuracy: 98.42%
+Training completed.
+Training model on low-forgetting subset...
+Starting training for 10 epochs...
+Epoch [1/10] complete: Loss: 0.4469, Accuracy: 86.70%
+Epoch [2/10] complete: Loss: 0.2374, Accuracy: 93.03%
+Epoch [3/10] complete: Loss: 0.1718, Accuracy: 94.81%
+Epoch [4/10] complete: Loss: 0.1333, Accuracy: 96.01%
+Epoch [5/10] complete: Loss: 0.1120, Accuracy: 96.55%
+Epoch [6/10] complete: Loss: 0.0967, Accuracy: 97.08%
+Epoch [7/10] complete: Loss: 0.0829, Accuracy: 97.43%
+Epoch [8/10] complete: Loss: 0.0707, Accuracy: 97.78%
+Epoch [9/10] complete: Loss: 0.0659, Accuracy: 97.92%
+Epoch [10/10] complete: Loss: 0.0567, Accuracy: 98.23%
+Training completed.
+Baseline Model Accuracy: 97.01%
+Low Forgetting Model Accuracy: 96.35%
+High Forgetting Model Accuracy: 96.24%
+Applying pruning with ratio 0.6...
+Pruning completed.
+Applying pruning with ratio 0.6...
+Pruning completed.
+Applying pruning with ratio 0.6...
+Pruning completed.
+Pruning accuracy comparison bar plot saved to results/FCNet/MNIST/dr0.5/pr0.6/pruning_accuracy_comparison.png.
+Pruned Baseline Model Accuracy: 96.24%
+Pruned Low Forgetting Model Accuracy: 94.74%
+Pruned High Forgetting Model Accuracy: 95.08%
+Post-Pruning Retraining...
+Initial Test Accuracy: 96.24%
+Post-Pruning Training Epoch [1/10]: Loss: 0.0431, Train Acc: 98.59%, Test Acc: 97.69%
+Post-Pruning Training Epoch [2/10]: Loss: 0.0403, Train Acc: 98.69%, Test Acc: 97.49%
+Post-Pruning Training Epoch [3/10]: Loss: 0.0357, Train Acc: 98.76%, Test Acc: 97.76%
+Post-Pruning Training Epoch [4/10]: Loss: 0.0341, Train Acc: 98.83%, Test Acc: 97.81%
+Post-Pruning Training Epoch [5/10]: Loss: 0.0292, Train Acc: 99.00%, Test Acc: 97.62%
+Post-Pruning Training Epoch [6/10]: Loss: 0.0294, Train Acc: 99.00%, Test Acc: 97.71%
+Post-Pruning Training Epoch [7/10]: Loss: 0.0262, Train Acc: 99.10%, Test Acc: 97.65%
+Post-Pruning Training Epoch [8/10]: Loss: 0.0249, Train Acc: 99.15%, Test Acc: 97.40%
+Post-Pruning Training Epoch [9/10]: Loss: 0.0245, Train Acc: 99.16%, Test Acc: 97.58%
+Post-Pruning Training Epoch [10/10]: Loss: 0.0249, Train Acc: 99.15%, Test Acc: 97.14%
+Initial Test Accuracy: 94.74%
+Post-Pruning Training Epoch [1/10]: Loss: 0.0873, Train Acc: 97.32%, Test Acc: 97.18%
+Post-Pruning Training Epoch [2/10]: Loss: 0.0709, Train Acc: 97.80%, Test Acc: 97.44%
+Post-Pruning Training Epoch [3/10]: Loss: 0.0611, Train Acc: 98.06%, Test Acc: 97.38%
+Post-Pruning Training Epoch [4/10]: Loss: 0.0523, Train Acc: 98.32%, Test Acc: 97.68%
+Post-Pruning Training Epoch [5/10]: Loss: 0.0477, Train Acc: 98.41%, Test Acc: 97.34%
+Post-Pruning Training Epoch [6/10]: Loss: 0.0453, Train Acc: 98.47%, Test Acc: 97.70%
+Post-Pruning Training Epoch [7/10]: Loss: 0.0401, Train Acc: 98.67%, Test Acc: 97.33%
+Post-Pruning Training Epoch [8/10]: Loss: 0.0355, Train Acc: 98.78%, Test Acc: 97.68%
+Post-Pruning Training Epoch [9/10]: Loss: 0.0351, Train Acc: 98.81%, Test Acc: 97.89%
+Post-Pruning Training Epoch [10/10]: Loss: 0.0308, Train Acc: 98.97%, Test Acc: 97.25%
+Initial Test Accuracy: 95.08%
+Post-Pruning Training Epoch [1/10]: Loss: 0.0867, Train Acc: 97.37%, Test Acc: 97.31%
+Post-Pruning Training Epoch [2/10]: Loss: 0.0724, Train Acc: 97.73%, Test Acc: 96.83%
+Post-Pruning Training Epoch [3/10]: Loss: 0.0629, Train Acc: 98.03%, Test Acc: 97.20%
+Post-Pruning Training Epoch [4/10]: Loss: 0.0574, Train Acc: 98.19%, Test Acc: 97.48%
+Post-Pruning Training Epoch [5/10]: Loss: 0.0514, Train Acc: 98.33%, Test Acc: 97.43%
+Post-Pruning Training Epoch [6/10]: Loss: 0.0483, Train Acc: 98.39%, Test Acc: 97.07%
+Post-Pruning Training Epoch [7/10]: Loss: 0.0420, Train Acc: 98.60%, Test Acc: 97.40%
+Post-Pruning Training Epoch [8/10]: Loss: 0.0401, Train Acc: 98.66%, Test Acc: 97.50%
+Post-Pruning Training Epoch [9/10]: Loss: 0.0354, Train Acc: 98.77%, Test Acc: 97.56%
+Post-Pruning Training Epoch [10/10]: Loss: 0.0349, Train Acc: 98.79%, Test Acc: 97.48%
+Post-Pruned Baseline Model Accuracy: 97.14%
+Post-Pruned Low Forgetting Model Accuracy: 97.25%
+Post-Pruned High Forgetting Model Accuracy: 97.48%
+Accuracy results saved to results/FCNet/MNIST/dr0.5/pr0.6/accuracies.csv.
+Post-pruning accuracy plot saved to results/FCNet/MNIST/dr0.5/pr0.6/post_pruning_accuracy.png.
+=============================================================================================================
+Loading precomputed forgetting scores and baseline model...
+Baseline model and forgetting scores loaded.
+Selected top 30000 highest-forgetting and top 30000 lowest-forgetting samples.
+Highest forgetting subset size: 30000, Lowest forgetting subset size: 30000
+Training model on high-forgetting subset...
+Starting training for 10 epochs...
+Epoch [1/10] complete: Loss: 0.4499, Accuracy: 86.77%
+Epoch [2/10] complete: Loss: 0.2311, Accuracy: 93.17%
+Epoch [3/10] complete: Loss: 0.1716, Accuracy: 94.99%
+Epoch [4/10] complete: Loss: 0.1337, Accuracy: 96.07%
+Epoch [5/10] complete: Loss: 0.1094, Accuracy: 96.74%
+Epoch [6/10] complete: Loss: 0.0941, Accuracy: 97.18%
+Epoch [7/10] complete: Loss: 0.0786, Accuracy: 97.62%
+Epoch [8/10] complete: Loss: 0.0686, Accuracy: 97.89%
+Epoch [9/10] complete: Loss: 0.0634, Accuracy: 98.07%
+Epoch [10/10] complete: Loss: 0.0523, Accuracy: 98.42%
+Training completed.
+Training model on low-forgetting subset...
+Starting training for 10 epochs...
+Epoch [1/10] complete: Loss: 0.4469, Accuracy: 86.70%
+Epoch [2/10] complete: Loss: 0.2374, Accuracy: 93.03%
+Epoch [3/10] complete: Loss: 0.1718, Accuracy: 94.81%
+Epoch [4/10] complete: Loss: 0.1333, Accuracy: 96.01%
+Epoch [5/10] complete: Loss: 0.1120, Accuracy: 96.55%
+Epoch [6/10] complete: Loss: 0.0967, Accuracy: 97.08%
+Epoch [7/10] complete: Loss: 0.0829, Accuracy: 97.43%
+Epoch [8/10] complete: Loss: 0.0707, Accuracy: 97.78%
+Epoch [9/10] complete: Loss: 0.0659, Accuracy: 97.92%
+Epoch [10/10] complete: Loss: 0.0567, Accuracy: 98.23%
+Training completed.
+Baseline Model Accuracy: 97.01%
+Low Forgetting Model Accuracy: 96.35%
+High Forgetting Model Accuracy: 96.24%
+Applying pruning with ratio 0.8...
+Pruning completed.
+Applying pruning with ratio 0.8...
+Pruning completed.
+Applying pruning with ratio 0.8...
+Pruning completed.
+Pruning accuracy comparison bar plot saved to results/FCNet/MNIST/dr0.5/pr0.8/pruning_accuracy_comparison.png.
+Pruned Baseline Model Accuracy: 61.81%
+Pruned Low Forgetting Model Accuracy: 70.09%
+Pruned High Forgetting Model Accuracy: 78.04%
+Post-Pruning Retraining...
+Initial Test Accuracy: 61.81%
+Post-Pruning Training Epoch [1/10]: Loss: 0.0556, Train Acc: 98.33%, Test Acc: 97.50%
+Post-Pruning Training Epoch [2/10]: Loss: 0.0408, Train Acc: 98.63%, Test Acc: 97.29%
+Post-Pruning Training Epoch [3/10]: Loss: 0.0379, Train Acc: 98.73%, Test Acc: 97.48%
+Post-Pruning Training Epoch [4/10]: Loss: 0.0365, Train Acc: 98.75%, Test Acc: 96.89%
+Post-Pruning Training Epoch [5/10]: Loss: 0.0314, Train Acc: 98.92%, Test Acc: 97.66%
+Post-Pruning Training Epoch [6/10]: Loss: 0.0313, Train Acc: 98.93%, Test Acc: 97.21%
+Post-Pruning Training Epoch [7/10]: Loss: 0.0286, Train Acc: 99.03%, Test Acc: 97.43%
+Post-Pruning Training Epoch [8/10]: Loss: 0.0261, Train Acc: 99.11%, Test Acc: 97.72%
+Post-Pruning Training Epoch [9/10]: Loss: 0.0255, Train Acc: 99.16%, Test Acc: 97.34%
+Post-Pruning Training Epoch [10/10]: Loss: 0.0251, Train Acc: 99.15%, Test Acc: 97.24%
+Initial Test Accuracy: 70.09%
+Post-Pruning Training Epoch [1/10]: Loss: 0.0915, Train Acc: 97.32%, Test Acc: 97.25%
+Post-Pruning Training Epoch [2/10]: Loss: 0.0732, Train Acc: 97.72%, Test Acc: 97.53%
+Post-Pruning Training Epoch [3/10]: Loss: 0.0637, Train Acc: 98.00%, Test Acc: 97.18%
+Post-Pruning Training Epoch [4/10]: Loss: 0.0547, Train Acc: 98.25%, Test Acc: 97.56%
+Post-Pruning Training Epoch [5/10]: Loss: 0.0489, Train Acc: 98.41%, Test Acc: 97.31%
+Post-Pruning Training Epoch [6/10]: Loss: 0.0443, Train Acc: 98.58%, Test Acc: 97.66%
+Post-Pruning Training Epoch [7/10]: Loss: 0.0430, Train Acc: 98.56%, Test Acc: 97.60%
+Post-Pruning Training Epoch [8/10]: Loss: 0.0371, Train Acc: 98.74%, Test Acc: 97.80%
+Post-Pruning Training Epoch [9/10]: Loss: 0.0350, Train Acc: 98.87%, Test Acc: 97.68%
+Post-Pruning Training Epoch [10/10]: Loss: 0.0319, Train Acc: 98.94%, Test Acc: 97.47%
+Initial Test Accuracy: 78.04%
+Post-Pruning Training Epoch [1/10]: Loss: 0.0905, Train Acc: 97.26%, Test Acc: 97.05%
+Post-Pruning Training Epoch [2/10]: Loss: 0.0750, Train Acc: 97.65%, Test Acc: 96.89%
+Post-Pruning Training Epoch [3/10]: Loss: 0.0653, Train Acc: 97.96%, Test Acc: 97.13%
+Post-Pruning Training Epoch [4/10]: Loss: 0.0585, Train Acc: 98.15%, Test Acc: 97.16%
+Post-Pruning Training Epoch [5/10]: Loss: 0.0538, Train Acc: 98.25%, Test Acc: 97.58%
+Post-Pruning Training Epoch [6/10]: Loss: 0.0490, Train Acc: 98.42%, Test Acc: 96.94%
+Post-Pruning Training Epoch [7/10]: Loss: 0.0443, Train Acc: 98.52%, Test Acc: 97.41%
+Post-Pruning Training Epoch [8/10]: Loss: 0.0409, Train Acc: 98.66%, Test Acc: 97.57%
+Post-Pruning Training Epoch [9/10]: Loss: 0.0372, Train Acc: 98.73%, Test Acc: 97.52%
+Post-Pruning Training Epoch [10/10]: Loss: 0.0363, Train Acc: 98.78%, Test Acc: 97.25%
+Post-Pruned Baseline Model Accuracy: 97.24%
+Post-Pruned Low Forgetting Model Accuracy: 97.47%
+Post-Pruned High Forgetting Model Accuracy: 97.25%
+Accuracy results saved to results/FCNet/MNIST/dr0.5/pr0.8/accuracies.csv.
+Post-pruning accuracy plot saved to results/FCNet/MNIST/dr0.5/pr0.8/post_pruning_accuracy.png.

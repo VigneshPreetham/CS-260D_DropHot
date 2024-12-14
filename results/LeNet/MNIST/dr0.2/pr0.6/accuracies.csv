@@ -1,0 +1,2 @@
+model,dataset,data_ratio,prune_ratio,epochs,post_epochs,baseline_accuracy,low_scores_accuracy,high_scores_accuracy,pruned_baseline_accuracy,pruned_low_scores_accuracy,pruned_high_scores_accuracy,post_pruned_baseline_accuracy,post_pruned_low_accuracy,post_pruned_high_accuracy
+LeNet,MNIST,0.2,0.6,10,10,98.92,97.97,98.56,93.18,93.53,97.88,98.71,98.84,99.05

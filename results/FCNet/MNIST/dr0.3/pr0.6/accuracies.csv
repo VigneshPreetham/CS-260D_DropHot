@@ -1,0 +1,2 @@
+model,dataset,data_ratio,prune_ratio,epochs,post_epochs,baseline_accuracy,low_scores_accuracy,high_scores_accuracy,pruned_baseline_accuracy,pruned_low_scores_accuracy,pruned_high_scores_accuracy,post_pruned_baseline_accuracy,post_pruned_low_accuracy,post_pruned_high_accuracy
+FCNet,MNIST,0.3,0.6,10,10,97.01,96.2,95.78,96.24,95.57,95.38,97.14,97.32,96.92
