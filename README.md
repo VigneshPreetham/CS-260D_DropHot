@@ -8,7 +8,7 @@ We introduce a novel framework that jointly leverages coreset selection—guided
     * Resnet50
     * LeNet
     * FCNet
-* Our forgeability score implementation coupled with one-shot pruning
+* Our forgettability score implementation coupled with one-shot pruning
 * The results of our experiments (csv file accuracies) on:
     * CIFAR10
     * CIFAR100
