@@ -8,9 +8,12 @@ ing and inference.
 * The models we used to run our experiments
     * Resnet18
     * Resnet50
+    * LeNet
+    * FCNet
 * Our forgeability score implementation coupled with one-shot pruning
 * The results of our experiments (csv file accuracies) on:
     * CIFAR10
     * CIFAR100
+    * MNIST
 * A script that we used to run our experiments
 
