@@ -1,0 +1,2125 @@
+=============================================================================================================
+Files already downloaded and verified
+Files already downloaded and verified
+Loading precomputed forgetting scores and baseline model...
+Baseline model and forgetting scores loaded.
+Selected top 5000 highest-forgetting and top 5000 lowest-forgetting samples.
+Highest forgetting subset size: 5000, Lowest forgetting subset size: 5000
+Training model on high-forgetting subset...
+Starting training for 10 epochs...
+Epoch [1/10] complete: Loss: 4.3559, Accuracy: 5.90%
+Epoch [2/10] complete: Loss: 3.7908, Accuracy: 12.02%
+Epoch [3/10] complete: Loss: 3.4596, Accuracy: 16.68%
+Epoch [4/10] complete: Loss: 3.1492, Accuracy: 21.68%
+Epoch [5/10] complete: Loss: 2.8704, Accuracy: 27.42%
+Epoch [6/10] complete: Loss: 2.4584, Accuracy: 36.22%
+Epoch [7/10] complete: Loss: 2.0757, Accuracy: 43.88%
+Epoch [8/10] complete: Loss: 1.6723, Accuracy: 53.98%
+Epoch [9/10] complete: Loss: 1.3173, Accuracy: 62.34%
+Epoch [10/10] complete: Loss: 0.9554, Accuracy: 72.40%
+Training completed.
+Training model on low-forgetting subset...
+Starting training for 10 epochs...
+Epoch [1/10] complete: Loss: 4.3590, Accuracy: 6.46%
+Epoch [2/10] complete: Loss: 3.7666, Accuracy: 12.08%
+Epoch [3/10] complete: Loss: 3.4695, Accuracy: 16.22%
+Epoch [4/10] complete: Loss: 3.1454, Accuracy: 22.58%
+Epoch [5/10] complete: Loss: 2.7927, Accuracy: 28.64%
+Epoch [6/10] complete: Loss: 2.4091, Accuracy: 36.12%
+Epoch [7/10] complete: Loss: 2.0662, Accuracy: 44.50%
+Epoch [8/10] complete: Loss: 1.6779, Accuracy: 53.08%
+Epoch [9/10] complete: Loss: 1.2247, Accuracy: 64.70%
+Epoch [10/10] complete: Loss: 1.0125, Accuracy: 70.78%
+Training completed.
+Baseline Model Accuracy: 34.56%
+Low Forgetting Model Accuracy: 18.75%
+High Forgetting Model Accuracy: 17.23%
+Applying pruning with ratio 0.0...
+Pruning completed.
+Applying pruning with ratio 0.0...
+Pruning completed.
+Applying pruning with ratio 0.0...
+Pruning completed.
+Pruning accuracy comparison bar plot saved to results/resnet18/CIFAR100/dr0.1/pr0.0/pruning_accuracy_comparison.png.
+Pruned Baseline Model Accuracy: 34.56%
+Pruned Low Forgetting Model Accuracy: 18.75%
+Pruned High Forgetting Model Accuracy: 17.23%
+Post-Pruning Retraining...
+Initial Test Accuracy: 34.56%
+Post-Pruning Training Epoch [1/10]: Loss: 2.7815, Train Acc: 30.69%, Test Acc: 35.86%
+Post-Pruning Training Epoch [2/10]: Loss: 2.1386, Train Acc: 42.83%, Test Acc: 38.75%
+Post-Pruning Training Epoch [3/10]: Loss: 1.8001, Train Acc: 50.03%, Test Acc: 40.86%
+Post-Pruning Training Epoch [4/10]: Loss: 1.5208, Train Acc: 56.78%, Test Acc: 41.42%
+Post-Pruning Training Epoch [5/10]: Loss: 1.2417, Train Acc: 63.88%, Test Acc: 41.46%
+Post-Pruning Training Epoch [6/10]: Loss: 0.9884, Train Acc: 70.50%, Test Acc: 41.74%
+Post-Pruning Training Epoch [7/10]: Loss: 0.7528, Train Acc: 77.03%, Test Acc: 41.30%
+Post-Pruning Training Epoch [8/10]: Loss: 0.5571, Train Acc: 82.80%, Test Acc: 40.69%
+Post-Pruning Training Epoch [9/10]: Loss: 0.4325, Train Acc: 86.38%, Test Acc: 41.27%
+Post-Pruning Training Epoch [10/10]: Loss: 0.3406, Train Acc: 89.19%, Test Acc: 40.71%
+Initial Test Accuracy: 18.75%
+Post-Pruning Training Epoch [1/10]: Loss: 2.9092, Train Acc: 28.62%, Test Acc: 32.86%
+Post-Pruning Training Epoch [2/10]: Loss: 2.3647, Train Acc: 38.17%, Test Acc: 38.16%
+Post-Pruning Training Epoch [3/10]: Loss: 2.0222, Train Acc: 45.59%, Test Acc: 40.44%
+Post-Pruning Training Epoch [4/10]: Loss: 1.7355, Train Acc: 52.09%, Test Acc: 42.16%
+Post-Pruning Training Epoch [5/10]: Loss: 1.4443, Train Acc: 58.82%, Test Acc: 43.73%
+Post-Pruning Training Epoch [6/10]: Loss: 1.1603, Train Acc: 66.03%, Test Acc: 43.50%
+Post-Pruning Training Epoch [7/10]: Loss: 0.9013, Train Acc: 73.04%, Test Acc: 43.27%
+Post-Pruning Training Epoch [8/10]: Loss: 0.6761, Train Acc: 79.23%, Test Acc: 43.86%
+Post-Pruning Training Epoch [9/10]: Loss: 0.5056, Train Acc: 84.06%, Test Acc: 43.04%
+Post-Pruning Training Epoch [10/10]: Loss: 0.4059, Train Acc: 87.11%, Test Acc: 42.71%
+Initial Test Accuracy: 17.23%
+Post-Pruning Training Epoch [1/10]: Loss: 2.9607, Train Acc: 27.65%, Test Acc: 30.65%
+Post-Pruning Training Epoch [2/10]: Loss: 2.3909, Train Acc: 37.68%, Test Acc: 38.00%
+Post-Pruning Training Epoch [3/10]: Loss: 2.0447, Train Acc: 45.15%, Test Acc: 40.46%
+Post-Pruning Training Epoch [4/10]: Loss: 1.7442, Train Acc: 52.02%, Test Acc: 42.68%
+Post-Pruning Training Epoch [5/10]: Loss: 1.4578, Train Acc: 58.35%, Test Acc: 43.08%
+Post-Pruning Training Epoch [6/10]: Loss: 1.1820, Train Acc: 65.17%, Test Acc: 43.52%
+Post-Pruning Training Epoch [7/10]: Loss: 0.9018, Train Acc: 72.79%, Test Acc: 43.99%
+Post-Pruning Training Epoch [8/10]: Loss: 0.6788, Train Acc: 79.04%, Test Acc: 44.04%
+Post-Pruning Training Epoch [9/10]: Loss: 0.5173, Train Acc: 83.82%, Test Acc: 43.46%
+Post-Pruning Training Epoch [10/10]: Loss: 0.4003, Train Acc: 87.20%, Test Acc: 43.62%
+Post-Pruned Baseline Model Accuracy: 40.71%
+Post-Pruned Low Forgetting Model Accuracy: 42.71%
+Post-Pruned High Forgetting Model Accuracy: 43.62%
+Accuracy results saved to results/resnet18/CIFAR100/dr0.1/pr0.0/accuracies.csv.
+Post-pruning accuracy plot saved to results/resnet18/CIFAR100/dr0.1/pr0.0/post_pruning_accuracy.png.
+=============================================================================================================
+Files already downloaded and verified
+Files already downloaded and verified
+Loading precomputed forgetting scores and baseline model...
+Baseline model and forgetting scores loaded.
+Selected top 5000 highest-forgetting and top 5000 lowest-forgetting samples.
+Highest forgetting subset size: 5000, Lowest forgetting subset size: 5000
+Training model on high-forgetting subset...
+Starting training for 10 epochs...
+Epoch [1/10] complete: Loss: 4.3649, Accuracy: 5.94%
+Epoch [2/10] complete: Loss: 3.8269, Accuracy: 11.26%
+Epoch [3/10] complete: Loss: 3.4945, Accuracy: 16.22%
+Epoch [4/10] complete: Loss: 3.2167, Accuracy: 20.52%
+Epoch [5/10] complete: Loss: 2.8736, Accuracy: 27.46%
+Epoch [6/10] complete: Loss: 2.4993, Accuracy: 35.84%
+Epoch [7/10] complete: Loss: 2.1456, Accuracy: 42.04%
+Epoch [8/10] complete: Loss: 1.7207, Accuracy: 51.42%
+Epoch [9/10] complete: Loss: 1.3027, Accuracy: 63.30%
+Epoch [10/10] complete: Loss: 1.0137, Accuracy: 71.52%
+Training completed.
+Training model on low-forgetting subset...
+Starting training for 10 epochs...
+Epoch [1/10] complete: Loss: 4.3464, Accuracy: 6.80%
+Epoch [2/10] complete: Loss: 3.7704, Accuracy: 12.30%
+Epoch [3/10] complete: Loss: 3.4289, Accuracy: 17.52%
+Epoch [4/10] complete: Loss: 3.1012, Accuracy: 23.58%
+Epoch [5/10] complete: Loss: 2.6990, Accuracy: 30.46%
+Epoch [6/10] complete: Loss: 2.3434, Accuracy: 37.10%
+Epoch [7/10] complete: Loss: 1.9876, Accuracy: 46.28%
+Epoch [8/10] complete: Loss: 1.5484, Accuracy: 56.14%
+Epoch [9/10] complete: Loss: 1.1290, Accuracy: 67.54%
+Epoch [10/10] complete: Loss: 0.8842, Accuracy: 74.40%
+Training completed.
+Baseline Model Accuracy: 34.56%
+Low Forgetting Model Accuracy: 17.93%
+High Forgetting Model Accuracy: 18.26%
+Applying pruning with ratio 0.2...
+Pruning completed.
+Applying pruning with ratio 0.2...
+Pruning completed.
+Applying pruning with ratio 0.2...
+Pruning completed.
+Pruning accuracy comparison bar plot saved to results/resnet18/CIFAR100/dr0.1/pr0.2/pruning_accuracy_comparison.png.
+Pruned Baseline Model Accuracy: 34.59%
+Pruned Low Forgetting Model Accuracy: 18.00%
+Pruned High Forgetting Model Accuracy: 18.30%
+Post-Pruning Retraining...
+Initial Test Accuracy: 34.59%
+Post-Pruning Training Epoch [1/10]: Loss: 2.7871, Train Acc: 30.63%, Test Acc: 35.56%
+Post-Pruning Training Epoch [2/10]: Loss: 2.1446, Train Acc: 42.66%, Test Acc: 38.40%
+Post-Pruning Training Epoch [3/10]: Loss: 1.8126, Train Acc: 49.95%, Test Acc: 41.42%
+Post-Pruning Training Epoch [4/10]: Loss: 1.5247, Train Acc: 56.69%, Test Acc: 41.84%
+Post-Pruning Training Epoch [5/10]: Loss: 1.2408, Train Acc: 63.71%, Test Acc: 41.31%
+Post-Pruning Training Epoch [6/10]: Loss: 0.9772, Train Acc: 70.66%, Test Acc: 41.62%
+Post-Pruning Training Epoch [7/10]: Loss: 0.7509, Train Acc: 77.05%, Test Acc: 41.06%
+Post-Pruning Training Epoch [8/10]: Loss: 0.5565, Train Acc: 82.71%, Test Acc: 41.14%
+Post-Pruning Training Epoch [9/10]: Loss: 0.4339, Train Acc: 86.50%, Test Acc: 41.03%
+Post-Pruning Training Epoch [10/10]: Loss: 0.3446, Train Acc: 89.09%, Test Acc: 40.66%
+Initial Test Accuracy: 18.00%
+Post-Pruning Training Epoch [1/10]: Loss: 2.9400, Train Acc: 28.22%, Test Acc: 32.48%
+Post-Pruning Training Epoch [2/10]: Loss: 2.3758, Train Acc: 38.18%, Test Acc: 36.67%
+Post-Pruning Training Epoch [3/10]: Loss: 2.0255, Train Acc: 45.59%, Test Acc: 40.12%
+Post-Pruning Training Epoch [4/10]: Loss: 1.7326, Train Acc: 52.00%, Test Acc: 40.96%
+Post-Pruning Training Epoch [5/10]: Loss: 1.4357, Train Acc: 59.04%, Test Acc: 44.13%
+Post-Pruning Training Epoch [6/10]: Loss: 1.1553, Train Acc: 66.13%, Test Acc: 42.83%
+Post-Pruning Training Epoch [7/10]: Loss: 0.8940, Train Acc: 73.19%, Test Acc: 43.70%
+Post-Pruning Training Epoch [8/10]: Loss: 0.6778, Train Acc: 79.15%, Test Acc: 43.16%
+Post-Pruning Training Epoch [9/10]: Loss: 0.5132, Train Acc: 83.73%, Test Acc: 43.56%
+Post-Pruning Training Epoch [10/10]: Loss: 0.3972, Train Acc: 87.38%, Test Acc: 43.68%
+Initial Test Accuracy: 18.30%
+Post-Pruning Training Epoch [1/10]: Loss: 2.9694, Train Acc: 27.13%, Test Acc: 28.47%
+Post-Pruning Training Epoch [2/10]: Loss: 2.4086, Train Acc: 37.39%, Test Acc: 36.56%
+Post-Pruning Training Epoch [3/10]: Loss: 2.0650, Train Acc: 44.66%, Test Acc: 40.17%
+Post-Pruning Training Epoch [4/10]: Loss: 1.7515, Train Acc: 51.73%, Test Acc: 41.28%
+Post-Pruning Training Epoch [5/10]: Loss: 1.4658, Train Acc: 58.62%, Test Acc: 43.64%
+Post-Pruning Training Epoch [6/10]: Loss: 1.1778, Train Acc: 65.75%, Test Acc: 43.82%
+Post-Pruning Training Epoch [7/10]: Loss: 0.9080, Train Acc: 72.76%, Test Acc: 43.24%
+Post-Pruning Training Epoch [8/10]: Loss: 0.6823, Train Acc: 79.07%, Test Acc: 43.10%
+Post-Pruning Training Epoch [9/10]: Loss: 0.5126, Train Acc: 83.91%, Test Acc: 42.98%
+Post-Pruning Training Epoch [10/10]: Loss: 0.4083, Train Acc: 86.85%, Test Acc: 42.80%
+Post-Pruned Baseline Model Accuracy: 40.66%
+Post-Pruned Low Forgetting Model Accuracy: 43.68%
+Post-Pruned High Forgetting Model Accuracy: 42.80%
+Accuracy results saved to results/resnet18/CIFAR100/dr0.1/pr0.2/accuracies.csv.
+Post-pruning accuracy plot saved to results/resnet18/CIFAR100/dr0.1/pr0.2/post_pruning_accuracy.png.
+=============================================================================================================
+Files already downloaded and verified
+Files already downloaded and verified
+Loading precomputed forgetting scores and baseline model...
+Baseline model and forgetting scores loaded.
+Selected top 5000 highest-forgetting and top 5000 lowest-forgetting samples.
+Highest forgetting subset size: 5000, Lowest forgetting subset size: 5000
+Training model on high-forgetting subset...
+Starting training for 10 epochs...
+Epoch [1/10] complete: Loss: 4.3596, Accuracy: 5.52%
+Epoch [2/10] complete: Loss: 3.8003, Accuracy: 11.18%
+Epoch [3/10] complete: Loss: 3.4688, Accuracy: 16.08%
+Epoch [4/10] complete: Loss: 3.1656, Accuracy: 21.32%
+Epoch [5/10] complete: Loss: 2.8345, Accuracy: 27.92%
+Epoch [6/10] complete: Loss: 2.4523, Accuracy: 34.70%
+Epoch [7/10] complete: Loss: 2.1128, Accuracy: 44.02%
+Epoch [8/10] complete: Loss: 1.6545, Accuracy: 53.64%
+Epoch [9/10] complete: Loss: 1.2578, Accuracy: 64.24%
+Epoch [10/10] complete: Loss: 0.9815, Accuracy: 71.50%
+Training completed.
+Training model on low-forgetting subset...
+Starting training for 10 epochs...
+Epoch [1/10] complete: Loss: 4.3094, Accuracy: 6.86%
+Epoch [2/10] complete: Loss: 3.7446, Accuracy: 12.32%
+Epoch [3/10] complete: Loss: 3.4235, Accuracy: 17.44%
+Epoch [4/10] complete: Loss: 3.0737, Accuracy: 23.66%
+Epoch [5/10] complete: Loss: 2.7123, Accuracy: 29.92%
+Epoch [6/10] complete: Loss: 2.3268, Accuracy: 37.46%
+Epoch [7/10] complete: Loss: 1.9316, Accuracy: 46.82%
+Epoch [8/10] complete: Loss: 1.5578, Accuracy: 55.96%
+Epoch [9/10] complete: Loss: 1.1684, Accuracy: 65.86%
+Epoch [10/10] complete: Loss: 0.8595, Accuracy: 74.46%
+Training completed.
+Baseline Model Accuracy: 34.56%
+Low Forgetting Model Accuracy: 19.12%
+High Forgetting Model Accuracy: 18.08%
+Applying pruning with ratio 0.4...
+Pruning completed.
+Applying pruning with ratio 0.4...
+Pruning completed.
+Applying pruning with ratio 0.4...
+Pruning completed.
+Pruning accuracy comparison bar plot saved to results/resnet18/CIFAR100/dr0.1/pr0.4/pruning_accuracy_comparison.png.
+Pruned Baseline Model Accuracy: 32.95%
+Pruned Low Forgetting Model Accuracy: 15.01%
+Pruned High Forgetting Model Accuracy: 14.76%
+Post-Pruning Retraining...
+Initial Test Accuracy: 32.95%
+Post-Pruning Training Epoch [1/10]: Loss: 2.7863, Train Acc: 30.37%, Test Acc: 35.11%
+Post-Pruning Training Epoch [2/10]: Loss: 2.1230, Train Acc: 42.92%, Test Acc: 38.99%
+Post-Pruning Training Epoch [3/10]: Loss: 1.7984, Train Acc: 50.13%, Test Acc: 40.83%
+Post-Pruning Training Epoch [4/10]: Loss: 1.5178, Train Acc: 56.86%, Test Acc: 41.95%
+Post-Pruning Training Epoch [5/10]: Loss: 1.2356, Train Acc: 64.14%, Test Acc: 41.41%
+Post-Pruning Training Epoch [6/10]: Loss: 0.9872, Train Acc: 70.37%, Test Acc: 42.21%
+Post-Pruning Training Epoch [7/10]: Loss: 0.7494, Train Acc: 76.96%, Test Acc: 41.46%
+Post-Pruning Training Epoch [8/10]: Loss: 0.5619, Train Acc: 82.61%, Test Acc: 42.10%
+Post-Pruning Training Epoch [9/10]: Loss: 0.4312, Train Acc: 86.54%, Test Acc: 41.32%
+Post-Pruning Training Epoch [10/10]: Loss: 0.3457, Train Acc: 89.03%, Test Acc: 41.19%
+Initial Test Accuracy: 15.01%
+Post-Pruning Training Epoch [1/10]: Loss: 2.9105, Train Acc: 28.46%, Test Acc: 33.11%
+Post-Pruning Training Epoch [2/10]: Loss: 2.3682, Train Acc: 38.55%, Test Acc: 36.85%
+Post-Pruning Training Epoch [3/10]: Loss: 2.0209, Train Acc: 45.58%, Test Acc: 40.35%
+Post-Pruning Training Epoch [4/10]: Loss: 1.7331, Train Acc: 52.32%, Test Acc: 42.14%
+Post-Pruning Training Epoch [5/10]: Loss: 1.4386, Train Acc: 59.02%, Test Acc: 43.54%
+Post-Pruning Training Epoch [6/10]: Loss: 1.1574, Train Acc: 65.93%, Test Acc: 44.19%
+Post-Pruning Training Epoch [7/10]: Loss: 0.9040, Train Acc: 72.64%, Test Acc: 44.10%
+Post-Pruning Training Epoch [8/10]: Loss: 0.6658, Train Acc: 79.52%, Test Acc: 44.38%
+Post-Pruning Training Epoch [9/10]: Loss: 0.5060, Train Acc: 84.12%, Test Acc: 44.06%
+Post-Pruning Training Epoch [10/10]: Loss: 0.4024, Train Acc: 87.21%, Test Acc: 44.07%
+Initial Test Accuracy: 14.76%
+Post-Pruning Training Epoch [1/10]: Loss: 2.9710, Train Acc: 27.05%, Test Acc: 26.39%
+Post-Pruning Training Epoch [2/10]: Loss: 2.3933, Train Acc: 37.75%, Test Acc: 38.22%
+Post-Pruning Training Epoch [3/10]: Loss: 2.0456, Train Acc: 44.96%, Test Acc: 38.52%
+Post-Pruning Training Epoch [4/10]: Loss: 1.7479, Train Acc: 51.81%, Test Acc: 40.18%
+Post-Pruning Training Epoch [5/10]: Loss: 1.4573, Train Acc: 58.55%, Test Acc: 43.45%
+Post-Pruning Training Epoch [6/10]: Loss: 1.1685, Train Acc: 65.71%, Test Acc: 43.34%
+Post-Pruning Training Epoch [7/10]: Loss: 0.9021, Train Acc: 72.80%, Test Acc: 42.87%
+Post-Pruning Training Epoch [8/10]: Loss: 0.6689, Train Acc: 79.39%, Test Acc: 43.86%
+Post-Pruning Training Epoch [9/10]: Loss: 0.5115, Train Acc: 83.91%, Test Acc: 42.45%
+Post-Pruning Training Epoch [10/10]: Loss: 0.3972, Train Acc: 87.18%, Test Acc: 43.58%
+Post-Pruned Baseline Model Accuracy: 41.19%
+Post-Pruned Low Forgetting Model Accuracy: 44.07%
+Post-Pruned High Forgetting Model Accuracy: 43.58%
+Accuracy results saved to results/resnet18/CIFAR100/dr0.1/pr0.4/accuracies.csv.
+Post-pruning accuracy plot saved to results/resnet18/CIFAR100/dr0.1/pr0.4/post_pruning_accuracy.png.
+=============================================================================================================
+Files already downloaded and verified
+Files already downloaded and verified
+Loading precomputed forgetting scores and baseline model...
+Baseline model and forgetting scores loaded.
+Selected top 5000 highest-forgetting and top 5000 lowest-forgetting samples.
+Highest forgetting subset size: 5000, Lowest forgetting subset size: 5000
+Training model on high-forgetting subset...
+Starting training for 10 epochs...
+Epoch [1/10] complete: Loss: 4.3575, Accuracy: 5.50%
+Epoch [2/10] complete: Loss: 3.7849, Accuracy: 11.80%
+Epoch [3/10] complete: Loss: 3.4190, Accuracy: 17.12%
+Epoch [4/10] complete: Loss: 3.1026, Accuracy: 22.90%
+Epoch [5/10] complete: Loss: 2.7960, Accuracy: 28.36%
+Epoch [6/10] complete: Loss: 2.4036, Accuracy: 36.96%
+Epoch [7/10] complete: Loss: 2.0070, Accuracy: 46.46%
+Epoch [8/10] complete: Loss: 1.6346, Accuracy: 53.26%
+Epoch [9/10] complete: Loss: 1.1756, Accuracy: 65.74%
+Epoch [10/10] complete: Loss: 0.8392, Accuracy: 75.86%
+Training completed.
+Training model on low-forgetting subset...
+Starting training for 10 epochs...
+Epoch [1/10] complete: Loss: 4.3473, Accuracy: 6.40%
+Epoch [2/10] complete: Loss: 3.7666, Accuracy: 12.56%
+Epoch [3/10] complete: Loss: 3.4359, Accuracy: 16.98%
+Epoch [4/10] complete: Loss: 3.1096, Accuracy: 22.84%
+Epoch [5/10] complete: Loss: 2.7281, Accuracy: 30.04%
+Epoch [6/10] complete: Loss: 2.3335, Accuracy: 38.58%
+Epoch [7/10] complete: Loss: 1.9831, Accuracy: 46.22%
+Epoch [8/10] complete: Loss: 1.5656, Accuracy: 56.12%
+Epoch [9/10] complete: Loss: 1.1445, Accuracy: 67.72%
+Epoch [10/10] complete: Loss: 1.0368, Accuracy: 70.42%
+Training completed.
+Baseline Model Accuracy: 34.56%
+Low Forgetting Model Accuracy: 18.65%
+High Forgetting Model Accuracy: 17.23%
+Applying pruning with ratio 0.6...
+Pruning completed.
+Applying pruning with ratio 0.6...
+Pruning completed.
+Applying pruning with ratio 0.6...
+Pruning completed.
+Pruning accuracy comparison bar plot saved to results/resnet18/CIFAR100/dr0.1/pr0.6/pruning_accuracy_comparison.png.
+Pruned Baseline Model Accuracy: 24.67%
+Pruned Low Forgetting Model Accuracy: 7.47%
+Pruned High Forgetting Model Accuracy: 5.29%
+Post-Pruning Retraining...
+Initial Test Accuracy: 24.67%
+Post-Pruning Training Epoch [1/10]: Loss: 2.8195, Train Acc: 29.92%, Test Acc: 35.58%
+Post-Pruning Training Epoch [2/10]: Loss: 2.1376, Train Acc: 42.62%, Test Acc: 38.59%
+Post-Pruning Training Epoch [3/10]: Loss: 1.8026, Train Acc: 50.13%, Test Acc: 41.23%
+Post-Pruning Training Epoch [4/10]: Loss: 1.5160, Train Acc: 57.09%, Test Acc: 41.92%
+Post-Pruning Training Epoch [5/10]: Loss: 1.2350, Train Acc: 64.05%, Test Acc: 41.66%
+Post-Pruning Training Epoch [6/10]: Loss: 0.9664, Train Acc: 71.04%, Test Acc: 41.66%
+Post-Pruning Training Epoch [7/10]: Loss: 0.7341, Train Acc: 77.47%, Test Acc: 42.13%
+Post-Pruning Training Epoch [8/10]: Loss: 0.5366, Train Acc: 83.38%, Test Acc: 41.47%
+Post-Pruning Training Epoch [9/10]: Loss: 0.4307, Train Acc: 86.48%, Test Acc: 41.75%
+Post-Pruning Training Epoch [10/10]: Loss: 0.3346, Train Acc: 89.40%, Test Acc: 41.71%
+Initial Test Accuracy: 7.47%
+Post-Pruning Training Epoch [1/10]: Loss: 2.9781, Train Acc: 27.01%, Test Acc: 31.48%
+Post-Pruning Training Epoch [2/10]: Loss: 2.4171, Train Acc: 37.00%, Test Acc: 36.90%
+Post-Pruning Training Epoch [3/10]: Loss: 2.0620, Train Acc: 44.62%, Test Acc: 40.87%
+Post-Pruning Training Epoch [4/10]: Loss: 1.7667, Train Acc: 51.53%, Test Acc: 41.53%
+Post-Pruning Training Epoch [5/10]: Loss: 1.4893, Train Acc: 57.71%, Test Acc: 44.47%
+Post-Pruning Training Epoch [6/10]: Loss: 1.2002, Train Acc: 64.96%, Test Acc: 43.79%
+Post-Pruning Training Epoch [7/10]: Loss: 0.9397, Train Acc: 71.69%, Test Acc: 44.18%
+Post-Pruning Training Epoch [8/10]: Loss: 0.7171, Train Acc: 77.79%, Test Acc: 44.76%
+Post-Pruning Training Epoch [9/10]: Loss: 0.5359, Train Acc: 82.95%, Test Acc: 44.31%
+Post-Pruning Training Epoch [10/10]: Loss: 0.4144, Train Acc: 86.81%, Test Acc: 44.21%
+Initial Test Accuracy: 5.29%
+Post-Pruning Training Epoch [1/10]: Loss: 2.9894, Train Acc: 26.50%, Test Acc: 29.90%
+Post-Pruning Training Epoch [2/10]: Loss: 2.4136, Train Acc: 37.29%, Test Acc: 37.91%
+Post-Pruning Training Epoch [3/10]: Loss: 2.0631, Train Acc: 44.68%, Test Acc: 40.26%
+Post-Pruning Training Epoch [4/10]: Loss: 1.7726, Train Acc: 51.21%, Test Acc: 41.40%
+Post-Pruning Training Epoch [5/10]: Loss: 1.4858, Train Acc: 58.01%, Test Acc: 43.38%
+Post-Pruning Training Epoch [6/10]: Loss: 1.2027, Train Acc: 64.68%, Test Acc: 43.80%
+Post-Pruning Training Epoch [7/10]: Loss: 0.9280, Train Acc: 72.09%, Test Acc: 44.12%
+Post-Pruning Training Epoch [8/10]: Loss: 0.6998, Train Acc: 78.50%, Test Acc: 43.19%
+Post-Pruning Training Epoch [9/10]: Loss: 0.5335, Train Acc: 83.25%, Test Acc: 43.31%
+Post-Pruning Training Epoch [10/10]: Loss: 0.4185, Train Acc: 86.69%, Test Acc: 43.39%
+Post-Pruned Baseline Model Accuracy: 41.71%
+Post-Pruned Low Forgetting Model Accuracy: 44.21%
+Post-Pruned High Forgetting Model Accuracy: 43.39%
+Accuracy results saved to results/resnet18/CIFAR100/dr0.1/pr0.6/accuracies.csv.
+Post-pruning accuracy plot saved to results/resnet18/CIFAR100/dr0.1/pr0.6/post_pruning_accuracy.png.
+=============================================================================================================
+Files already downloaded and verified
+Files already downloaded and verified
+Loading precomputed forgetting scores and baseline model...
+Baseline model and forgetting scores loaded.
+Selected top 5000 highest-forgetting and top 5000 lowest-forgetting samples.
+Highest forgetting subset size: 5000, Lowest forgetting subset size: 5000
+Training model on high-forgetting subset...
+Starting training for 10 epochs...
+Epoch [1/10] complete: Loss: 4.3598, Accuracy: 5.52%
+Epoch [2/10] complete: Loss: 3.7858, Accuracy: 12.20%
+Epoch [3/10] complete: Loss: 3.4477, Accuracy: 16.48%
+Epoch [4/10] complete: Loss: 3.1531, Accuracy: 21.28%
+Epoch [5/10] complete: Loss: 2.8409, Accuracy: 27.78%
+Epoch [6/10] complete: Loss: 2.4490, Accuracy: 35.42%
+Epoch [7/10] complete: Loss: 2.0500, Accuracy: 44.72%
+Epoch [8/10] complete: Loss: 1.6584, Accuracy: 54.14%
+Epoch [9/10] complete: Loss: 1.2859, Accuracy: 63.58%
+Epoch [10/10] complete: Loss: 0.9312, Accuracy: 72.70%
+Training completed.
+Training model on low-forgetting subset...
+Starting training for 10 epochs...
+Epoch [1/10] complete: Loss: 4.3464, Accuracy: 6.28%
+Epoch [2/10] complete: Loss: 3.7859, Accuracy: 12.42%
+Epoch [3/10] complete: Loss: 3.4148, Accuracy: 17.72%
+Epoch [4/10] complete: Loss: 3.0965, Accuracy: 22.68%
+Epoch [5/10] complete: Loss: 2.7040, Accuracy: 29.84%
+Epoch [6/10] complete: Loss: 2.3536, Accuracy: 37.42%
+Epoch [7/10] complete: Loss: 1.9898, Accuracy: 45.38%
+Epoch [8/10] complete: Loss: 1.5165, Accuracy: 57.70%
+Epoch [9/10] complete: Loss: 1.2532, Accuracy: 63.08%
+Epoch [10/10] complete: Loss: 0.8418, Accuracy: 76.16%
+Training completed.
+Baseline Model Accuracy: 34.56%
+Low Forgetting Model Accuracy: 18.04%
+High Forgetting Model Accuracy: 18.29%
+Applying pruning with ratio 0.8...
+Pruning completed.
+Applying pruning with ratio 0.8...
+Pruning completed.
+Applying pruning with ratio 0.8...
+Pruning completed.
+Pruning accuracy comparison bar plot saved to results/resnet18/CIFAR100/dr0.1/pr0.8/pruning_accuracy_comparison.png.
+Pruned Baseline Model Accuracy: 3.67%
+Pruned Low Forgetting Model Accuracy: 1.00%
+Pruned High Forgetting Model Accuracy: 1.85%
+Post-Pruning Retraining...
+Initial Test Accuracy: 3.67%
+Post-Pruning Training Epoch [1/10]: Loss: 2.9358, Train Acc: 27.28%, Test Acc: 34.97%
+Post-Pruning Training Epoch [2/10]: Loss: 2.2243, Train Acc: 40.75%, Test Acc: 38.89%
+Post-Pruning Training Epoch [3/10]: Loss: 1.8885, Train Acc: 48.37%, Test Acc: 41.10%
+Post-Pruning Training Epoch [4/10]: Loss: 1.6052, Train Acc: 54.92%, Test Acc: 43.80%
+Post-Pruning Training Epoch [5/10]: Loss: 1.3162, Train Acc: 61.80%, Test Acc: 43.04%
+Post-Pruning Training Epoch [6/10]: Loss: 1.0429, Train Acc: 68.81%, Test Acc: 43.94%
+Post-Pruning Training Epoch [7/10]: Loss: 0.8148, Train Acc: 75.15%, Test Acc: 43.07%
+Post-Pruning Training Epoch [8/10]: Loss: 0.5892, Train Acc: 81.53%, Test Acc: 42.59%
+Post-Pruning Training Epoch [9/10]: Loss: 0.4555, Train Acc: 85.56%, Test Acc: 42.41%
+Post-Pruning Training Epoch [10/10]: Loss: 0.3668, Train Acc: 88.30%, Test Acc: 42.53%
+Initial Test Accuracy: 1.00%
+Post-Pruning Training Epoch [1/10]: Loss: 3.0596, Train Acc: 25.03%, Test Acc: 30.97%
+Post-Pruning Training Epoch [2/10]: Loss: 2.4497, Train Acc: 36.38%, Test Acc: 37.44%
+Post-Pruning Training Epoch [3/10]: Loss: 2.0923, Train Acc: 43.68%, Test Acc: 41.01%
+Post-Pruning Training Epoch [4/10]: Loss: 1.8094, Train Acc: 50.32%, Test Acc: 43.51%
+Post-Pruning Training Epoch [5/10]: Loss: 1.5274, Train Acc: 56.81%, Test Acc: 45.30%
+Post-Pruning Training Epoch [6/10]: Loss: 1.2542, Train Acc: 63.55%, Test Acc: 44.97%
+Post-Pruning Training Epoch [7/10]: Loss: 0.9970, Train Acc: 69.96%, Test Acc: 44.82%
+Post-Pruning Training Epoch [8/10]: Loss: 0.7544, Train Acc: 76.81%, Test Acc: 44.75%
+Post-Pruning Training Epoch [9/10]: Loss: 0.5619, Train Acc: 82.37%, Test Acc: 44.79%
+Post-Pruning Training Epoch [10/10]: Loss: 0.4273, Train Acc: 86.24%, Test Acc: 45.02%
+Initial Test Accuracy: 1.85%
+Post-Pruning Training Epoch [1/10]: Loss: 3.0945, Train Acc: 24.35%, Test Acc: 26.24%
+Post-Pruning Training Epoch [2/10]: Loss: 2.4814, Train Acc: 35.58%, Test Acc: 37.08%
+Post-Pruning Training Epoch [3/10]: Loss: 2.1152, Train Acc: 43.43%, Test Acc: 38.86%
+Post-Pruning Training Epoch [4/10]: Loss: 1.8250, Train Acc: 50.21%, Test Acc: 41.89%
+Post-Pruning Training Epoch [5/10]: Loss: 1.5498, Train Acc: 56.33%, Test Acc: 43.71%
+Post-Pruning Training Epoch [6/10]: Loss: 1.2808, Train Acc: 62.83%, Test Acc: 45.03%
+Post-Pruning Training Epoch [7/10]: Loss: 1.0161, Train Acc: 70.02%, Test Acc: 45.20%
+Post-Pruning Training Epoch [8/10]: Loss: 0.7733, Train Acc: 76.51%, Test Acc: 44.93%
+Post-Pruning Training Epoch [9/10]: Loss: 0.5830, Train Acc: 81.73%, Test Acc: 43.69%
+Post-Pruning Training Epoch [10/10]: Loss: 0.4488, Train Acc: 85.73%, Test Acc: 43.92%
+Post-Pruned Baseline Model Accuracy: 42.53%
+Post-Pruned Low Forgetting Model Accuracy: 45.02%
+Post-Pruned High Forgetting Model Accuracy: 43.92%
+Accuracy results saved to results/resnet18/CIFAR100/dr0.1/pr0.8/accuracies.csv.
+Post-pruning accuracy plot saved to results/resnet18/CIFAR100/dr0.1/pr0.8/post_pruning_accuracy.png.
+=============================================================================================================
+Files already downloaded and verified
+Files already downloaded and verified
+Loading precomputed forgetting scores and baseline model...
+Baseline model and forgetting scores loaded.
+Selected top 10000 highest-forgetting and top 10000 lowest-forgetting samples.
+Highest forgetting subset size: 10000, Lowest forgetting subset size: 10000
+Training model on high-forgetting subset...
+Starting training for 10 epochs...
+Epoch [1/10] complete: Loss: 4.1268, Accuracy: 8.50%
+Epoch [2/10] complete: Loss: 3.5259, Accuracy: 15.85%
+Epoch [3/10] complete: Loss: 3.1688, Accuracy: 21.19%
+Epoch [4/10] complete: Loss: 2.8010, Accuracy: 28.66%
+Epoch [5/10] complete: Loss: 2.4637, Accuracy: 35.17%
+Epoch [6/10] complete: Loss: 2.1505, Accuracy: 41.77%
+Epoch [7/10] complete: Loss: 1.7706, Accuracy: 50.58%
+Epoch [8/10] complete: Loss: 1.4586, Accuracy: 57.34%
+Epoch [9/10] complete: Loss: 1.0980, Accuracy: 67.36%
+Epoch [10/10] complete: Loss: 0.7869, Accuracy: 76.37%
+Training completed.
+Training model on low-forgetting subset...
+Starting training for 10 epochs...
+Epoch [1/10] complete: Loss: 4.1183, Accuracy: 8.00%
+Epoch [2/10] complete: Loss: 3.5845, Accuracy: 14.62%
+Epoch [3/10] complete: Loss: 3.2511, Accuracy: 20.14%
+Epoch [4/10] complete: Loss: 2.9373, Accuracy: 26.06%
+Epoch [5/10] complete: Loss: 2.6223, Accuracy: 31.92%
+Epoch [6/10] complete: Loss: 2.2969, Accuracy: 38.79%
+Epoch [7/10] complete: Loss: 1.9256, Accuracy: 46.41%
+Epoch [8/10] complete: Loss: 1.5759, Accuracy: 55.61%
+Epoch [9/10] complete: Loss: 1.2077, Accuracy: 64.58%
+Epoch [10/10] complete: Loss: 0.8794, Accuracy: 73.92%
+Training completed.
+Baseline Model Accuracy: 34.56%
+Low Forgetting Model Accuracy: 25.65%
+High Forgetting Model Accuracy: 25.51%
+Applying pruning with ratio 0.0...
+Pruning completed.
+Applying pruning with ratio 0.0...
+Pruning completed.
+Applying pruning with ratio 0.0...
+Pruning completed.
+Pruning accuracy comparison bar plot saved to results/resnet18/CIFAR100/dr0.2/pr0.0/pruning_accuracy_comparison.png.
+Pruned Baseline Model Accuracy: 34.56%
+Pruned Low Forgetting Model Accuracy: 25.65%
+Pruned High Forgetting Model Accuracy: 25.51%
+Post-Pruning Retraining...
+Initial Test Accuracy: 34.56%
+Post-Pruning Training Epoch [1/10]: Loss: 2.7827, Train Acc: 30.37%, Test Acc: 35.09%
+Post-Pruning Training Epoch [2/10]: Loss: 2.1372, Train Acc: 42.65%, Test Acc: 38.19%
+Post-Pruning Training Epoch [3/10]: Loss: 1.8039, Train Acc: 50.04%, Test Acc: 40.72%
+Post-Pruning Training Epoch [4/10]: Loss: 1.5193, Train Acc: 56.70%, Test Acc: 42.18%
+Post-Pruning Training Epoch [5/10]: Loss: 1.2412, Train Acc: 63.73%, Test Acc: 41.11%
+Post-Pruning Training Epoch [6/10]: Loss: 0.9898, Train Acc: 70.39%, Test Acc: 41.68%
+Post-Pruning Training Epoch [7/10]: Loss: 0.7528, Train Acc: 76.94%, Test Acc: 41.26%
+Post-Pruning Training Epoch [8/10]: Loss: 0.5700, Train Acc: 82.44%, Test Acc: 41.55%
+Post-Pruning Training Epoch [9/10]: Loss: 0.4317, Train Acc: 86.58%, Test Acc: 41.15%
+Post-Pruning Training Epoch [10/10]: Loss: 0.3613, Train Acc: 88.48%, Test Acc: 40.22%
+Initial Test Accuracy: 25.65%
+Post-Pruning Training Epoch [1/10]: Loss: 2.5812, Train Acc: 35.62%, Test Acc: 36.46%
+Post-Pruning Training Epoch [2/10]: Loss: 2.1185, Train Acc: 43.81%, Test Acc: 38.58%
+Post-Pruning Training Epoch [3/10]: Loss: 1.7838, Train Acc: 51.29%, Test Acc: 41.28%
+Post-Pruning Training Epoch [4/10]: Loss: 1.4726, Train Acc: 58.33%, Test Acc: 41.06%
+Post-Pruning Training Epoch [5/10]: Loss: 1.1610, Train Acc: 66.13%, Test Acc: 42.74%
+Post-Pruning Training Epoch [6/10]: Loss: 0.8784, Train Acc: 73.78%, Test Acc: 41.91%
+Post-Pruning Training Epoch [7/10]: Loss: 0.6706, Train Acc: 79.09%, Test Acc: 42.21%
+Post-Pruning Training Epoch [8/10]: Loss: 0.4988, Train Acc: 84.38%, Test Acc: 42.00%
+Post-Pruning Training Epoch [9/10]: Loss: 0.3976, Train Acc: 87.22%, Test Acc: 41.59%
+Post-Pruning Training Epoch [10/10]: Loss: 0.3345, Train Acc: 89.34%, Test Acc: 42.33%
+Initial Test Accuracy: 25.51%
+Post-Pruning Training Epoch [1/10]: Loss: 2.5654, Train Acc: 36.10%, Test Acc: 34.41%
+Post-Pruning Training Epoch [2/10]: Loss: 2.1043, Train Acc: 44.53%, Test Acc: 39.06%
+Post-Pruning Training Epoch [3/10]: Loss: 1.7788, Train Acc: 51.36%, Test Acc: 41.52%
+Post-Pruning Training Epoch [4/10]: Loss: 1.4683, Train Acc: 58.60%, Test Acc: 42.15%
+Post-Pruning Training Epoch [5/10]: Loss: 1.1716, Train Acc: 65.85%, Test Acc: 41.98%
+Post-Pruning Training Epoch [6/10]: Loss: 0.8917, Train Acc: 73.11%, Test Acc: 42.88%
+Post-Pruning Training Epoch [7/10]: Loss: 0.6535, Train Acc: 79.98%, Test Acc: 42.33%
+Post-Pruning Training Epoch [8/10]: Loss: 0.5086, Train Acc: 84.19%, Test Acc: 41.99%
+Post-Pruning Training Epoch [9/10]: Loss: 0.3820, Train Acc: 87.95%, Test Acc: 42.16%
+Post-Pruning Training Epoch [10/10]: Loss: 0.3383, Train Acc: 89.21%, Test Acc: 42.33%
+Post-Pruned Baseline Model Accuracy: 40.22%
+Post-Pruned Low Forgetting Model Accuracy: 42.33%
+Post-Pruned High Forgetting Model Accuracy: 42.33%
+Accuracy results saved to results/resnet18/CIFAR100/dr0.2/pr0.0/accuracies.csv.
+Post-pruning accuracy plot saved to results/resnet18/CIFAR100/dr0.2/pr0.0/post_pruning_accuracy.png.
+=============================================================================================================
+Files already downloaded and verified
+Files already downloaded and verified
+Loading precomputed forgetting scores and baseline model...
+Baseline model and forgetting scores loaded.
+Selected top 10000 highest-forgetting and top 10000 lowest-forgetting samples.
+Highest forgetting subset size: 10000, Lowest forgetting subset size: 10000
+Training model on high-forgetting subset...
+Starting training for 10 epochs...
+Epoch [1/10] complete: Loss: 4.1301, Accuracy: 8.19%
+Epoch [2/10] complete: Loss: 3.5974, Accuracy: 14.39%
+Epoch [3/10] complete: Loss: 3.2449, Accuracy: 20.19%
+Epoch [4/10] complete: Loss: 2.9055, Accuracy: 26.39%
+Epoch [5/10] complete: Loss: 2.6013, Accuracy: 32.26%
+Epoch [6/10] complete: Loss: 2.2658, Accuracy: 38.95%
+Epoch [7/10] complete: Loss: 1.9289, Accuracy: 46.89%
+Epoch [8/10] complete: Loss: 1.5582, Accuracy: 55.99%
+Epoch [9/10] complete: Loss: 1.2041, Accuracy: 64.20%
+Epoch [10/10] complete: Loss: 0.9175, Accuracy: 72.74%
+Training completed.
+Training model on low-forgetting subset...
+Starting training for 10 epochs...
+Epoch [1/10] complete: Loss: 4.1010, Accuracy: 8.39%
+Epoch [2/10] complete: Loss: 3.5554, Accuracy: 14.91%
+Epoch [3/10] complete: Loss: 3.2105, Accuracy: 21.57%
+Epoch [4/10] complete: Loss: 2.8929, Accuracy: 26.58%
+Epoch [5/10] complete: Loss: 2.5738, Accuracy: 33.04%
+Epoch [6/10] complete: Loss: 2.2528, Accuracy: 40.20%
+Epoch [7/10] complete: Loss: 1.8793, Accuracy: 47.75%
+Epoch [8/10] complete: Loss: 1.5232, Accuracy: 56.81%
+Epoch [9/10] complete: Loss: 1.1635, Accuracy: 65.79%
+Epoch [10/10] complete: Loss: 0.8706, Accuracy: 73.92%
+Training completed.
+Baseline Model Accuracy: 34.56%
+Low Forgetting Model Accuracy: 25.60%
+High Forgetting Model Accuracy: 25.37%
+Applying pruning with ratio 0.2...
+Pruning completed.
+Applying pruning with ratio 0.2...
+Pruning completed.
+Applying pruning with ratio 0.2...
+Pruning completed.
+Pruning accuracy comparison bar plot saved to results/resnet18/CIFAR100/dr0.2/pr0.2/pruning_accuracy_comparison.png.
+Pruned Baseline Model Accuracy: 34.59%
+Pruned Low Forgetting Model Accuracy: 25.51%
+Pruned High Forgetting Model Accuracy: 25.30%
+Post-Pruning Retraining...
+Initial Test Accuracy: 34.59%
+Post-Pruning Training Epoch [1/10]: Loss: 2.7877, Train Acc: 30.75%, Test Acc: 35.04%
+Post-Pruning Training Epoch [2/10]: Loss: 2.1436, Train Acc: 42.61%, Test Acc: 38.83%
+Post-Pruning Training Epoch [3/10]: Loss: 1.8024, Train Acc: 49.97%, Test Acc: 40.86%
+Post-Pruning Training Epoch [4/10]: Loss: 1.5175, Train Acc: 56.67%, Test Acc: 41.74%
+Post-Pruning Training Epoch [5/10]: Loss: 1.2376, Train Acc: 63.79%, Test Acc: 41.80%
+Post-Pruning Training Epoch [6/10]: Loss: 0.9854, Train Acc: 70.33%, Test Acc: 41.35%
+Post-Pruning Training Epoch [7/10]: Loss: 0.7509, Train Acc: 77.12%, Test Acc: 41.30%
+Post-Pruning Training Epoch [8/10]: Loss: 0.5592, Train Acc: 82.58%, Test Acc: 41.10%
+Post-Pruning Training Epoch [9/10]: Loss: 0.4326, Train Acc: 86.36%, Test Acc: 41.53%
+Post-Pruning Training Epoch [10/10]: Loss: 0.3355, Train Acc: 89.43%, Test Acc: 41.52%
+Initial Test Accuracy: 25.51%
+Post-Pruning Training Epoch [1/10]: Loss: 2.5827, Train Acc: 35.80%, Test Acc: 37.03%
+Post-Pruning Training Epoch [2/10]: Loss: 2.1300, Train Acc: 43.74%, Test Acc: 38.80%
+Post-Pruning Training Epoch [3/10]: Loss: 1.8046, Train Acc: 50.74%, Test Acc: 40.65%
+Post-Pruning Training Epoch [4/10]: Loss: 1.4924, Train Acc: 57.97%, Test Acc: 40.01%
+Post-Pruning Training Epoch [5/10]: Loss: 1.1889, Train Acc: 65.43%, Test Acc: 42.51%
+Post-Pruning Training Epoch [6/10]: Loss: 0.8995, Train Acc: 73.05%, Test Acc: 42.36%
+Post-Pruning Training Epoch [7/10]: Loss: 0.6777, Train Acc: 79.13%, Test Acc: 42.35%
+Post-Pruning Training Epoch [8/10]: Loss: 0.5148, Train Acc: 83.79%, Test Acc: 42.67%
+Post-Pruning Training Epoch [9/10]: Loss: 0.4005, Train Acc: 87.21%, Test Acc: 42.73%
+Post-Pruning Training Epoch [10/10]: Loss: 0.3372, Train Acc: 89.14%, Test Acc: 40.67%
+Initial Test Accuracy: 25.30%
+Post-Pruning Training Epoch [1/10]: Loss: 2.5937, Train Acc: 35.58%, Test Acc: 33.45%
+Post-Pruning Training Epoch [2/10]: Loss: 2.1281, Train Acc: 43.86%, Test Acc: 39.27%
+Post-Pruning Training Epoch [3/10]: Loss: 1.8036, Train Acc: 50.76%, Test Acc: 40.86%
+Post-Pruning Training Epoch [4/10]: Loss: 1.4819, Train Acc: 58.16%, Test Acc: 41.85%
+Post-Pruning Training Epoch [5/10]: Loss: 1.1877, Train Acc: 65.43%, Test Acc: 41.79%
+Post-Pruning Training Epoch [6/10]: Loss: 0.8962, Train Acc: 73.21%, Test Acc: 41.57%
+Post-Pruning Training Epoch [7/10]: Loss: 0.6719, Train Acc: 79.36%, Test Acc: 42.48%
+Post-Pruning Training Epoch [8/10]: Loss: 0.5007, Train Acc: 84.29%, Test Acc: 42.02%
+Post-Pruning Training Epoch [9/10]: Loss: 0.4122, Train Acc: 86.85%, Test Acc: 41.95%
+Post-Pruning Training Epoch [10/10]: Loss: 0.3355, Train Acc: 89.26%, Test Acc: 41.76%
+Post-Pruned Baseline Model Accuracy: 41.52%
+Post-Pruned Low Forgetting Model Accuracy: 40.67%
+Post-Pruned High Forgetting Model Accuracy: 41.76%
+Accuracy results saved to results/resnet18/CIFAR100/dr0.2/pr0.2/accuracies.csv.
+Post-pruning accuracy plot saved to results/resnet18/CIFAR100/dr0.2/pr0.2/post_pruning_accuracy.png.
+=============================================================================================================
+Files already downloaded and verified
+Files already downloaded and verified
+Loading precomputed forgetting scores and baseline model...
+Baseline model and forgetting scores loaded.
+Selected top 10000 highest-forgetting and top 10000 lowest-forgetting samples.
+Highest forgetting subset size: 10000, Lowest forgetting subset size: 10000
+Training model on high-forgetting subset...
+Starting training for 10 epochs...
+Epoch [1/10] complete: Loss: 4.1401, Accuracy: 8.00%
+Epoch [2/10] complete: Loss: 3.5870, Accuracy: 14.82%
+Epoch [3/10] complete: Loss: 3.2418, Accuracy: 20.41%
+Epoch [4/10] complete: Loss: 2.9006, Accuracy: 26.41%
+Epoch [5/10] complete: Loss: 2.5469, Accuracy: 33.74%
+Epoch [6/10] complete: Loss: 2.2357, Accuracy: 40.17%
+Epoch [7/10] complete: Loss: 1.8674, Accuracy: 48.41%
+Epoch [8/10] complete: Loss: 1.5525, Accuracy: 55.47%
+Epoch [9/10] complete: Loss: 1.1687, Accuracy: 65.50%
+Epoch [10/10] complete: Loss: 0.8968, Accuracy: 72.91%
+Training completed.
+Training model on low-forgetting subset...
+Starting training for 10 epochs...
+Epoch [1/10] complete: Loss: 4.1075, Accuracy: 7.98%
+Epoch [2/10] complete: Loss: 3.5710, Accuracy: 14.56%
+Epoch [3/10] complete: Loss: 3.2287, Accuracy: 20.84%
+Epoch [4/10] complete: Loss: 2.9077, Accuracy: 26.74%
+Epoch [5/10] complete: Loss: 2.6096, Accuracy: 32.23%
+Epoch [6/10] complete: Loss: 2.2620, Accuracy: 39.44%
+Epoch [7/10] complete: Loss: 1.9292, Accuracy: 46.22%
+Epoch [8/10] complete: Loss: 1.5647, Accuracy: 55.50%
+Epoch [9/10] complete: Loss: 1.2157, Accuracy: 64.19%
+Epoch [10/10] complete: Loss: 0.8877, Accuracy: 73.46%
+Training completed.
+Baseline Model Accuracy: 34.56%
+Low Forgetting Model Accuracy: 25.30%
+High Forgetting Model Accuracy: 25.91%
+Applying pruning with ratio 0.4...
+Pruning completed.
+Applying pruning with ratio 0.4...
+Pruning completed.
+Applying pruning with ratio 0.4...
+Pruning completed.
+Pruning accuracy comparison bar plot saved to results/resnet18/CIFAR100/dr0.2/pr0.4/pruning_accuracy_comparison.png.
+Pruned Baseline Model Accuracy: 32.95%
+Pruned Low Forgetting Model Accuracy: 23.15%
+Pruned High Forgetting Model Accuracy: 23.57%
+Post-Pruning Retraining...
+Initial Test Accuracy: 32.95%
+Post-Pruning Training Epoch [1/10]: Loss: 2.7839, Train Acc: 30.49%, Test Acc: 35.66%
+Post-Pruning Training Epoch [2/10]: Loss: 2.1065, Train Acc: 43.23%, Test Acc: 39.20%
+Post-Pruning Training Epoch [3/10]: Loss: 1.7854, Train Acc: 50.52%, Test Acc: 40.94%
+Post-Pruning Training Epoch [4/10]: Loss: 1.5014, Train Acc: 57.01%, Test Acc: 41.54%
+Post-Pruning Training Epoch [5/10]: Loss: 1.2250, Train Acc: 64.08%, Test Acc: 41.90%
+Post-Pruning Training Epoch [6/10]: Loss: 0.9606, Train Acc: 71.19%, Test Acc: 41.57%
+Post-Pruning Training Epoch [7/10]: Loss: 0.7329, Train Acc: 77.49%, Test Acc: 41.38%
+Post-Pruning Training Epoch [8/10]: Loss: 0.5417, Train Acc: 82.94%, Test Acc: 41.15%
+Post-Pruning Training Epoch [9/10]: Loss: 0.4210, Train Acc: 86.86%, Test Acc: 40.76%
+Post-Pruning Training Epoch [10/10]: Loss: 0.3395, Train Acc: 89.21%, Test Acc: 40.63%
+Initial Test Accuracy: 23.15%
+Post-Pruning Training Epoch [1/10]: Loss: 2.6097, Train Acc: 35.16%, Test Acc: 35.25%
+Post-Pruning Training Epoch [2/10]: Loss: 2.1389, Train Acc: 43.50%, Test Acc: 39.00%
+Post-Pruning Training Epoch [3/10]: Loss: 1.8008, Train Acc: 50.93%, Test Acc: 41.81%
+Post-Pruning Training Epoch [4/10]: Loss: 1.4991, Train Acc: 57.68%, Test Acc: 41.37%
+Post-Pruning Training Epoch [5/10]: Loss: 1.1912, Train Acc: 65.33%, Test Acc: 42.38%
+Post-Pruning Training Epoch [6/10]: Loss: 0.9036, Train Acc: 73.02%, Test Acc: 41.57%
+Post-Pruning Training Epoch [7/10]: Loss: 0.6787, Train Acc: 79.24%, Test Acc: 42.11%
+Post-Pruning Training Epoch [8/10]: Loss: 0.5121, Train Acc: 83.88%, Test Acc: 41.84%
+Post-Pruning Training Epoch [9/10]: Loss: 0.4094, Train Acc: 86.90%, Test Acc: 41.67%
+Post-Pruning Training Epoch [10/10]: Loss: 0.3376, Train Acc: 89.01%, Test Acc: 42.37%
+Initial Test Accuracy: 23.57%
+Post-Pruning Training Epoch [1/10]: Loss: 2.5797, Train Acc: 35.29%, Test Acc: 32.86%
+Post-Pruning Training Epoch [2/10]: Loss: 2.1065, Train Acc: 44.30%, Test Acc: 40.57%
+Post-Pruning Training Epoch [3/10]: Loss: 1.7935, Train Acc: 51.13%, Test Acc: 41.11%
+Post-Pruning Training Epoch [4/10]: Loss: 1.4829, Train Acc: 58.22%, Test Acc: 42.04%
+Post-Pruning Training Epoch [5/10]: Loss: 1.1923, Train Acc: 65.32%, Test Acc: 42.56%
+Post-Pruning Training Epoch [6/10]: Loss: 0.9145, Train Acc: 72.72%, Test Acc: 43.00%
+Post-Pruning Training Epoch [7/10]: Loss: 0.6811, Train Acc: 79.22%, Test Acc: 42.64%
+Post-Pruning Training Epoch [8/10]: Loss: 0.5150, Train Acc: 83.73%, Test Acc: 42.34%
+Post-Pruning Training Epoch [9/10]: Loss: 0.4155, Train Acc: 86.92%, Test Acc: 41.47%
+Post-Pruning Training Epoch [10/10]: Loss: 0.3420, Train Acc: 89.02%, Test Acc: 42.90%
+Post-Pruned Baseline Model Accuracy: 40.63%
+Post-Pruned Low Forgetting Model Accuracy: 42.37%
+Post-Pruned High Forgetting Model Accuracy: 42.90%
+Accuracy results saved to results/resnet18/CIFAR100/dr0.2/pr0.4/accuracies.csv.
+Post-pruning accuracy plot saved to results/resnet18/CIFAR100/dr0.2/pr0.4/post_pruning_accuracy.png.
+=============================================================================================================
+Files already downloaded and verified
+Files already downloaded and verified
+Loading precomputed forgetting scores and baseline model...
+Baseline model and forgetting scores loaded.
+Selected top 10000 highest-forgetting and top 10000 lowest-forgetting samples.
+Highest forgetting subset size: 10000, Lowest forgetting subset size: 10000
+Training model on high-forgetting subset...
+Starting training for 10 epochs...
+Epoch [1/10] complete: Loss: 4.1368, Accuracy: 7.93%
+Epoch [2/10] complete: Loss: 3.5920, Accuracy: 14.66%
+Epoch [3/10] complete: Loss: 3.2488, Accuracy: 20.56%
+Epoch [4/10] complete: Loss: 2.9017, Accuracy: 26.20%
+Epoch [5/10] complete: Loss: 2.5862, Accuracy: 32.11%
+Epoch [6/10] complete: Loss: 2.2650, Accuracy: 39.27%
+Epoch [7/10] complete: Loss: 1.9136, Accuracy: 47.05%
+Epoch [8/10] complete: Loss: 1.5756, Accuracy: 55.18%
+Epoch [9/10] complete: Loss: 1.1957, Accuracy: 64.78%
+Epoch [10/10] complete: Loss: 0.8966, Accuracy: 73.14%
+Training completed.
+Training model on low-forgetting subset...
+Starting training for 10 epochs...
+Epoch [1/10] complete: Loss: 4.1072, Accuracy: 7.87%
+Epoch [2/10] complete: Loss: 3.5735, Accuracy: 15.10%
+Epoch [3/10] complete: Loss: 3.2322, Accuracy: 21.14%
+Epoch [4/10] complete: Loss: 2.9201, Accuracy: 25.95%
+Epoch [5/10] complete: Loss: 2.6047, Accuracy: 32.59%
+Epoch [6/10] complete: Loss: 2.2834, Accuracy: 39.07%
+Epoch [7/10] complete: Loss: 1.9444, Accuracy: 46.23%
+Epoch [8/10] complete: Loss: 1.5802, Accuracy: 54.89%
+Epoch [9/10] complete: Loss: 1.2251, Accuracy: 64.33%
+Epoch [10/10] complete: Loss: 0.9018, Accuracy: 72.52%
+Training completed.
+Baseline Model Accuracy: 34.56%
+Low Forgetting Model Accuracy: 24.78%
+High Forgetting Model Accuracy: 25.10%
+Applying pruning with ratio 0.6...
+Pruning completed.
+Applying pruning with ratio 0.6...
+Pruning completed.
+Applying pruning with ratio 0.6...
+Pruning completed.
+Pruning accuracy comparison bar plot saved to results/resnet18/CIFAR100/dr0.2/pr0.6/pruning_accuracy_comparison.png.
+Pruned Baseline Model Accuracy: 24.67%
+Pruned Low Forgetting Model Accuracy: 7.05%
+Pruned High Forgetting Model Accuracy: 12.77%
+Post-Pruning Retraining...
+Initial Test Accuracy: 24.67%
+Post-Pruning Training Epoch [1/10]: Loss: 2.8122, Train Acc: 29.70%, Test Acc: 35.45%
+Post-Pruning Training Epoch [2/10]: Loss: 2.1336, Train Acc: 42.69%, Test Acc: 39.10%
+Post-Pruning Training Epoch [3/10]: Loss: 1.8038, Train Acc: 50.06%, Test Acc: 41.05%
+Post-Pruning Training Epoch [4/10]: Loss: 1.5205, Train Acc: 56.77%, Test Acc: 41.97%
+Post-Pruning Training Epoch [5/10]: Loss: 1.2387, Train Acc: 63.69%, Test Acc: 42.12%
+Post-Pruning Training Epoch [6/10]: Loss: 0.9647, Train Acc: 71.03%, Test Acc: 41.61%
+Post-Pruning Training Epoch [7/10]: Loss: 0.7318, Train Acc: 77.76%, Test Acc: 41.55%
+Post-Pruning Training Epoch [8/10]: Loss: 0.5385, Train Acc: 83.38%, Test Acc: 41.64%
+Post-Pruning Training Epoch [9/10]: Loss: 0.4172, Train Acc: 86.68%, Test Acc: 41.12%
+Post-Pruning Training Epoch [10/10]: Loss: 0.3321, Train Acc: 89.41%, Test Acc: 41.32%
+Initial Test Accuracy: 7.05%
+Post-Pruning Training Epoch [1/10]: Loss: 2.6426, Train Acc: 33.77%, Test Acc: 35.59%
+Post-Pruning Training Epoch [2/10]: Loss: 2.1582, Train Acc: 42.86%, Test Acc: 39.67%
+Post-Pruning Training Epoch [3/10]: Loss: 1.8293, Train Acc: 50.04%, Test Acc: 41.41%
+Post-Pruning Training Epoch [4/10]: Loss: 1.5334, Train Acc: 56.99%, Test Acc: 42.85%
+Post-Pruning Training Epoch [5/10]: Loss: 1.2374, Train Acc: 64.22%, Test Acc: 42.59%
+Post-Pruning Training Epoch [6/10]: Loss: 0.9571, Train Acc: 71.68%, Test Acc: 43.35%
+Post-Pruning Training Epoch [7/10]: Loss: 0.7361, Train Acc: 77.45%, Test Acc: 42.98%
+Post-Pruning Training Epoch [8/10]: Loss: 0.5340, Train Acc: 83.39%, Test Acc: 42.73%
+Post-Pruning Training Epoch [9/10]: Loss: 0.4229, Train Acc: 86.51%, Test Acc: 42.81%
+Post-Pruning Training Epoch [10/10]: Loss: 0.3537, Train Acc: 88.71%, Test Acc: 43.02%
+Initial Test Accuracy: 12.77%
+Post-Pruning Training Epoch [1/10]: Loss: 2.6467, Train Acc: 33.51%, Test Acc: 34.24%
+Post-Pruning Training Epoch [2/10]: Loss: 2.1670, Train Acc: 42.66%, Test Acc: 40.07%
+Post-Pruning Training Epoch [3/10]: Loss: 1.8469, Train Acc: 49.63%, Test Acc: 41.13%
+Post-Pruning Training Epoch [4/10]: Loss: 1.5379, Train Acc: 56.76%, Test Acc: 41.63%
+Post-Pruning Training Epoch [5/10]: Loss: 1.2476, Train Acc: 64.10%, Test Acc: 43.37%
+Post-Pruning Training Epoch [6/10]: Loss: 0.9699, Train Acc: 70.96%, Test Acc: 43.12%
+Post-Pruning Training Epoch [7/10]: Loss: 0.7203, Train Acc: 78.01%, Test Acc: 42.64%
+Post-Pruning Training Epoch [8/10]: Loss: 0.5314, Train Acc: 83.42%, Test Acc: 42.62%
+Post-Pruning Training Epoch [9/10]: Loss: 0.4296, Train Acc: 86.35%, Test Acc: 42.34%
+Post-Pruning Training Epoch [10/10]: Loss: 0.3427, Train Acc: 88.82%, Test Acc: 41.67%
+Post-Pruned Baseline Model Accuracy: 41.32%
+Post-Pruned Low Forgetting Model Accuracy: 43.02%
+Post-Pruned High Forgetting Model Accuracy: 41.67%
+Accuracy results saved to results/resnet18/CIFAR100/dr0.2/pr0.6/accuracies.csv.
+Post-pruning accuracy plot saved to results/resnet18/CIFAR100/dr0.2/pr0.6/post_pruning_accuracy.png.
+=============================================================================================================
+Files already downloaded and verified
+Files already downloaded and verified
+Loading precomputed forgetting scores and baseline model...
+Baseline model and forgetting scores loaded.
+Selected top 10000 highest-forgetting and top 10000 lowest-forgetting samples.
+Highest forgetting subset size: 10000, Lowest forgetting subset size: 10000
+Training model on high-forgetting subset...
+Starting training for 10 epochs...
+Epoch [1/10] complete: Loss: 4.1317, Accuracy: 8.28%
+Epoch [2/10] complete: Loss: 3.5955, Accuracy: 14.37%
+Epoch [3/10] complete: Loss: 3.2555, Accuracy: 20.29%
+Epoch [4/10] complete: Loss: 2.9200, Accuracy: 25.70%
+Epoch [5/10] complete: Loss: 2.5985, Accuracy: 32.34%
+Epoch [6/10] complete: Loss: 2.2813, Accuracy: 38.58%
+Epoch [7/10] complete: Loss: 1.9319, Accuracy: 46.36%
+Epoch [8/10] complete: Loss: 1.5498, Accuracy: 56.29%
+Epoch [9/10] complete: Loss: 1.2030, Accuracy: 64.51%
+Epoch [10/10] complete: Loss: 0.8962, Accuracy: 73.32%
+Training completed.
+Training model on low-forgetting subset...
+Starting training for 10 epochs...
+Epoch [1/10] complete: Loss: 4.1036, Accuracy: 8.11%
+Epoch [2/10] complete: Loss: 3.5745, Accuracy: 14.45%
+Epoch [3/10] complete: Loss: 3.2150, Accuracy: 21.00%
+Epoch [4/10] complete: Loss: 2.8676, Accuracy: 27.22%
+Epoch [5/10] complete: Loss: 2.5599, Accuracy: 33.13%
+Epoch [6/10] complete: Loss: 2.2050, Accuracy: 41.33%
+Epoch [7/10] complete: Loss: 1.8506, Accuracy: 48.43%
+Epoch [8/10] complete: Loss: 1.4800, Accuracy: 58.31%
+Epoch [9/10] complete: Loss: 1.1394, Accuracy: 66.06%
+Epoch [10/10] complete: Loss: 0.8353, Accuracy: 75.51%
+Training completed.
+Baseline Model Accuracy: 34.56%
+Low Forgetting Model Accuracy: 25.72%
+High Forgetting Model Accuracy: 25.05%
+Applying pruning with ratio 0.8...
+Pruning completed.
+Applying pruning with ratio 0.8...
+Pruning completed.
+Applying pruning with ratio 0.8...
+Pruning completed.
+Pruning accuracy comparison bar plot saved to results/resnet18/CIFAR100/dr0.2/pr0.8/pruning_accuracy_comparison.png.
+Pruned Baseline Model Accuracy: 3.67%
+Pruned Low Forgetting Model Accuracy: 1.12%
+Pruned High Forgetting Model Accuracy: 1.28%
+Post-Pruning Retraining...
+Initial Test Accuracy: 3.67%
+Post-Pruning Training Epoch [1/10]: Loss: 2.9386, Train Acc: 27.24%, Test Acc: 34.71%
+Post-Pruning Training Epoch [2/10]: Loss: 2.2240, Train Acc: 40.52%, Test Acc: 38.97%
+Post-Pruning Training Epoch [3/10]: Loss: 1.8871, Train Acc: 48.02%, Test Acc: 41.92%
+Post-Pruning Training Epoch [4/10]: Loss: 1.6000, Train Acc: 54.79%, Test Acc: 43.00%
+Post-Pruning Training Epoch [5/10]: Loss: 1.3081, Train Acc: 62.27%, Test Acc: 42.76%
+Post-Pruning Training Epoch [6/10]: Loss: 1.0393, Train Acc: 69.00%, Test Acc: 43.22%
+Post-Pruning Training Epoch [7/10]: Loss: 0.8015, Train Acc: 75.48%, Test Acc: 42.19%
+Post-Pruning Training Epoch [8/10]: Loss: 0.5848, Train Acc: 81.74%, Test Acc: 42.70%
+Post-Pruning Training Epoch [9/10]: Loss: 0.4534, Train Acc: 85.49%, Test Acc: 41.62%
+Post-Pruning Training Epoch [10/10]: Loss: 0.3633, Train Acc: 88.43%, Test Acc: 41.26%
+Initial Test Accuracy: 1.12%
+Post-Pruning Training Epoch [1/10]: Loss: 2.7829, Train Acc: 30.55%, Test Acc: 34.02%
+Post-Pruning Training Epoch [2/10]: Loss: 2.2603, Train Acc: 40.39%, Test Acc: 38.91%
+Post-Pruning Training Epoch [3/10]: Loss: 1.9270, Train Acc: 47.78%, Test Acc: 41.01%
+Post-Pruning Training Epoch [4/10]: Loss: 1.6365, Train Acc: 54.46%, Test Acc: 42.17%
+Post-Pruning Training Epoch [5/10]: Loss: 1.3477, Train Acc: 61.14%, Test Acc: 44.32%
+Post-Pruning Training Epoch [6/10]: Loss: 1.0650, Train Acc: 68.58%, Test Acc: 43.92%
+Post-Pruning Training Epoch [7/10]: Loss: 0.8200, Train Acc: 75.02%, Test Acc: 43.80%
+Post-Pruning Training Epoch [8/10]: Loss: 0.6164, Train Acc: 80.83%, Test Acc: 43.92%
+Post-Pruning Training Epoch [9/10]: Loss: 0.4711, Train Acc: 85.06%, Test Acc: 44.13%
+Post-Pruning Training Epoch [10/10]: Loss: 0.3826, Train Acc: 87.73%, Test Acc: 43.78%
+Initial Test Accuracy: 1.28%
+Post-Pruning Training Epoch [1/10]: Loss: 2.7815, Train Acc: 29.89%, Test Acc: 31.67%
+Post-Pruning Training Epoch [2/10]: Loss: 2.2553, Train Acc: 40.55%, Test Acc: 38.76%
+Post-Pruning Training Epoch [3/10]: Loss: 1.9234, Train Acc: 47.59%, Test Acc: 39.89%
+Post-Pruning Training Epoch [4/10]: Loss: 1.6235, Train Acc: 54.60%, Test Acc: 41.30%
+Post-Pruning Training Epoch [5/10]: Loss: 1.3338, Train Acc: 61.66%, Test Acc: 43.59%
+Post-Pruning Training Epoch [6/10]: Loss: 1.0513, Train Acc: 68.70%, Test Acc: 43.43%
+Post-Pruning Training Epoch [7/10]: Loss: 0.7929, Train Acc: 75.54%, Test Acc: 44.01%
+Post-Pruning Training Epoch [8/10]: Loss: 0.5942, Train Acc: 81.49%, Test Acc: 44.24%
+Post-Pruning Training Epoch [9/10]: Loss: 0.4515, Train Acc: 85.61%, Test Acc: 43.07%
+Post-Pruning Training Epoch [10/10]: Loss: 0.3798, Train Acc: 87.72%, Test Acc: 43.02%
+Post-Pruned Baseline Model Accuracy: 41.26%
+Post-Pruned Low Forgetting Model Accuracy: 43.78%
+Post-Pruned High Forgetting Model Accuracy: 43.02%
+Accuracy results saved to results/resnet18/CIFAR100/dr0.2/pr0.8/accuracies.csv.
+Post-pruning accuracy plot saved to results/resnet18/CIFAR100/dr0.2/pr0.8/post_pruning_accuracy.png.
+=============================================================================================================
+Files already downloaded and verified
+Files already downloaded and verified
+Loading precomputed forgetting scores and baseline model...
+Baseline model and forgetting scores loaded.
+Selected top 15000 highest-forgetting and top 15000 lowest-forgetting samples.
+Highest forgetting subset size: 15000, Lowest forgetting subset size: 15000
+Training model on high-forgetting subset...
+Starting training for 10 epochs...
+Epoch [1/10] complete: Loss: 3.9952, Accuracy: 9.91%
+Epoch [2/10] complete: Loss: 3.4225, Accuracy: 18.12%
+Epoch [3/10] complete: Loss: 3.0515, Accuracy: 24.03%
+Epoch [4/10] complete: Loss: 2.7325, Accuracy: 29.78%
+Epoch [5/10] complete: Loss: 2.4161, Accuracy: 36.26%
+Epoch [6/10] complete: Loss: 2.0894, Accuracy: 43.40%
+Epoch [7/10] complete: Loss: 1.7739, Accuracy: 50.46%
+Epoch [8/10] complete: Loss: 1.4357, Accuracy: 58.60%
+Epoch [9/10] complete: Loss: 1.0964, Accuracy: 67.70%
+Epoch [10/10] complete: Loss: 0.8039, Accuracy: 75.52%
+Training completed.
+Training model on low-forgetting subset...
+Starting training for 10 epochs...
+Epoch [1/10] complete: Loss: 3.9783, Accuracy: 9.90%
+Epoch [2/10] complete: Loss: 3.3896, Accuracy: 18.33%
+Epoch [3/10] complete: Loss: 3.0256, Accuracy: 24.75%
+Epoch [4/10] complete: Loss: 2.7170, Accuracy: 30.45%
+Epoch [5/10] complete: Loss: 2.4068, Accuracy: 36.40%
+Epoch [6/10] complete: Loss: 2.0823, Accuracy: 43.23%
+Epoch [7/10] complete: Loss: 1.7562, Accuracy: 50.45%
+Epoch [8/10] complete: Loss: 1.4334, Accuracy: 58.53%
+Epoch [9/10] complete: Loss: 1.1087, Accuracy: 67.55%
+Epoch [10/10] complete: Loss: 0.7886, Accuracy: 75.90%
+Training completed.
+Baseline Model Accuracy: 34.56%
+Low Forgetting Model Accuracy: 30.70%
+High Forgetting Model Accuracy: 29.99%
+Applying pruning with ratio 0.0...
+Pruning completed.
+Applying pruning with ratio 0.0...
+Pruning completed.
+Applying pruning with ratio 0.0...
+Pruning completed.
+Pruning accuracy comparison bar plot saved to results/resnet18/CIFAR100/dr0.3/pr0.0/pruning_accuracy_comparison.png.
+Pruned Baseline Model Accuracy: 34.56%
+Pruned Low Forgetting Model Accuracy: 30.70%
+Pruned High Forgetting Model Accuracy: 29.99%
+Post-Pruning Retraining...
+Initial Test Accuracy: 34.56%
+Post-Pruning Training Epoch [1/10]: Loss: 2.7874, Train Acc: 30.68%, Test Acc: 34.64%
+Post-Pruning Training Epoch [2/10]: Loss: 2.1422, Train Acc: 42.32%, Test Acc: 38.86%
+Post-Pruning Training Epoch [3/10]: Loss: 1.8101, Train Acc: 49.81%, Test Acc: 41.49%
+Post-Pruning Training Epoch [4/10]: Loss: 1.5261, Train Acc: 56.82%, Test Acc: 41.38%
+Post-Pruning Training Epoch [5/10]: Loss: 1.2443, Train Acc: 63.71%, Test Acc: 41.90%
+Post-Pruning Training Epoch [6/10]: Loss: 0.9916, Train Acc: 70.30%, Test Acc: 41.46%
+Post-Pruning Training Epoch [7/10]: Loss: 0.7538, Train Acc: 77.13%, Test Acc: 41.41%
+Post-Pruning Training Epoch [8/10]: Loss: 0.5643, Train Acc: 82.44%, Test Acc: 41.09%
+Post-Pruning Training Epoch [9/10]: Loss: 0.4258, Train Acc: 86.78%, Test Acc: 41.58%
+Post-Pruning Training Epoch [10/10]: Loss: 0.3539, Train Acc: 88.66%, Test Acc: 41.04%
+Initial Test Accuracy: 30.70%
+Post-Pruning Training Epoch [1/10]: Loss: 2.2665, Train Acc: 43.52%, Test Acc: 37.92%
+Post-Pruning Training Epoch [2/10]: Loss: 1.8434, Train Acc: 50.68%, Test Acc: 40.67%
+Post-Pruning Training Epoch [3/10]: Loss: 1.5106, Train Acc: 58.15%, Test Acc: 42.63%
+Post-Pruning Training Epoch [4/10]: Loss: 1.2102, Train Acc: 65.22%, Test Acc: 40.52%
+Post-Pruning Training Epoch [5/10]: Loss: 0.9207, Train Acc: 72.67%, Test Acc: 41.66%
+Post-Pruning Training Epoch [6/10]: Loss: 0.6726, Train Acc: 79.55%, Test Acc: 41.53%
+Post-Pruning Training Epoch [7/10]: Loss: 0.5211, Train Acc: 83.69%, Test Acc: 41.73%
+Post-Pruning Training Epoch [8/10]: Loss: 0.4129, Train Acc: 86.92%, Test Acc: 40.68%
+Post-Pruning Training Epoch [9/10]: Loss: 0.3413, Train Acc: 88.98%, Test Acc: 41.11%
+Post-Pruning Training Epoch [10/10]: Loss: 0.2912, Train Acc: 90.71%, Test Acc: 41.21%
+Initial Test Accuracy: 29.99%
+Post-Pruning Training Epoch [1/10]: Loss: 2.2825, Train Acc: 42.70%, Test Acc: 36.26%
+Post-Pruning Training Epoch [2/10]: Loss: 1.8435, Train Acc: 50.70%, Test Acc: 41.09%
+Post-Pruning Training Epoch [3/10]: Loss: 1.5182, Train Acc: 57.88%, Test Acc: 41.95%
+Post-Pruning Training Epoch [4/10]: Loss: 1.2067, Train Acc: 65.33%, Test Acc: 42.54%
+Post-Pruning Training Epoch [5/10]: Loss: 0.9192, Train Acc: 72.81%, Test Acc: 41.94%
+Post-Pruning Training Epoch [6/10]: Loss: 0.6761, Train Acc: 79.07%, Test Acc: 41.84%
+Post-Pruning Training Epoch [7/10]: Loss: 0.5074, Train Acc: 84.04%, Test Acc: 42.08%
+Post-Pruning Training Epoch [8/10]: Loss: 0.3984, Train Acc: 87.37%, Test Acc: 41.65%
+Post-Pruning Training Epoch [9/10]: Loss: 0.3444, Train Acc: 88.83%, Test Acc: 42.04%
+Post-Pruning Training Epoch [10/10]: Loss: 0.2977, Train Acc: 90.41%, Test Acc: 42.10%
+Post-Pruned Baseline Model Accuracy: 41.04%
+Post-Pruned Low Forgetting Model Accuracy: 41.21%
+Post-Pruned High Forgetting Model Accuracy: 42.10%
+Accuracy results saved to results/resnet18/CIFAR100/dr0.3/pr0.0/accuracies.csv.
+Post-pruning accuracy plot saved to results/resnet18/CIFAR100/dr0.3/pr0.0/post_pruning_accuracy.png.
+=============================================================================================================
+Files already downloaded and verified
+Files already downloaded and verified
+Loading precomputed forgetting scores and baseline model...
+Baseline model and forgetting scores loaded.
+Selected top 15000 highest-forgetting and top 15000 lowest-forgetting samples.
+Highest forgetting subset size: 15000, Lowest forgetting subset size: 15000
+Training model on high-forgetting subset...
+Starting training for 10 epochs...
+Epoch [1/10] complete: Loss: 3.9820, Accuracy: 9.94%
+Epoch [2/10] complete: Loss: 3.3979, Accuracy: 18.21%
+Epoch [3/10] complete: Loss: 3.0208, Accuracy: 25.11%
+Epoch [4/10] complete: Loss: 2.7023, Accuracy: 30.53%
+Epoch [5/10] complete: Loss: 2.3733, Accuracy: 37.53%
+Epoch [6/10] complete: Loss: 2.0712, Accuracy: 43.96%
+Epoch [7/10] complete: Loss: 1.7539, Accuracy: 50.94%
+Epoch [8/10] complete: Loss: 1.4252, Accuracy: 58.93%
+Epoch [9/10] complete: Loss: 1.1086, Accuracy: 66.85%
+Epoch [10/10] complete: Loss: 0.8425, Accuracy: 74.64%
+Training completed.
+Training model on low-forgetting subset...
+Starting training for 10 epochs...
+Epoch [1/10] complete: Loss: 3.9657, Accuracy: 9.98%
+Epoch [2/10] complete: Loss: 3.3771, Accuracy: 18.45%
+Epoch [3/10] complete: Loss: 3.0226, Accuracy: 24.77%
+Epoch [4/10] complete: Loss: 2.7129, Accuracy: 30.53%
+Epoch [5/10] complete: Loss: 2.4135, Accuracy: 36.49%
+Epoch [6/10] complete: Loss: 2.1126, Accuracy: 42.61%
+Epoch [7/10] complete: Loss: 1.7821, Accuracy: 50.05%
+Epoch [8/10] complete: Loss: 1.4804, Accuracy: 56.95%
+Epoch [9/10] complete: Loss: 1.1391, Accuracy: 66.67%
+Epoch [10/10] complete: Loss: 0.8402, Accuracy: 74.65%
+Training completed.
+Baseline Model Accuracy: 34.56%
+Low Forgetting Model Accuracy: 30.16%
+High Forgetting Model Accuracy: 29.48%
+Applying pruning with ratio 0.2...
+Pruning completed.
+Applying pruning with ratio 0.2...
+Pruning completed.
+Applying pruning with ratio 0.2...
+Pruning completed.
+Pruning accuracy comparison bar plot saved to results/resnet18/CIFAR100/dr0.3/pr0.2/pruning_accuracy_comparison.png.
+Pruned Baseline Model Accuracy: 34.59%
+Pruned Low Forgetting Model Accuracy: 29.70%
+Pruned High Forgetting Model Accuracy: 29.55%
+Post-Pruning Retraining...
+Initial Test Accuracy: 34.59%
+Post-Pruning Training Epoch [1/10]: Loss: 2.7828, Train Acc: 30.78%, Test Acc: 35.31%
+Post-Pruning Training Epoch [2/10]: Loss: 2.1365, Train Acc: 42.71%, Test Acc: 39.26%
+Post-Pruning Training Epoch [3/10]: Loss: 1.8034, Train Acc: 50.03%, Test Acc: 40.61%
+Post-Pruning Training Epoch [4/10]: Loss: 1.5125, Train Acc: 57.08%, Test Acc: 41.40%
+Post-Pruning Training Epoch [5/10]: Loss: 1.2316, Train Acc: 64.01%, Test Acc: 41.65%
+Post-Pruning Training Epoch [6/10]: Loss: 0.9752, Train Acc: 70.73%, Test Acc: 41.14%
+Post-Pruning Training Epoch [7/10]: Loss: 0.7408, Train Acc: 77.34%, Test Acc: 41.37%
+Post-Pruning Training Epoch [8/10]: Loss: 0.5637, Train Acc: 82.50%, Test Acc: 40.93%
+Post-Pruning Training Epoch [9/10]: Loss: 0.4293, Train Acc: 86.41%, Test Acc: 40.67%
+Post-Pruning Training Epoch [10/10]: Loss: 0.3404, Train Acc: 89.23%, Test Acc: 40.81%
+Initial Test Accuracy: 29.70%
+Post-Pruning Training Epoch [1/10]: Loss: 2.2835, Train Acc: 42.78%, Test Acc: 38.64%
+Post-Pruning Training Epoch [2/10]: Loss: 1.8640, Train Acc: 50.09%, Test Acc: 40.60%
+Post-Pruning Training Epoch [3/10]: Loss: 1.5340, Train Acc: 57.41%, Test Acc: 41.64%
+Post-Pruning Training Epoch [4/10]: Loss: 1.2273, Train Acc: 64.83%, Test Acc: 41.86%
+Post-Pruning Training Epoch [5/10]: Loss: 0.9420, Train Acc: 72.02%, Test Acc: 41.73%
+Post-Pruning Training Epoch [6/10]: Loss: 0.6994, Train Acc: 78.68%, Test Acc: 42.00%
+Post-Pruning Training Epoch [7/10]: Loss: 0.5316, Train Acc: 83.23%, Test Acc: 41.18%
+Post-Pruning Training Epoch [8/10]: Loss: 0.4176, Train Acc: 86.70%, Test Acc: 41.90%
+Post-Pruning Training Epoch [9/10]: Loss: 0.3449, Train Acc: 88.97%, Test Acc: 42.00%
+Post-Pruning Training Epoch [10/10]: Loss: 0.3107, Train Acc: 89.94%, Test Acc: 41.04%
+Initial Test Accuracy: 29.55%
+Post-Pruning Training Epoch [1/10]: Loss: 2.2840, Train Acc: 42.71%, Test Acc: 36.89%
+Post-Pruning Training Epoch [2/10]: Loss: 1.8486, Train Acc: 50.55%, Test Acc: 42.08%
+Post-Pruning Training Epoch [3/10]: Loss: 1.5313, Train Acc: 57.41%, Test Acc: 42.26%
+Post-Pruning Training Epoch [4/10]: Loss: 1.2223, Train Acc: 64.77%, Test Acc: 41.75%
+Post-Pruning Training Epoch [5/10]: Loss: 0.9477, Train Acc: 71.86%, Test Acc: 42.16%
+Post-Pruning Training Epoch [6/10]: Loss: 0.7013, Train Acc: 78.59%, Test Acc: 42.27%
+Post-Pruning Training Epoch [7/10]: Loss: 0.5274, Train Acc: 83.33%, Test Acc: 42.38%
+Post-Pruning Training Epoch [8/10]: Loss: 0.4186, Train Acc: 86.73%, Test Acc: 41.90%
+Post-Pruning Training Epoch [9/10]: Loss: 0.3473, Train Acc: 88.72%, Test Acc: 41.07%
+Post-Pruning Training Epoch [10/10]: Loss: 0.3038, Train Acc: 90.24%, Test Acc: 41.93%
+Post-Pruned Baseline Model Accuracy: 40.81%
+Post-Pruned Low Forgetting Model Accuracy: 41.04%
+Post-Pruned High Forgetting Model Accuracy: 41.93%
+Accuracy results saved to results/resnet18/CIFAR100/dr0.3/pr0.2/accuracies.csv.
+Post-pruning accuracy plot saved to results/resnet18/CIFAR100/dr0.3/pr0.2/post_pruning_accuracy.png.
+=============================================================================================================
+Files already downloaded and verified
+Files already downloaded and verified
+Loading precomputed forgetting scores and baseline model...
+Baseline model and forgetting scores loaded.
+Selected top 15000 highest-forgetting and top 15000 lowest-forgetting samples.
+Highest forgetting subset size: 15000, Lowest forgetting subset size: 15000
+Training model on high-forgetting subset...
+Starting training for 10 epochs...
+Epoch [1/10] complete: Loss: 4.0087, Accuracy: 9.70%
+Epoch [2/10] complete: Loss: 3.4381, Accuracy: 17.77%
+Epoch [3/10] complete: Loss: 3.0699, Accuracy: 23.53%
+Epoch [4/10] complete: Loss: 2.7575, Accuracy: 29.75%
+Epoch [5/10] complete: Loss: 2.4381, Accuracy: 36.15%
+Epoch [6/10] complete: Loss: 2.1314, Accuracy: 42.77%
+Epoch [7/10] complete: Loss: 1.8157, Accuracy: 49.05%
+Epoch [8/10] complete: Loss: 1.4900, Accuracy: 57.68%
+Epoch [9/10] complete: Loss: 1.1597, Accuracy: 65.68%
+Epoch [10/10] complete: Loss: 0.8847, Accuracy: 73.87%
+Training completed.
+Training model on low-forgetting subset...
+Starting training for 10 epochs...
+Epoch [1/10] complete: Loss: 3.9699, Accuracy: 9.87%
+Epoch [2/10] complete: Loss: 3.3871, Accuracy: 18.85%
+Epoch [3/10] complete: Loss: 3.0126, Accuracy: 24.61%
+Epoch [4/10] complete: Loss: 2.7013, Accuracy: 30.45%
+Epoch [5/10] complete: Loss: 2.4009, Accuracy: 36.68%
+Epoch [6/10] complete: Loss: 2.0712, Accuracy: 43.45%
+Epoch [7/10] complete: Loss: 1.7502, Accuracy: 51.40%
+Epoch [8/10] complete: Loss: 1.4069, Accuracy: 59.07%
+Epoch [9/10] complete: Loss: 1.0914, Accuracy: 67.29%
+Epoch [10/10] complete: Loss: 0.8030, Accuracy: 75.57%
+Training completed.
+Baseline Model Accuracy: 34.56%
+Low Forgetting Model Accuracy: 29.31%
+High Forgetting Model Accuracy: 29.36%
+Applying pruning with ratio 0.4...
+Pruning completed.
+Applying pruning with ratio 0.4...
+Pruning completed.
+Applying pruning with ratio 0.4...
+Pruning completed.
+Pruning accuracy comparison bar plot saved to results/resnet18/CIFAR100/dr0.3/pr0.4/pruning_accuracy_comparison.png.
+Pruned Baseline Model Accuracy: 32.95%
+Pruned Low Forgetting Model Accuracy: 25.97%
+Pruned High Forgetting Model Accuracy: 26.95%
+Post-Pruning Retraining...
+Initial Test Accuracy: 32.95%
+Post-Pruning Training Epoch [1/10]: Loss: 2.7906, Train Acc: 30.48%, Test Acc: 35.06%
+Post-Pruning Training Epoch [2/10]: Loss: 2.1250, Train Acc: 42.86%, Test Acc: 39.14%
+Post-Pruning Training Epoch [3/10]: Loss: 1.7878, Train Acc: 50.44%, Test Acc: 41.90%
+Post-Pruning Training Epoch [4/10]: Loss: 1.5020, Train Acc: 57.42%, Test Acc: 42.43%
+Post-Pruning Training Epoch [5/10]: Loss: 1.2294, Train Acc: 64.21%, Test Acc: 42.82%
+Post-Pruning Training Epoch [6/10]: Loss: 0.9748, Train Acc: 70.81%, Test Acc: 42.72%
+Post-Pruning Training Epoch [7/10]: Loss: 0.7421, Train Acc: 77.46%, Test Acc: 42.18%
+Post-Pruning Training Epoch [8/10]: Loss: 0.5508, Train Acc: 82.79%, Test Acc: 41.05%
+Post-Pruning Training Epoch [9/10]: Loss: 0.4245, Train Acc: 86.65%, Test Acc: 41.72%
+Post-Pruning Training Epoch [10/10]: Loss: 0.3367, Train Acc: 89.40%, Test Acc: 41.78%
+Initial Test Accuracy: 25.97%
+Post-Pruning Training Epoch [1/10]: Loss: 2.3034, Train Acc: 42.43%, Test Acc: 38.12%
+Post-Pruning Training Epoch [2/10]: Loss: 1.8740, Train Acc: 49.75%, Test Acc: 40.33%
+Post-Pruning Training Epoch [3/10]: Loss: 1.5411, Train Acc: 57.25%, Test Acc: 40.36%
+Post-Pruning Training Epoch [4/10]: Loss: 1.2374, Train Acc: 64.39%, Test Acc: 40.62%
+Post-Pruning Training Epoch [5/10]: Loss: 0.9391, Train Acc: 72.15%, Test Acc: 41.44%
+Post-Pruning Training Epoch [6/10]: Loss: 0.6878, Train Acc: 79.05%, Test Acc: 39.58%
+Post-Pruning Training Epoch [7/10]: Loss: 0.5265, Train Acc: 83.54%, Test Acc: 41.41%
+Post-Pruning Training Epoch [8/10]: Loss: 0.4064, Train Acc: 87.16%, Test Acc: 40.58%
+Post-Pruning Training Epoch [9/10]: Loss: 0.3465, Train Acc: 88.80%, Test Acc: 41.37%
+Post-Pruning Training Epoch [10/10]: Loss: 0.2982, Train Acc: 90.51%, Test Acc: 41.59%
+Initial Test Accuracy: 26.95%
+Post-Pruning Training Epoch [1/10]: Loss: 2.2955, Train Acc: 41.86%, Test Acc: 35.16%
+Post-Pruning Training Epoch [2/10]: Loss: 1.8704, Train Acc: 49.86%, Test Acc: 41.44%
+Post-Pruning Training Epoch [3/10]: Loss: 1.5422, Train Acc: 57.12%, Test Acc: 41.05%
+Post-Pruning Training Epoch [4/10]: Loss: 1.2386, Train Acc: 64.57%, Test Acc: 42.08%
+Post-Pruning Training Epoch [5/10]: Loss: 0.9485, Train Acc: 71.60%, Test Acc: 41.83%
+Post-Pruning Training Epoch [6/10]: Loss: 0.7024, Train Acc: 78.65%, Test Acc: 41.47%
+Post-Pruning Training Epoch [7/10]: Loss: 0.5331, Train Acc: 83.25%, Test Acc: 41.40%
+Post-Pruning Training Epoch [8/10]: Loss: 0.4176, Train Acc: 86.81%, Test Acc: 41.61%
+Post-Pruning Training Epoch [9/10]: Loss: 0.3574, Train Acc: 88.57%, Test Acc: 42.46%
+Post-Pruning Training Epoch [10/10]: Loss: 0.3066, Train Acc: 90.18%, Test Acc: 42.19%
+Post-Pruned Baseline Model Accuracy: 41.78%
+Post-Pruned Low Forgetting Model Accuracy: 41.59%
+Post-Pruned High Forgetting Model Accuracy: 42.19%
+Accuracy results saved to results/resnet18/CIFAR100/dr0.3/pr0.4/accuracies.csv.
+Post-pruning accuracy plot saved to results/resnet18/CIFAR100/dr0.3/pr0.4/post_pruning_accuracy.png.
+=============================================================================================================
+Files already downloaded and verified
+Files already downloaded and verified
+Loading precomputed forgetting scores and baseline model...
+Baseline model and forgetting scores loaded.
+Selected top 15000 highest-forgetting and top 15000 lowest-forgetting samples.
+Highest forgetting subset size: 15000, Lowest forgetting subset size: 15000
+Training model on high-forgetting subset...
+Starting training for 10 epochs...
+Epoch [1/10] complete: Loss: 3.9863, Accuracy: 9.86%
+Epoch [2/10] complete: Loss: 3.4303, Accuracy: 17.84%
+Epoch [3/10] complete: Loss: 3.0379, Accuracy: 24.43%
+Epoch [4/10] complete: Loss: 2.7153, Accuracy: 30.69%
+Epoch [5/10] complete: Loss: 2.3949, Accuracy: 36.95%
+Epoch [6/10] complete: Loss: 2.0673, Accuracy: 43.86%
+Epoch [7/10] complete: Loss: 1.7513, Accuracy: 50.86%
+Epoch [8/10] complete: Loss: 1.4055, Accuracy: 59.63%
+Epoch [9/10] complete: Loss: 1.1005, Accuracy: 67.37%
+Epoch [10/10] complete: Loss: 0.7990, Accuracy: 75.62%
+Training completed.
+Training model on low-forgetting subset...
+Starting training for 10 epochs...
+Epoch [1/10] complete: Loss: 3.9733, Accuracy: 9.56%
+Epoch [2/10] complete: Loss: 3.3984, Accuracy: 18.01%
+Epoch [3/10] complete: Loss: 3.0416, Accuracy: 24.07%
+Epoch [4/10] complete: Loss: 2.7134, Accuracy: 30.43%
+Epoch [5/10] complete: Loss: 2.4032, Accuracy: 36.39%
+Epoch [6/10] complete: Loss: 2.0802, Accuracy: 43.19%
+Epoch [7/10] complete: Loss: 1.7621, Accuracy: 50.69%
+Epoch [8/10] complete: Loss: 1.4170, Accuracy: 58.86%
+Epoch [9/10] complete: Loss: 1.0981, Accuracy: 67.19%
+Epoch [10/10] complete: Loss: 0.7959, Accuracy: 75.73%
+Training completed.
+Baseline Model Accuracy: 34.56%
+Low Forgetting Model Accuracy: 30.39%
+High Forgetting Model Accuracy: 29.97%
+Applying pruning with ratio 0.6...
+Pruning completed.
+Applying pruning with ratio 0.6...
+Pruning completed.
+Applying pruning with ratio 0.6...
+Pruning completed.
+Pruning accuracy comparison bar plot saved to results/resnet18/CIFAR100/dr0.3/pr0.6/pruning_accuracy_comparison.png.
+Pruned Baseline Model Accuracy: 24.67%
+Pruned Low Forgetting Model Accuracy: 14.01%
+Pruned High Forgetting Model Accuracy: 13.05%
+Post-Pruning Retraining...
+Initial Test Accuracy: 24.67%
+Post-Pruning Training Epoch [1/10]: Loss: 2.8028, Train Acc: 29.84%, Test Acc: 36.04%
+Post-Pruning Training Epoch [2/10]: Loss: 2.1229, Train Acc: 43.06%, Test Acc: 39.35%
+Post-Pruning Training Epoch [3/10]: Loss: 1.7988, Train Acc: 50.05%, Test Acc: 41.16%
+Post-Pruning Training Epoch [4/10]: Loss: 1.5146, Train Acc: 56.76%, Test Acc: 42.55%
+Post-Pruning Training Epoch [5/10]: Loss: 1.2255, Train Acc: 64.18%, Test Acc: 41.37%
+Post-Pruning Training Epoch [6/10]: Loss: 0.9549, Train Acc: 71.30%, Test Acc: 42.25%
+Post-Pruning Training Epoch [7/10]: Loss: 0.7329, Train Acc: 77.47%, Test Acc: 41.65%
+Post-Pruning Training Epoch [8/10]: Loss: 0.5371, Train Acc: 83.36%, Test Acc: 41.16%
+Post-Pruning Training Epoch [9/10]: Loss: 0.4149, Train Acc: 86.85%, Test Acc: 40.62%
+Post-Pruning Training Epoch [10/10]: Loss: 0.3445, Train Acc: 88.94%, Test Acc: 41.25%
+Initial Test Accuracy: 14.01%
+Post-Pruning Training Epoch [1/10]: Loss: 2.3375, Train Acc: 40.65%, Test Acc: 39.05%
+Post-Pruning Training Epoch [2/10]: Loss: 1.8980, Train Acc: 48.89%, Test Acc: 41.81%
+Post-Pruning Training Epoch [3/10]: Loss: 1.5610, Train Acc: 56.49%, Test Acc: 42.24%
+Post-Pruning Training Epoch [4/10]: Loss: 1.2588, Train Acc: 63.99%, Test Acc: 41.28%
+Post-Pruning Training Epoch [5/10]: Loss: 0.9668, Train Acc: 71.15%, Test Acc: 43.07%
+Post-Pruning Training Epoch [6/10]: Loss: 0.7073, Train Acc: 78.28%, Test Acc: 41.58%
+Post-Pruning Training Epoch [7/10]: Loss: 0.5474, Train Acc: 82.99%, Test Acc: 42.48%
+Post-Pruning Training Epoch [8/10]: Loss: 0.4240, Train Acc: 86.58%, Test Acc: 42.17%
+Post-Pruning Training Epoch [9/10]: Loss: 0.3458, Train Acc: 88.91%, Test Acc: 41.43%
+Post-Pruning Training Epoch [10/10]: Loss: 0.3112, Train Acc: 89.79%, Test Acc: 42.07%
+Initial Test Accuracy: 13.05%
+Post-Pruning Training Epoch [1/10]: Loss: 2.3689, Train Acc: 39.73%, Test Acc: 36.04%
+Post-Pruning Training Epoch [2/10]: Loss: 1.9163, Train Acc: 48.73%, Test Acc: 40.19%
+Post-Pruning Training Epoch [3/10]: Loss: 1.5973, Train Acc: 55.60%, Test Acc: 41.88%
+Post-Pruning Training Epoch [4/10]: Loss: 1.2823, Train Acc: 63.15%, Test Acc: 41.56%
+Post-Pruning Training Epoch [5/10]: Loss: 0.9912, Train Acc: 70.48%, Test Acc: 43.35%
+Post-Pruning Training Epoch [6/10]: Loss: 0.7478, Train Acc: 77.12%, Test Acc: 42.26%
+Post-Pruning Training Epoch [7/10]: Loss: 0.5478, Train Acc: 82.83%, Test Acc: 42.51%
+Post-Pruning Training Epoch [8/10]: Loss: 0.4422, Train Acc: 85.98%, Test Acc: 42.86%
+Post-Pruning Training Epoch [9/10]: Loss: 0.3689, Train Acc: 88.26%, Test Acc: 42.71%
+Post-Pruning Training Epoch [10/10]: Loss: 0.3156, Train Acc: 89.84%, Test Acc: 42.06%
+Post-Pruned Baseline Model Accuracy: 41.25%
+Post-Pruned Low Forgetting Model Accuracy: 42.07%
+Post-Pruned High Forgetting Model Accuracy: 42.06%
+Accuracy results saved to results/resnet18/CIFAR100/dr0.3/pr0.6/accuracies.csv.
+Post-pruning accuracy plot saved to results/resnet18/CIFAR100/dr0.3/pr0.6/post_pruning_accuracy.png.
+=============================================================================================================
+Files already downloaded and verified
+Files already downloaded and verified
+Loading precomputed forgetting scores and baseline model...
+Baseline model and forgetting scores loaded.
+Selected top 15000 highest-forgetting and top 15000 lowest-forgetting samples.
+Highest forgetting subset size: 15000, Lowest forgetting subset size: 15000
+Training model on high-forgetting subset...
+Starting training for 10 epochs...
+Epoch [1/10] complete: Loss: 3.9994, Accuracy: 9.86%
+Epoch [2/10] complete: Loss: 3.4424, Accuracy: 17.53%
+Epoch [3/10] complete: Loss: 3.0667, Accuracy: 23.83%
+Epoch [4/10] complete: Loss: 2.7412, Accuracy: 29.91%
+Epoch [5/10] complete: Loss: 2.4275, Accuracy: 35.94%
+Epoch [6/10] complete: Loss: 2.1091, Accuracy: 42.84%
+Epoch [7/10] complete: Loss: 1.7872, Accuracy: 50.21%
+Epoch [8/10] complete: Loss: 1.4601, Accuracy: 58.15%
+Epoch [9/10] complete: Loss: 1.1375, Accuracy: 65.95%
+Epoch [10/10] complete: Loss: 0.8451, Accuracy: 74.67%
+Training completed.
+Training model on low-forgetting subset...
+Starting training for 10 epochs...
+Epoch [1/10] complete: Loss: 3.9635, Accuracy: 10.44%
+Epoch [2/10] complete: Loss: 3.3781, Accuracy: 18.49%
+Epoch [3/10] complete: Loss: 3.0259, Accuracy: 24.71%
+Epoch [4/10] complete: Loss: 2.7167, Accuracy: 30.39%
+Epoch [5/10] complete: Loss: 2.4123, Accuracy: 36.16%
+Epoch [6/10] complete: Loss: 2.0957, Accuracy: 42.72%
+Epoch [7/10] complete: Loss: 1.7803, Accuracy: 50.43%
+Epoch [8/10] complete: Loss: 1.4596, Accuracy: 57.35%
+Epoch [9/10] complete: Loss: 1.1251, Accuracy: 66.43%
+Epoch [10/10] complete: Loss: 0.8302, Accuracy: 75.09%
+Training completed.
+Baseline Model Accuracy: 34.56%
+Low Forgetting Model Accuracy: 29.17%
+High Forgetting Model Accuracy: 28.78%
+Applying pruning with ratio 0.8...
+Pruning completed.
+Applying pruning with ratio 0.8...
+Pruning completed.
+Applying pruning with ratio 0.8...
+Pruning completed.
+Pruning accuracy comparison bar plot saved to results/resnet18/CIFAR100/dr0.3/pr0.8/pruning_accuracy_comparison.png.
+Pruned Baseline Model Accuracy: 3.67%
+Pruned Low Forgetting Model Accuracy: 2.06%
+Pruned High Forgetting Model Accuracy: 1.77%
+Post-Pruning Retraining...
+Initial Test Accuracy: 3.67%
+Post-Pruning Training Epoch [1/10]: Loss: 2.9545, Train Acc: 27.15%, Test Acc: 35.11%
+Post-Pruning Training Epoch [2/10]: Loss: 2.2298, Train Acc: 40.61%, Test Acc: 38.93%
+Post-Pruning Training Epoch [3/10]: Loss: 1.8872, Train Acc: 48.12%, Test Acc: 41.49%
+Post-Pruning Training Epoch [4/10]: Loss: 1.5989, Train Acc: 54.92%, Test Acc: 42.09%
+Post-Pruning Training Epoch [5/10]: Loss: 1.3091, Train Acc: 62.06%, Test Acc: 41.80%
+Post-Pruning Training Epoch [6/10]: Loss: 1.0400, Train Acc: 68.91%, Test Acc: 43.90%
+Post-Pruning Training Epoch [7/10]: Loss: 0.7985, Train Acc: 75.49%, Test Acc: 42.42%
+Post-Pruning Training Epoch [8/10]: Loss: 0.5888, Train Acc: 81.73%, Test Acc: 42.83%
+Post-Pruning Training Epoch [9/10]: Loss: 0.4540, Train Acc: 85.70%, Test Acc: 42.33%
+Post-Pruning Training Epoch [10/10]: Loss: 0.3525, Train Acc: 88.88%, Test Acc: 41.68%
+Initial Test Accuracy: 2.06%
+Post-Pruning Training Epoch [1/10]: Loss: 2.5772, Train Acc: 34.35%, Test Acc: 36.86%
+Post-Pruning Training Epoch [2/10]: Loss: 2.0915, Train Acc: 44.14%, Test Acc: 38.73%
+Post-Pruning Training Epoch [3/10]: Loss: 1.7599, Train Acc: 51.61%, Test Acc: 41.39%
+Post-Pruning Training Epoch [4/10]: Loss: 1.4687, Train Acc: 58.33%, Test Acc: 43.56%
+Post-Pruning Training Epoch [5/10]: Loss: 1.1730, Train Acc: 65.80%, Test Acc: 43.80%
+Post-Pruning Training Epoch [6/10]: Loss: 0.9095, Train Acc: 72.69%, Test Acc: 42.42%
+Post-Pruning Training Epoch [7/10]: Loss: 0.6862, Train Acc: 78.70%, Test Acc: 43.44%
+Post-Pruning Training Epoch [8/10]: Loss: 0.5252, Train Acc: 83.49%, Test Acc: 41.83%
+Post-Pruning Training Epoch [9/10]: Loss: 0.4106, Train Acc: 86.78%, Test Acc: 42.19%
+Post-Pruning Training Epoch [10/10]: Loss: 0.3501, Train Acc: 88.78%, Test Acc: 42.70%
+Initial Test Accuracy: 1.77%
+Post-Pruning Training Epoch [1/10]: Loss: 2.5567, Train Acc: 34.89%, Test Acc: 32.37%
+Post-Pruning Training Epoch [2/10]: Loss: 2.0586, Train Acc: 45.11%, Test Acc: 40.88%
+Post-Pruning Training Epoch [3/10]: Loss: 1.7243, Train Acc: 52.51%, Test Acc: 42.52%
+Post-Pruning Training Epoch [4/10]: Loss: 1.4250, Train Acc: 59.43%, Test Acc: 43.12%
+Post-Pruning Training Epoch [5/10]: Loss: 1.1400, Train Acc: 66.74%, Test Acc: 42.82%
+Post-Pruning Training Epoch [6/10]: Loss: 0.8766, Train Acc: 73.52%, Test Acc: 43.49%
+Post-Pruning Training Epoch [7/10]: Loss: 0.6462, Train Acc: 79.69%, Test Acc: 44.10%
+Post-Pruning Training Epoch [8/10]: Loss: 0.4948, Train Acc: 84.44%, Test Acc: 42.89%
+Post-Pruning Training Epoch [9/10]: Loss: 0.4020, Train Acc: 87.10%, Test Acc: 42.88%
+Post-Pruning Training Epoch [10/10]: Loss: 0.3379, Train Acc: 89.17%, Test Acc: 42.57%
+Post-Pruned Baseline Model Accuracy: 41.68%
+Post-Pruned Low Forgetting Model Accuracy: 42.70%
+Post-Pruned High Forgetting Model Accuracy: 42.57%
+Accuracy results saved to results/resnet18/CIFAR100/dr0.3/pr0.8/accuracies.csv.
+Post-pruning accuracy plot saved to results/resnet18/CIFAR100/dr0.3/pr0.8/post_pruning_accuracy.png.
+=============================================================================================================
+Files already downloaded and verified
+Files already downloaded and verified
+Loading precomputed forgetting scores and baseline model...
+Baseline model and forgetting scores loaded.
+Selected top 20000 highest-forgetting and top 20000 lowest-forgetting samples.
+Highest forgetting subset size: 20000, Lowest forgetting subset size: 20000
+Training model on high-forgetting subset...
+Starting training for 10 epochs...
+Epoch [1/10] complete: Loss: 3.9056, Accuracy: 11.07%
+Epoch [2/10] complete: Loss: 3.2888, Accuracy: 20.00%
+Epoch [3/10] complete: Loss: 2.9047, Accuracy: 26.98%
+Epoch [4/10] complete: Loss: 2.5792, Accuracy: 33.01%
+Epoch [5/10] complete: Loss: 2.2953, Accuracy: 39.20%
+Epoch [6/10] complete: Loss: 1.9859, Accuracy: 45.35%
+Epoch [7/10] complete: Loss: 1.7125, Accuracy: 52.23%
+Epoch [8/10] complete: Loss: 1.3811, Accuracy: 59.90%
+Epoch [9/10] complete: Loss: 1.0848, Accuracy: 67.88%
+Epoch [10/10] complete: Loss: 0.8090, Accuracy: 75.33%
+Training completed.
+Training model on low-forgetting subset...
+Starting training for 10 epochs...
+Epoch [1/10] complete: Loss: 3.8906, Accuracy: 11.14%
+Epoch [2/10] complete: Loss: 3.2777, Accuracy: 20.12%
+Epoch [3/10] complete: Loss: 2.8858, Accuracy: 27.11%
+Epoch [4/10] complete: Loss: 2.5567, Accuracy: 33.30%
+Epoch [5/10] complete: Loss: 2.2487, Accuracy: 39.77%
+Epoch [6/10] complete: Loss: 1.9679, Accuracy: 46.27%
+Epoch [7/10] complete: Loss: 1.6419, Accuracy: 53.65%
+Epoch [8/10] complete: Loss: 1.3446, Accuracy: 60.81%
+Epoch [9/10] complete: Loss: 1.0364, Accuracy: 68.69%
+Epoch [10/10] complete: Loss: 0.7361, Accuracy: 77.56%
+Training completed.
+Baseline Model Accuracy: 34.56%
+Low Forgetting Model Accuracy: 31.65%
+High Forgetting Model Accuracy: 33.65%
+Applying pruning with ratio 0.0...
+Pruning completed.
+Applying pruning with ratio 0.0...
+Pruning completed.
+Applying pruning with ratio 0.0...
+Pruning completed.
+Pruning accuracy comparison bar plot saved to results/resnet18/CIFAR100/dr0.4/pr0.0/pruning_accuracy_comparison.png.
+Pruned Baseline Model Accuracy: 34.56%
+Pruned Low Forgetting Model Accuracy: 31.65%
+Pruned High Forgetting Model Accuracy: 33.65%
+Post-Pruning Retraining...
+Initial Test Accuracy: 34.56%
+Post-Pruning Training Epoch [1/10]: Loss: 2.7847, Train Acc: 30.49%, Test Acc: 36.26%
+Post-Pruning Training Epoch [2/10]: Loss: 2.1234, Train Acc: 43.03%, Test Acc: 38.85%
+Post-Pruning Training Epoch [3/10]: Loss: 1.7903, Train Acc: 50.32%, Test Acc: 41.47%
+Post-Pruning Training Epoch [4/10]: Loss: 1.5042, Train Acc: 57.18%, Test Acc: 41.29%
+Post-Pruning Training Epoch [5/10]: Loss: 1.2262, Train Acc: 64.30%, Test Acc: 41.54%
+Post-Pruning Training Epoch [6/10]: Loss: 0.9717, Train Acc: 70.91%, Test Acc: 41.76%
+Post-Pruning Training Epoch [7/10]: Loss: 0.7431, Train Acc: 77.29%, Test Acc: 42.09%
+Post-Pruning Training Epoch [8/10]: Loss: 0.5533, Train Acc: 82.80%, Test Acc: 40.31%
+Post-Pruning Training Epoch [9/10]: Loss: 0.4313, Train Acc: 86.48%, Test Acc: 40.92%
+Post-Pruning Training Epoch [10/10]: Loss: 0.3290, Train Acc: 89.72%, Test Acc: 40.57%
+Initial Test Accuracy: 31.65%
+Post-Pruning Training Epoch [1/10]: Loss: 1.9928, Train Acc: 50.20%, Test Acc: 40.37%
+Post-Pruning Training Epoch [2/10]: Loss: 1.5855, Train Acc: 57.19%, Test Acc: 42.04%
+Post-Pruning Training Epoch [3/10]: Loss: 1.2568, Train Acc: 64.40%, Test Acc: 41.61%
+Post-Pruning Training Epoch [4/10]: Loss: 0.9731, Train Acc: 71.61%, Test Acc: 41.90%
+Post-Pruning Training Epoch [5/10]: Loss: 0.7169, Train Acc: 78.35%, Test Acc: 42.03%
+Post-Pruning Training Epoch [6/10]: Loss: 0.5232, Train Acc: 83.81%, Test Acc: 40.65%
+Post-Pruning Training Epoch [7/10]: Loss: 0.4261, Train Acc: 86.46%, Test Acc: 41.55%
+Post-Pruning Training Epoch [8/10]: Loss: 0.3502, Train Acc: 88.89%, Test Acc: 41.20%
+Post-Pruning Training Epoch [9/10]: Loss: 0.3154, Train Acc: 89.65%, Test Acc: 40.61%
+Post-Pruning Training Epoch [10/10]: Loss: 0.2625, Train Acc: 91.53%, Test Acc: 42.50%
+Initial Test Accuracy: 33.65%
+Post-Pruning Training Epoch [1/10]: Loss: 1.9884, Train Acc: 49.92%, Test Acc: 39.81%
+Post-Pruning Training Epoch [2/10]: Loss: 1.5766, Train Acc: 57.25%, Test Acc: 42.73%
+Post-Pruning Training Epoch [3/10]: Loss: 1.2685, Train Acc: 64.07%, Test Acc: 42.39%
+Post-Pruning Training Epoch [4/10]: Loss: 0.9779, Train Acc: 71.20%, Test Acc: 41.72%
+Post-Pruning Training Epoch [5/10]: Loss: 0.7360, Train Acc: 77.65%, Test Acc: 41.77%
+Post-Pruning Training Epoch [6/10]: Loss: 0.5481, Train Acc: 83.11%, Test Acc: 43.15%
+Post-Pruning Training Epoch [7/10]: Loss: 0.4168, Train Acc: 86.63%, Test Acc: 41.64%
+Post-Pruning Training Epoch [8/10]: Loss: 0.3616, Train Acc: 88.56%, Test Acc: 42.26%
+Post-Pruning Training Epoch [9/10]: Loss: 0.3105, Train Acc: 89.91%, Test Acc: 41.62%
+Post-Pruning Training Epoch [10/10]: Loss: 0.2734, Train Acc: 91.18%, Test Acc: 41.57%
+Post-Pruned Baseline Model Accuracy: 40.57%
+Post-Pruned Low Forgetting Model Accuracy: 42.50%
+Post-Pruned High Forgetting Model Accuracy: 41.57%
+Accuracy results saved to results/resnet18/CIFAR100/dr0.4/pr0.0/accuracies.csv.
+Post-pruning accuracy plot saved to results/resnet18/CIFAR100/dr0.4/pr0.0/post_pruning_accuracy.png.
+=============================================================================================================
+Files already downloaded and verified
+Files already downloaded and verified
+Loading precomputed forgetting scores and baseline model...
+Baseline model and forgetting scores loaded.
+Selected top 20000 highest-forgetting and top 20000 lowest-forgetting samples.
+Highest forgetting subset size: 20000, Lowest forgetting subset size: 20000
+Training model on high-forgetting subset...
+Starting training for 10 epochs...
+Epoch [1/10] complete: Loss: 3.9103, Accuracy: 11.14%
+Epoch [2/10] complete: Loss: 3.3021, Accuracy: 19.85%
+Epoch [3/10] complete: Loss: 2.9206, Accuracy: 26.52%
+Epoch [4/10] complete: Loss: 2.5820, Accuracy: 33.16%
+Epoch [5/10] complete: Loss: 2.2878, Accuracy: 38.84%
+Epoch [6/10] complete: Loss: 1.9847, Accuracy: 45.89%
+Epoch [7/10] complete: Loss: 1.6875, Accuracy: 52.51%
+Epoch [8/10] complete: Loss: 1.3894, Accuracy: 59.70%
+Epoch [9/10] complete: Loss: 1.0674, Accuracy: 67.98%
+Epoch [10/10] complete: Loss: 0.8092, Accuracy: 75.06%
+Training completed.
+Training model on low-forgetting subset...
+Starting training for 10 epochs...
+Epoch [1/10] complete: Loss: 3.8674, Accuracy: 11.46%
+Epoch [2/10] complete: Loss: 3.2677, Accuracy: 20.16%
+Epoch [3/10] complete: Loss: 2.8700, Accuracy: 27.27%
+Epoch [4/10] complete: Loss: 2.5364, Accuracy: 33.65%
+Epoch [5/10] complete: Loss: 2.2474, Accuracy: 39.96%
+Epoch [6/10] complete: Loss: 1.9522, Accuracy: 46.16%
+Epoch [7/10] complete: Loss: 1.6437, Accuracy: 53.59%
+Epoch [8/10] complete: Loss: 1.3325, Accuracy: 61.41%
+Epoch [9/10] complete: Loss: 1.0415, Accuracy: 68.74%
+Epoch [10/10] complete: Loss: 0.7612, Accuracy: 76.52%
+Training completed.
+Baseline Model Accuracy: 34.56%
+Low Forgetting Model Accuracy: 33.37%
+High Forgetting Model Accuracy: 34.66%
+Applying pruning with ratio 0.2...
+Pruning completed.
+Applying pruning with ratio 0.2...
+Pruning completed.
+Applying pruning with ratio 0.2...
+Pruning completed.
+Pruning accuracy comparison bar plot saved to results/resnet18/CIFAR100/dr0.4/pr0.2/pruning_accuracy_comparison.png.
+Pruned Baseline Model Accuracy: 34.59%
+Pruned Low Forgetting Model Accuracy: 33.31%
+Pruned High Forgetting Model Accuracy: 34.33%
+Post-Pruning Retraining...
+Initial Test Accuracy: 34.59%
+Post-Pruning Training Epoch [1/10]: Loss: 2.7969, Train Acc: 30.40%, Test Acc: 35.35%
+Post-Pruning Training Epoch [2/10]: Loss: 2.1302, Train Acc: 42.94%, Test Acc: 38.64%
+Post-Pruning Training Epoch [3/10]: Loss: 1.7875, Train Acc: 50.38%, Test Acc: 41.26%
+Post-Pruning Training Epoch [4/10]: Loss: 1.4970, Train Acc: 57.39%, Test Acc: 41.90%
+Post-Pruning Training Epoch [5/10]: Loss: 1.2180, Train Acc: 64.52%, Test Acc: 42.10%
+Post-Pruning Training Epoch [6/10]: Loss: 0.9580, Train Acc: 71.23%, Test Acc: 41.36%
+Post-Pruning Training Epoch [7/10]: Loss: 0.7312, Train Acc: 77.53%, Test Acc: 41.57%
+Post-Pruning Training Epoch [8/10]: Loss: 0.5409, Train Acc: 83.13%, Test Acc: 41.08%
+Post-Pruning Training Epoch [9/10]: Loss: 0.4254, Train Acc: 86.68%, Test Acc: 40.99%
+Post-Pruning Training Epoch [10/10]: Loss: 0.3369, Train Acc: 89.28%, Test Acc: 41.26%
+Initial Test Accuracy: 33.31%
+Post-Pruning Training Epoch [1/10]: Loss: 1.9989, Train Acc: 50.00%, Test Acc: 40.31%
+Post-Pruning Training Epoch [2/10]: Loss: 1.5874, Train Acc: 57.01%, Test Acc: 41.59%
+Post-Pruning Training Epoch [3/10]: Loss: 1.2754, Train Acc: 64.03%, Test Acc: 41.75%
+Post-Pruning Training Epoch [4/10]: Loss: 0.9815, Train Acc: 71.27%, Test Acc: 40.94%
+Post-Pruning Training Epoch [5/10]: Loss: 0.7290, Train Acc: 77.97%, Test Acc: 41.61%
+Post-Pruning Training Epoch [6/10]: Loss: 0.5450, Train Acc: 82.95%, Test Acc: 40.83%
+Post-Pruning Training Epoch [7/10]: Loss: 0.4372, Train Acc: 86.08%, Test Acc: 42.07%
+Post-Pruning Training Epoch [8/10]: Loss: 0.3444, Train Acc: 89.01%, Test Acc: 41.95%
+Post-Pruning Training Epoch [9/10]: Loss: 0.3072, Train Acc: 90.10%, Test Acc: 41.34%
+Post-Pruning Training Epoch [10/10]: Loss: 0.2851, Train Acc: 90.67%, Test Acc: 41.66%
+Initial Test Accuracy: 34.33%
+Post-Pruning Training Epoch [1/10]: Loss: 1.9919, Train Acc: 49.87%, Test Acc: 38.16%
+Post-Pruning Training Epoch [2/10]: Loss: 1.5766, Train Acc: 57.14%, Test Acc: 42.62%
+Post-Pruning Training Epoch [3/10]: Loss: 1.2694, Train Acc: 64.07%, Test Acc: 42.87%
+Post-Pruning Training Epoch [4/10]: Loss: 0.9773, Train Acc: 71.31%, Test Acc: 41.50%
+Post-Pruning Training Epoch [5/10]: Loss: 0.7299, Train Acc: 78.04%, Test Acc: 42.35%
+Post-Pruning Training Epoch [6/10]: Loss: 0.5456, Train Acc: 82.85%, Test Acc: 41.95%
+Post-Pruning Training Epoch [7/10]: Loss: 0.4145, Train Acc: 86.88%, Test Acc: 42.53%
+Post-Pruning Training Epoch [8/10]: Loss: 0.3680, Train Acc: 88.27%, Test Acc: 42.59%
+Post-Pruning Training Epoch [9/10]: Loss: 0.3028, Train Acc: 90.25%, Test Acc: 42.01%
+Post-Pruning Training Epoch [10/10]: Loss: 0.2677, Train Acc: 91.21%, Test Acc: 41.38%
+Post-Pruned Baseline Model Accuracy: 41.26%
+Post-Pruned Low Forgetting Model Accuracy: 41.66%
+Post-Pruned High Forgetting Model Accuracy: 41.38%
+Accuracy results saved to results/resnet18/CIFAR100/dr0.4/pr0.2/accuracies.csv.
+Post-pruning accuracy plot saved to results/resnet18/CIFAR100/dr0.4/pr0.2/post_pruning_accuracy.png.
+=============================================================================================================
+Files already downloaded and verified
+Files already downloaded and verified
+Loading precomputed forgetting scores and baseline model...
+Baseline model and forgetting scores loaded.
+Selected top 20000 highest-forgetting and top 20000 lowest-forgetting samples.
+Highest forgetting subset size: 20000, Lowest forgetting subset size: 20000
+Training model on high-forgetting subset...
+Starting training for 10 epochs...
+Epoch [1/10] complete: Loss: 3.9231, Accuracy: 10.82%
+Epoch [2/10] complete: Loss: 3.3157, Accuracy: 19.50%
+Epoch [3/10] complete: Loss: 2.9216, Accuracy: 26.53%
+Epoch [4/10] complete: Loss: 2.6076, Accuracy: 32.27%
+Epoch [5/10] complete: Loss: 2.3035, Accuracy: 38.88%
+Epoch [6/10] complete: Loss: 1.9986, Accuracy: 45.64%
+Epoch [7/10] complete: Loss: 1.7275, Accuracy: 51.23%
+Epoch [8/10] complete: Loss: 1.4105, Accuracy: 59.25%
+Epoch [9/10] complete: Loss: 1.1059, Accuracy: 67.14%
+Epoch [10/10] complete: Loss: 0.8218, Accuracy: 75.45%
+Training completed.
+Training model on low-forgetting subset...
+Starting training for 10 epochs...
+Epoch [1/10] complete: Loss: 3.8875, Accuracy: 10.78%
+Epoch [2/10] complete: Loss: 3.2874, Accuracy: 19.91%
+Epoch [3/10] complete: Loss: 2.8933, Accuracy: 27.16%
+Epoch [4/10] complete: Loss: 2.5480, Accuracy: 33.76%
+Epoch [5/10] complete: Loss: 2.2472, Accuracy: 39.91%
+Epoch [6/10] complete: Loss: 1.9534, Accuracy: 46.30%
+Epoch [7/10] complete: Loss: 1.6452, Accuracy: 53.17%
+Epoch [8/10] complete: Loss: 1.3435, Accuracy: 60.49%
+Epoch [9/10] complete: Loss: 1.0245, Accuracy: 69.20%
+Epoch [10/10] complete: Loss: 0.7688, Accuracy: 76.27%
+Training completed.
+Baseline Model Accuracy: 34.56%
+Low Forgetting Model Accuracy: 33.40%
+High Forgetting Model Accuracy: 34.17%
+Applying pruning with ratio 0.4...
+Pruning completed.
+Applying pruning with ratio 0.4...
+Pruning completed.
+Applying pruning with ratio 0.4...
+Pruning completed.
+Pruning accuracy comparison bar plot saved to results/resnet18/CIFAR100/dr0.4/pr0.4/pruning_accuracy_comparison.png.
+Pruned Baseline Model Accuracy: 32.95%
+Pruned Low Forgetting Model Accuracy: 29.93%
+Pruned High Forgetting Model Accuracy: 30.66%
+Post-Pruning Retraining...
+Initial Test Accuracy: 32.95%
+Post-Pruning Training Epoch [1/10]: Loss: 2.7838, Train Acc: 30.68%, Test Acc: 35.53%
+Post-Pruning Training Epoch [2/10]: Loss: 2.1242, Train Acc: 42.89%, Test Acc: 38.98%
+Post-Pruning Training Epoch [3/10]: Loss: 1.7958, Train Acc: 50.37%, Test Acc: 41.73%
+Post-Pruning Training Epoch [4/10]: Loss: 1.5087, Train Acc: 57.13%, Test Acc: 42.17%
+Post-Pruning Training Epoch [5/10]: Loss: 1.2365, Train Acc: 63.73%, Test Acc: 41.02%
+Post-Pruning Training Epoch [6/10]: Loss: 0.9727, Train Acc: 70.64%, Test Acc: 41.51%
+Post-Pruning Training Epoch [7/10]: Loss: 0.7493, Train Acc: 77.10%, Test Acc: 41.77%
+Post-Pruning Training Epoch [8/10]: Loss: 0.5454, Train Acc: 83.07%, Test Acc: 41.72%
+Post-Pruning Training Epoch [9/10]: Loss: 0.4111, Train Acc: 86.92%, Test Acc: 41.21%
+Post-Pruning Training Epoch [10/10]: Loss: 0.3311, Train Acc: 89.39%, Test Acc: 40.80%
+Initial Test Accuracy: 29.93%
+Post-Pruning Training Epoch [1/10]: Loss: 2.0132, Train Acc: 49.59%, Test Acc: 39.17%
+Post-Pruning Training Epoch [2/10]: Loss: 1.5997, Train Acc: 56.98%, Test Acc: 41.19%
+Post-Pruning Training Epoch [3/10]: Loss: 1.2769, Train Acc: 64.03%, Test Acc: 42.12%
+Post-Pruning Training Epoch [4/10]: Loss: 0.9885, Train Acc: 71.07%, Test Acc: 41.10%
+Post-Pruning Training Epoch [5/10]: Loss: 0.7369, Train Acc: 77.69%, Test Acc: 42.07%
+Post-Pruning Training Epoch [6/10]: Loss: 0.5456, Train Acc: 83.08%, Test Acc: 41.47%
+Post-Pruning Training Epoch [7/10]: Loss: 0.4415, Train Acc: 86.05%, Test Acc: 41.85%
+Post-Pruning Training Epoch [8/10]: Loss: 0.3489, Train Acc: 88.92%, Test Acc: 41.66%
+Post-Pruning Training Epoch [9/10]: Loss: 0.3056, Train Acc: 90.14%, Test Acc: 41.68%
+Post-Pruning Training Epoch [10/10]: Loss: 0.2768, Train Acc: 91.13%, Test Acc: 41.67%
+Initial Test Accuracy: 30.66%
+Post-Pruning Training Epoch [1/10]: Loss: 2.0319, Train Acc: 48.18%, Test Acc: 39.13%
+Post-Pruning Training Epoch [2/10]: Loss: 1.6156, Train Acc: 56.22%, Test Acc: 42.28%
+Post-Pruning Training Epoch [3/10]: Loss: 1.3082, Train Acc: 62.95%, Test Acc: 42.63%
+Post-Pruning Training Epoch [4/10]: Loss: 1.0270, Train Acc: 69.99%, Test Acc: 42.52%
+Post-Pruning Training Epoch [5/10]: Loss: 0.7699, Train Acc: 76.77%, Test Acc: 42.32%
+Post-Pruning Training Epoch [6/10]: Loss: 0.5730, Train Acc: 82.27%, Test Acc: 42.71%
+Post-Pruning Training Epoch [7/10]: Loss: 0.4431, Train Acc: 85.91%, Test Acc: 42.86%
+Post-Pruning Training Epoch [8/10]: Loss: 0.3574, Train Acc: 88.66%, Test Acc: 42.18%
+Post-Pruning Training Epoch [9/10]: Loss: 0.3080, Train Acc: 90.19%, Test Acc: 42.41%
+Post-Pruning Training Epoch [10/10]: Loss: 0.2885, Train Acc: 90.76%, Test Acc: 42.28%
+Post-Pruned Baseline Model Accuracy: 40.80%
+Post-Pruned Low Forgetting Model Accuracy: 41.67%
+Post-Pruned High Forgetting Model Accuracy: 42.28%
+Accuracy results saved to results/resnet18/CIFAR100/dr0.4/pr0.4/accuracies.csv.
+Post-pruning accuracy plot saved to results/resnet18/CIFAR100/dr0.4/pr0.4/post_pruning_accuracy.png.
+=============================================================================================================
+Files already downloaded and verified
+Files already downloaded and verified
+Loading precomputed forgetting scores and baseline model...
+Baseline model and forgetting scores loaded.
+Selected top 20000 highest-forgetting and top 20000 lowest-forgetting samples.
+Highest forgetting subset size: 20000, Lowest forgetting subset size: 20000
+Training model on high-forgetting subset...
+Starting training for 10 epochs...
+Epoch [1/10] complete: Loss: 3.9093, Accuracy: 11.04%
+Epoch [2/10] complete: Loss: 3.2961, Accuracy: 19.62%
+Epoch [3/10] complete: Loss: 2.9082, Accuracy: 26.54%
+Epoch [4/10] complete: Loss: 2.5929, Accuracy: 32.80%
+Epoch [5/10] complete: Loss: 2.2959, Accuracy: 38.77%
+Epoch [6/10] complete: Loss: 1.9978, Accuracy: 45.25%
+Epoch [7/10] complete: Loss: 1.7255, Accuracy: 51.39%
+Epoch [8/10] complete: Loss: 1.3934, Accuracy: 59.52%
+Epoch [9/10] complete: Loss: 1.1071, Accuracy: 66.68%
+Epoch [10/10] complete: Loss: 0.8382, Accuracy: 74.47%
+Training completed.
+Training model on low-forgetting subset...
+Starting training for 10 epochs...
+Epoch [1/10] complete: Loss: 3.8821, Accuracy: 11.30%
+Epoch [2/10] complete: Loss: 3.2708, Accuracy: 20.17%
+Epoch [3/10] complete: Loss: 2.8696, Accuracy: 27.20%
+Epoch [4/10] complete: Loss: 2.5340, Accuracy: 33.98%
+Epoch [5/10] complete: Loss: 2.2499, Accuracy: 39.73%
+Epoch [6/10] complete: Loss: 1.9607, Accuracy: 46.08%
+Epoch [7/10] complete: Loss: 1.6525, Accuracy: 53.56%
+Epoch [8/10] complete: Loss: 1.3611, Accuracy: 60.13%
+Epoch [9/10] complete: Loss: 1.0644, Accuracy: 68.03%
+Epoch [10/10] complete: Loss: 0.7983, Accuracy: 75.56%
+Training completed.
+Baseline Model Accuracy: 34.56%
+Low Forgetting Model Accuracy: 33.98%
+High Forgetting Model Accuracy: 33.08%
+Applying pruning with ratio 0.6...
+Pruning completed.
+Applying pruning with ratio 0.6...
+Pruning completed.
+Applying pruning with ratio 0.6...
+Pruning completed.
+Pruning accuracy comparison bar plot saved to results/resnet18/CIFAR100/dr0.4/pr0.6/pruning_accuracy_comparison.png.
+Pruned Baseline Model Accuracy: 24.67%
+Pruned Low Forgetting Model Accuracy: 15.03%
+Pruned High Forgetting Model Accuracy: 14.91%
+Post-Pruning Retraining...
+Initial Test Accuracy: 24.67%
+Post-Pruning Training Epoch [1/10]: Loss: 2.8077, Train Acc: 29.99%, Test Acc: 34.93%
+Post-Pruning Training Epoch [2/10]: Loss: 2.1282, Train Acc: 42.56%, Test Acc: 39.23%
+Post-Pruning Training Epoch [3/10]: Loss: 1.8024, Train Acc: 50.08%, Test Acc: 41.91%
+Post-Pruning Training Epoch [4/10]: Loss: 1.5176, Train Acc: 56.71%, Test Acc: 41.74%
+Post-Pruning Training Epoch [5/10]: Loss: 1.2323, Train Acc: 63.81%, Test Acc: 41.55%
+Post-Pruning Training Epoch [6/10]: Loss: 0.9705, Train Acc: 70.93%, Test Acc: 42.25%
+Post-Pruning Training Epoch [7/10]: Loss: 0.7354, Train Acc: 77.44%, Test Acc: 41.92%
+Post-Pruning Training Epoch [8/10]: Loss: 0.5379, Train Acc: 83.45%, Test Acc: 41.55%
+Post-Pruning Training Epoch [9/10]: Loss: 0.4209, Train Acc: 86.69%, Test Acc: 41.82%
+Post-Pruning Training Epoch [10/10]: Loss: 0.3434, Train Acc: 89.04%, Test Acc: 41.59%
+Initial Test Accuracy: 15.03%
+Post-Pruning Training Epoch [1/10]: Loss: 2.0993, Train Acc: 46.47%, Test Acc: 40.55%
+Post-Pruning Training Epoch [2/10]: Loss: 1.6792, Train Acc: 54.24%, Test Acc: 42.17%
+Post-Pruning Training Epoch [3/10]: Loss: 1.3555, Train Acc: 61.52%, Test Acc: 42.02%
+Post-Pruning Training Epoch [4/10]: Loss: 1.0731, Train Acc: 68.61%, Test Acc: 42.91%
+Post-Pruning Training Epoch [5/10]: Loss: 0.8057, Train Acc: 75.73%, Test Acc: 43.62%
+Post-Pruning Training Epoch [6/10]: Loss: 0.5910, Train Acc: 81.48%, Test Acc: 42.52%
+Post-Pruning Training Epoch [7/10]: Loss: 0.4739, Train Acc: 85.03%, Test Acc: 42.77%
+Post-Pruning Training Epoch [8/10]: Loss: 0.3807, Train Acc: 87.63%, Test Acc: 41.88%
+Post-Pruning Training Epoch [9/10]: Loss: 0.3257, Train Acc: 89.55%, Test Acc: 40.90%
+Post-Pruning Training Epoch [10/10]: Loss: 0.2953, Train Acc: 90.38%, Test Acc: 42.01%
+Initial Test Accuracy: 14.91%
+Post-Pruning Training Epoch [1/10]: Loss: 2.1113, Train Acc: 45.52%, Test Acc: 38.82%
+Post-Pruning Training Epoch [2/10]: Loss: 1.6858, Train Acc: 54.08%, Test Acc: 41.52%
+Post-Pruning Training Epoch [3/10]: Loss: 1.3832, Train Acc: 60.86%, Test Acc: 42.56%
+Post-Pruning Training Epoch [4/10]: Loss: 1.0905, Train Acc: 67.99%, Test Acc: 42.20%
+Post-Pruning Training Epoch [5/10]: Loss: 0.8272, Train Acc: 75.31%, Test Acc: 42.82%
+Post-Pruning Training Epoch [6/10]: Loss: 0.6262, Train Acc: 80.55%, Test Acc: 42.17%
+Post-Pruning Training Epoch [7/10]: Loss: 0.4740, Train Acc: 85.00%, Test Acc: 42.18%
+Post-Pruning Training Epoch [8/10]: Loss: 0.3746, Train Acc: 88.21%, Test Acc: 42.29%
+Post-Pruning Training Epoch [9/10]: Loss: 0.3341, Train Acc: 89.19%, Test Acc: 42.31%
+Post-Pruning Training Epoch [10/10]: Loss: 0.2824, Train Acc: 90.94%, Test Acc: 41.10%
+Post-Pruned Baseline Model Accuracy: 41.59%
+Post-Pruned Low Forgetting Model Accuracy: 42.01%
+Post-Pruned High Forgetting Model Accuracy: 41.10%
+Accuracy results saved to results/resnet18/CIFAR100/dr0.4/pr0.6/accuracies.csv.
+Post-pruning accuracy plot saved to results/resnet18/CIFAR100/dr0.4/pr0.6/post_pruning_accuracy.png.
+=============================================================================================================
+Files already downloaded and verified
+Files already downloaded and verified
+Loading precomputed forgetting scores and baseline model...
+Baseline model and forgetting scores loaded.
+Selected top 20000 highest-forgetting and top 20000 lowest-forgetting samples.
+Highest forgetting subset size: 20000, Lowest forgetting subset size: 20000
+Training model on high-forgetting subset...
+Starting training for 10 epochs...
+Epoch [1/10] complete: Loss: 3.9188, Accuracy: 10.92%
+Epoch [2/10] complete: Loss: 3.3308, Accuracy: 19.21%
+Epoch [3/10] complete: Loss: 2.9387, Accuracy: 26.36%
+Epoch [4/10] complete: Loss: 2.6079, Accuracy: 32.60%
+Epoch [5/10] complete: Loss: 2.3092, Accuracy: 38.59%
+Epoch [6/10] complete: Loss: 2.0022, Accuracy: 45.16%
+Epoch [7/10] complete: Loss: 1.7128, Accuracy: 51.97%
+Epoch [8/10] complete: Loss: 1.3942, Accuracy: 59.46%
+Epoch [9/10] complete: Loss: 1.0822, Accuracy: 67.52%
+Epoch [10/10] complete: Loss: 0.8124, Accuracy: 75.14%
+Training completed.
+Training model on low-forgetting subset...
+Starting training for 10 epochs...
+Epoch [1/10] complete: Loss: 3.8657, Accuracy: 11.31%
+Epoch [2/10] complete: Loss: 3.2747, Accuracy: 19.82%
+Epoch [3/10] complete: Loss: 2.8747, Accuracy: 27.11%
+Epoch [4/10] complete: Loss: 2.5546, Accuracy: 33.69%
+Epoch [5/10] complete: Loss: 2.2381, Accuracy: 40.09%
+Epoch [6/10] complete: Loss: 1.9613, Accuracy: 46.02%
+Epoch [7/10] complete: Loss: 1.6512, Accuracy: 53.31%
+Epoch [8/10] complete: Loss: 1.3506, Accuracy: 60.75%
+Epoch [9/10] complete: Loss: 1.0510, Accuracy: 68.47%
+Epoch [10/10] complete: Loss: 0.7808, Accuracy: 76.15%
+Training completed.
+Baseline Model Accuracy: 34.56%
+Low Forgetting Model Accuracy: 34.69%
+High Forgetting Model Accuracy: 32.69%
+Applying pruning with ratio 0.8...
+Pruning completed.
+Applying pruning with ratio 0.8...
+Pruning completed.
+Applying pruning with ratio 0.8...
+Pruning completed.
+Pruning accuracy comparison bar plot saved to results/resnet18/CIFAR100/dr0.4/pr0.8/pruning_accuracy_comparison.png.
+Pruned Baseline Model Accuracy: 3.67%
+Pruned Low Forgetting Model Accuracy: 1.78%
+Pruned High Forgetting Model Accuracy: 1.35%
+Post-Pruning Retraining...
+Initial Test Accuracy: 3.67%
+Post-Pruning Training Epoch [1/10]: Loss: 2.9439, Train Acc: 27.26%, Test Acc: 33.99%
+Post-Pruning Training Epoch [2/10]: Loss: 2.2270, Train Acc: 40.71%, Test Acc: 38.83%
+Post-Pruning Training Epoch [3/10]: Loss: 1.8943, Train Acc: 47.96%, Test Acc: 41.69%
+Post-Pruning Training Epoch [4/10]: Loss: 1.6122, Train Acc: 54.70%, Test Acc: 42.69%
+Post-Pruning Training Epoch [5/10]: Loss: 1.3252, Train Acc: 61.72%, Test Acc: 42.92%
+Post-Pruning Training Epoch [6/10]: Loss: 1.0506, Train Acc: 68.72%, Test Acc: 43.58%
+Post-Pruning Training Epoch [7/10]: Loss: 0.8145, Train Acc: 75.24%, Test Acc: 43.04%
+Post-Pruning Training Epoch [8/10]: Loss: 0.6014, Train Acc: 81.44%, Test Acc: 43.30%
+Post-Pruning Training Epoch [9/10]: Loss: 0.4578, Train Acc: 85.54%, Test Acc: 41.99%
+Post-Pruning Training Epoch [10/10]: Loss: 0.3733, Train Acc: 88.09%, Test Acc: 42.73%
+Initial Test Accuracy: 1.78%
+Post-Pruning Training Epoch [1/10]: Loss: 2.3423, Train Acc: 39.61%, Test Acc: 39.01%
+Post-Pruning Training Epoch [2/10]: Loss: 1.8640, Train Acc: 49.43%, Test Acc: 41.60%
+Post-Pruning Training Epoch [3/10]: Loss: 1.5405, Train Acc: 56.65%, Test Acc: 43.11%
+Post-Pruning Training Epoch [4/10]: Loss: 1.2502, Train Acc: 63.61%, Test Acc: 42.40%
+Post-Pruning Training Epoch [5/10]: Loss: 0.9734, Train Acc: 70.94%, Test Acc: 43.50%
+Post-Pruning Training Epoch [6/10]: Loss: 0.7242, Train Acc: 77.67%, Test Acc: 42.91%
+Post-Pruning Training Epoch [7/10]: Loss: 0.5616, Train Acc: 82.36%, Test Acc: 43.11%
+Post-Pruning Training Epoch [8/10]: Loss: 0.4435, Train Acc: 86.00%, Test Acc: 42.95%
+Post-Pruning Training Epoch [9/10]: Loss: 0.3441, Train Acc: 88.97%, Test Acc: 42.36%
+Post-Pruning Training Epoch [10/10]: Loss: 0.3124, Train Acc: 89.99%, Test Acc: 42.55%
+Initial Test Accuracy: 1.35%
+Post-Pruning Training Epoch [1/10]: Loss: 2.3467, Train Acc: 39.15%, Test Acc: 36.87%
+Post-Pruning Training Epoch [2/10]: Loss: 1.8567, Train Acc: 49.67%, Test Acc: 41.41%
+Post-Pruning Training Epoch [3/10]: Loss: 1.5390, Train Acc: 56.54%, Test Acc: 43.02%
+Post-Pruning Training Epoch [4/10]: Loss: 1.2365, Train Acc: 64.37%, Test Acc: 42.18%
+Post-Pruning Training Epoch [5/10]: Loss: 0.9619, Train Acc: 71.40%, Test Acc: 43.11%
+Post-Pruning Training Epoch [6/10]: Loss: 0.7252, Train Acc: 77.82%, Test Acc: 43.42%
+Post-Pruning Training Epoch [7/10]: Loss: 0.5396, Train Acc: 83.14%, Test Acc: 43.63%
+Post-Pruning Training Epoch [8/10]: Loss: 0.4297, Train Acc: 86.25%, Test Acc: 42.99%
+Post-Pruning Training Epoch [9/10]: Loss: 0.3602, Train Acc: 88.39%, Test Acc: 43.59%
+Post-Pruning Training Epoch [10/10]: Loss: 0.3093, Train Acc: 89.91%, Test Acc: 42.65%
+Post-Pruned Baseline Model Accuracy: 42.73%
+Post-Pruned Low Forgetting Model Accuracy: 42.55%
+Post-Pruned High Forgetting Model Accuracy: 42.65%
+Accuracy results saved to results/resnet18/CIFAR100/dr0.4/pr0.8/accuracies.csv.
+Post-pruning accuracy plot saved to results/resnet18/CIFAR100/dr0.4/pr0.8/post_pruning_accuracy.png.
+=============================================================================================================
+Files already downloaded and verified
+Files already downloaded and verified
+Loading precomputed forgetting scores and baseline model...
+Baseline model and forgetting scores loaded.
+Selected top 25000 highest-forgetting and top 25000 lowest-forgetting samples.
+Highest forgetting subset size: 25000, Lowest forgetting subset size: 25000
+Training model on high-forgetting subset...
+Starting training for 10 epochs...
+Epoch [1/10] complete: Loss: 3.8182, Accuracy: 12.27%
+Epoch [2/10] complete: Loss: 3.1545, Accuracy: 22.14%
+Epoch [3/10] complete: Loss: 2.7528, Accuracy: 29.85%
+Epoch [4/10] complete: Loss: 2.4436, Accuracy: 36.00%
+Epoch [5/10] complete: Loss: 2.1476, Accuracy: 42.37%
+Epoch [6/10] complete: Loss: 1.8679, Accuracy: 48.69%
+Epoch [7/10] complete: Loss: 1.5708, Accuracy: 55.29%
+Epoch [8/10] complete: Loss: 1.2691, Accuracy: 63.05%
+Epoch [9/10] complete: Loss: 0.9870, Accuracy: 70.40%
+Epoch [10/10] complete: Loss: 0.7227, Accuracy: 77.77%
+Training completed.
+Training model on low-forgetting subset...
+Starting training for 10 epochs...
+Epoch [1/10] complete: Loss: 3.7940, Accuracy: 12.46%
+Epoch [2/10] complete: Loss: 3.1468, Accuracy: 22.53%
+Epoch [3/10] complete: Loss: 2.7520, Accuracy: 29.70%
+Epoch [4/10] complete: Loss: 2.4405, Accuracy: 36.16%
+Epoch [5/10] complete: Loss: 2.1433, Accuracy: 42.46%
+Epoch [6/10] complete: Loss: 1.8581, Accuracy: 48.59%
+Epoch [7/10] complete: Loss: 1.5692, Accuracy: 55.51%
+Epoch [8/10] complete: Loss: 1.2802, Accuracy: 62.58%
+Epoch [9/10] complete: Loss: 1.0040, Accuracy: 69.97%
+Epoch [10/10] complete: Loss: 0.7210, Accuracy: 77.83%
+Training completed.
+Baseline Model Accuracy: 34.56%
+Low Forgetting Model Accuracy: 36.91%
+High Forgetting Model Accuracy: 35.98%
+Applying pruning with ratio 0.0...
+Pruning completed.
+Applying pruning with ratio 0.0...
+Pruning completed.
+Applying pruning with ratio 0.0...
+Pruning completed.
+Pruning accuracy comparison bar plot saved to results/resnet18/CIFAR100/dr0.5/pr0.0/pruning_accuracy_comparison.png.
+Pruned Baseline Model Accuracy: 34.56%
+Pruned Low Forgetting Model Accuracy: 36.91%
+Pruned High Forgetting Model Accuracy: 35.98%
+Post-Pruning Retraining...
+Initial Test Accuracy: 34.56%
+Post-Pruning Training Epoch [1/10]: Loss: 2.7709, Train Acc: 30.92%, Test Acc: 35.22%
+Post-Pruning Training Epoch [2/10]: Loss: 2.1261, Train Acc: 43.03%, Test Acc: 38.86%
+Post-Pruning Training Epoch [3/10]: Loss: 1.7897, Train Acc: 50.46%, Test Acc: 41.30%
+Post-Pruning Training Epoch [4/10]: Loss: 1.5076, Train Acc: 57.09%, Test Acc: 41.89%
+Post-Pruning Training Epoch [5/10]: Loss: 1.2294, Train Acc: 64.11%, Test Acc: 41.74%
+Post-Pruning Training Epoch [6/10]: Loss: 0.9648, Train Acc: 71.06%, Test Acc: 41.35%
+Post-Pruning Training Epoch [7/10]: Loss: 0.7374, Train Acc: 77.42%, Test Acc: 41.01%
+Post-Pruning Training Epoch [8/10]: Loss: 0.5593, Train Acc: 82.60%, Test Acc: 40.87%
+Post-Pruning Training Epoch [9/10]: Loss: 0.4250, Train Acc: 86.69%, Test Acc: 41.53%
+Post-Pruning Training Epoch [10/10]: Loss: 0.3365, Train Acc: 89.35%, Test Acc: 41.54%
+Initial Test Accuracy: 36.91%
+Post-Pruning Training Epoch [1/10]: Loss: 1.7434, Train Acc: 56.26%, Test Acc: 41.51%
+Post-Pruning Training Epoch [2/10]: Loss: 1.3517, Train Acc: 63.25%, Test Acc: 42.61%
+Post-Pruning Training Epoch [3/10]: Loss: 1.0558, Train Acc: 69.83%, Test Acc: 42.74%
+Post-Pruning Training Epoch [4/10]: Loss: 0.8116, Train Acc: 75.97%, Test Acc: 43.04%
+Post-Pruning Training Epoch [5/10]: Loss: 0.5877, Train Acc: 82.10%, Test Acc: 41.74%
+Post-Pruning Training Epoch [6/10]: Loss: 0.4543, Train Acc: 85.74%, Test Acc: 42.08%
+Post-Pruning Training Epoch [7/10]: Loss: 0.3686, Train Acc: 88.19%, Test Acc: 42.23%
+Post-Pruning Training Epoch [8/10]: Loss: 0.3246, Train Acc: 89.69%, Test Acc: 41.85%
+Post-Pruning Training Epoch [9/10]: Loss: 0.2831, Train Acc: 90.83%, Test Acc: 42.08%
+Post-Pruning Training Epoch [10/10]: Loss: 0.2523, Train Acc: 91.82%, Test Acc: 42.88%
+Initial Test Accuracy: 35.98%
+Post-Pruning Training Epoch [1/10]: Loss: 1.7433, Train Acc: 56.33%, Test Acc: 41.50%
+Post-Pruning Training Epoch [2/10]: Loss: 1.3323, Train Acc: 63.64%, Test Acc: 42.43%
+Post-Pruning Training Epoch [3/10]: Loss: 1.0376, Train Acc: 70.27%, Test Acc: 42.82%
+Post-Pruning Training Epoch [4/10]: Loss: 0.7800, Train Acc: 76.84%, Test Acc: 42.52%
+Post-Pruning Training Epoch [5/10]: Loss: 0.5811, Train Acc: 82.16%, Test Acc: 42.82%
+Post-Pruning Training Epoch [6/10]: Loss: 0.4354, Train Acc: 86.31%, Test Acc: 41.83%
+Post-Pruning Training Epoch [7/10]: Loss: 0.3598, Train Acc: 88.46%, Test Acc: 41.49%
+Post-Pruning Training Epoch [8/10]: Loss: 0.3118, Train Acc: 89.77%, Test Acc: 42.14%
+Post-Pruning Training Epoch [9/10]: Loss: 0.2840, Train Acc: 90.84%, Test Acc: 41.45%
+Post-Pruning Training Epoch [10/10]: Loss: 0.2510, Train Acc: 91.91%, Test Acc: 42.05%
+Post-Pruned Baseline Model Accuracy: 41.54%
+Post-Pruned Low Forgetting Model Accuracy: 42.88%
+Post-Pruned High Forgetting Model Accuracy: 42.05%
+Accuracy results saved to results/resnet18/CIFAR100/dr0.5/pr0.0/accuracies.csv.
+Post-pruning accuracy plot saved to results/resnet18/CIFAR100/dr0.5/pr0.0/post_pruning_accuracy.png.
+=============================================================================================================
+Files already downloaded and verified
+Files already downloaded and verified
+Loading precomputed forgetting scores and baseline model...
+Baseline model and forgetting scores loaded.
+Selected top 25000 highest-forgetting and top 25000 lowest-forgetting samples.
+Highest forgetting subset size: 25000, Lowest forgetting subset size: 25000
+Training model on high-forgetting subset...
+Starting training for 10 epochs...
+Epoch [1/10] complete: Loss: 3.8578, Accuracy: 11.63%
+Epoch [2/10] complete: Loss: 3.2070, Accuracy: 21.32%
+Epoch [3/10] complete: Loss: 2.8069, Accuracy: 28.73%
+Epoch [4/10] complete: Loss: 2.4779, Accuracy: 35.23%
+Epoch [5/10] complete: Loss: 2.1803, Accuracy: 41.79%
+Epoch [6/10] complete: Loss: 1.8955, Accuracy: 47.99%
+Epoch [7/10] complete: Loss: 1.5888, Accuracy: 55.13%
+Epoch [8/10] complete: Loss: 1.2657, Accuracy: 62.70%
+Epoch [9/10] complete: Loss: 0.9894, Accuracy: 70.63%
+Epoch [10/10] complete: Loss: 0.7139, Accuracy: 77.84%
+Training completed.
+Training model on low-forgetting subset...
+Starting training for 10 epochs...
+Epoch [1/10] complete: Loss: 3.7976, Accuracy: 12.57%
+Epoch [2/10] complete: Loss: 3.1489, Accuracy: 22.34%
+Epoch [3/10] complete: Loss: 2.7553, Accuracy: 29.75%
+Epoch [4/10] complete: Loss: 2.4294, Accuracy: 36.50%
+Epoch [5/10] complete: Loss: 2.1429, Accuracy: 42.04%
+Epoch [6/10] complete: Loss: 1.8484, Accuracy: 48.74%
+Epoch [7/10] complete: Loss: 1.5586, Accuracy: 55.59%
+Epoch [8/10] complete: Loss: 1.2642, Accuracy: 62.94%
+Epoch [9/10] complete: Loss: 0.9920, Accuracy: 70.32%
+Epoch [10/10] complete: Loss: 0.7103, Accuracy: 78.03%
+Training completed.
+Baseline Model Accuracy: 34.56%
+Low Forgetting Model Accuracy: 37.64%
+High Forgetting Model Accuracy: 37.11%
+Applying pruning with ratio 0.2...
+Pruning completed.
+Applying pruning with ratio 0.2...
+Pruning completed.
+Applying pruning with ratio 0.2...
+Pruning completed.
+Pruning accuracy comparison bar plot saved to results/resnet18/CIFAR100/dr0.5/pr0.2/pruning_accuracy_comparison.png.
+Pruned Baseline Model Accuracy: 34.59%
+Pruned Low Forgetting Model Accuracy: 37.25%
+Pruned High Forgetting Model Accuracy: 36.77%
+Post-Pruning Retraining...
+Initial Test Accuracy: 34.59%
+Post-Pruning Training Epoch [1/10]: Loss: 2.7885, Train Acc: 30.70%, Test Acc: 34.86%
+Post-Pruning Training Epoch [2/10]: Loss: 2.1466, Train Acc: 42.89%, Test Acc: 38.83%
+Post-Pruning Training Epoch [3/10]: Loss: 1.8205, Train Acc: 49.66%, Test Acc: 40.34%
+Post-Pruning Training Epoch [4/10]: Loss: 1.5334, Train Acc: 56.22%, Test Acc: 40.99%
+Post-Pruning Training Epoch [5/10]: Loss: 1.2459, Train Acc: 63.79%, Test Acc: 41.20%
+Post-Pruning Training Epoch [6/10]: Loss: 0.9925, Train Acc: 70.26%, Test Acc: 41.56%
+Post-Pruning Training Epoch [7/10]: Loss: 0.7577, Train Acc: 77.13%, Test Acc: 40.74%
+Post-Pruning Training Epoch [8/10]: Loss: 0.5735, Train Acc: 82.14%, Test Acc: 40.91%
+Post-Pruning Training Epoch [9/10]: Loss: 0.4400, Train Acc: 86.17%, Test Acc: 40.24%
+Post-Pruning Training Epoch [10/10]: Loss: 0.3358, Train Acc: 89.51%, Test Acc: 41.18%
+Initial Test Accuracy: 37.25%
+Post-Pruning Training Epoch [1/10]: Loss: 1.7446, Train Acc: 56.33%, Test Acc: 41.38%
+Post-Pruning Training Epoch [2/10]: Loss: 1.3525, Train Acc: 63.19%, Test Acc: 42.22%
+Post-Pruning Training Epoch [3/10]: Loss: 1.0496, Train Acc: 69.82%, Test Acc: 41.96%
+Post-Pruning Training Epoch [4/10]: Loss: 0.7884, Train Acc: 76.70%, Test Acc: 42.15%
+Post-Pruning Training Epoch [5/10]: Loss: 0.5919, Train Acc: 81.89%, Test Acc: 42.36%
+Post-Pruning Training Epoch [6/10]: Loss: 0.4506, Train Acc: 86.07%, Test Acc: 41.60%
+Post-Pruning Training Epoch [7/10]: Loss: 0.3738, Train Acc: 88.10%, Test Acc: 42.08%
+Post-Pruning Training Epoch [8/10]: Loss: 0.3158, Train Acc: 89.70%, Test Acc: 41.57%
+Post-Pruning Training Epoch [9/10]: Loss: 0.2807, Train Acc: 90.83%, Test Acc: 42.09%
+Post-Pruning Training Epoch [10/10]: Loss: 0.2438, Train Acc: 92.14%, Test Acc: 42.21%
+Initial Test Accuracy: 36.77%
+Post-Pruning Training Epoch [1/10]: Loss: 1.7400, Train Acc: 56.27%, Test Acc: 40.15%
+Post-Pruning Training Epoch [2/10]: Loss: 1.3369, Train Acc: 63.73%, Test Acc: 42.42%
+Post-Pruning Training Epoch [3/10]: Loss: 1.0359, Train Acc: 70.43%, Test Acc: 42.95%
+Post-Pruning Training Epoch [4/10]: Loss: 0.7685, Train Acc: 77.24%, Test Acc: 41.87%
+Post-Pruning Training Epoch [5/10]: Loss: 0.5749, Train Acc: 82.48%, Test Acc: 42.08%
+Post-Pruning Training Epoch [6/10]: Loss: 0.4334, Train Acc: 86.28%, Test Acc: 41.70%
+Post-Pruning Training Epoch [7/10]: Loss: 0.3527, Train Acc: 88.90%, Test Acc: 42.56%
+Post-Pruning Training Epoch [8/10]: Loss: 0.3159, Train Acc: 89.74%, Test Acc: 42.12%
+Post-Pruning Training Epoch [9/10]: Loss: 0.2687, Train Acc: 91.40%, Test Acc: 41.27%
+Post-Pruning Training Epoch [10/10]: Loss: 0.2470, Train Acc: 92.07%, Test Acc: 41.84%
+Post-Pruned Baseline Model Accuracy: 41.18%
+Post-Pruned Low Forgetting Model Accuracy: 42.21%
+Post-Pruned High Forgetting Model Accuracy: 41.84%
+Accuracy results saved to results/resnet18/CIFAR100/dr0.5/pr0.2/accuracies.csv.
+Post-pruning accuracy plot saved to results/resnet18/CIFAR100/dr0.5/pr0.2/post_pruning_accuracy.png.
+=============================================================================================================
+Files already downloaded and verified
+Files already downloaded and verified
+Loading precomputed forgetting scores and baseline model...
+Baseline model and forgetting scores loaded.
+Selected top 25000 highest-forgetting and top 25000 lowest-forgetting samples.
+Highest forgetting subset size: 25000, Lowest forgetting subset size: 25000
+Training model on high-forgetting subset...
+Starting training for 10 epochs...
+Epoch [1/10] complete: Loss: 3.8448, Accuracy: 11.81%
+Epoch [2/10] complete: Loss: 3.1938, Accuracy: 21.74%
+Epoch [3/10] complete: Loss: 2.7770, Accuracy: 29.12%
+Epoch [4/10] complete: Loss: 2.4325, Accuracy: 36.16%
+Epoch [5/10] complete: Loss: 2.1438, Accuracy: 42.46%
+Epoch [6/10] complete: Loss: 1.8526, Accuracy: 49.02%
+Epoch [7/10] complete: Loss: 1.5458, Accuracy: 55.67%
+Epoch [8/10] complete: Loss: 1.2357, Accuracy: 63.76%
+Epoch [9/10] complete: Loss: 0.9578, Accuracy: 71.44%
+Epoch [10/10] complete: Loss: 0.6955, Accuracy: 78.36%
+Training completed.
+Training model on low-forgetting subset...
+Starting training for 10 epochs...
+Epoch [1/10] complete: Loss: 3.8083, Accuracy: 12.51%
+Epoch [2/10] complete: Loss: 3.1476, Accuracy: 22.36%
+Epoch [3/10] complete: Loss: 2.7447, Accuracy: 30.13%
+Epoch [4/10] complete: Loss: 2.4228, Accuracy: 36.42%
+Epoch [5/10] complete: Loss: 2.1244, Accuracy: 42.37%
+Epoch [6/10] complete: Loss: 1.8440, Accuracy: 48.98%
+Epoch [7/10] complete: Loss: 1.5488, Accuracy: 56.04%
+Epoch [8/10] complete: Loss: 1.2296, Accuracy: 63.96%
+Epoch [9/10] complete: Loss: 0.9479, Accuracy: 71.47%
+Epoch [10/10] complete: Loss: 0.6907, Accuracy: 78.80%
+Training completed.
+Baseline Model Accuracy: 34.56%
+Low Forgetting Model Accuracy: 37.39%
+High Forgetting Model Accuracy: 37.22%
+Applying pruning with ratio 0.4...
+Pruning completed.
+Applying pruning with ratio 0.4...
+Pruning completed.
+Applying pruning with ratio 0.4...
+Pruning completed.
+Pruning accuracy comparison bar plot saved to results/resnet18/CIFAR100/dr0.5/pr0.4/pruning_accuracy_comparison.png.
+Pruned Baseline Model Accuracy: 32.95%
+Pruned Low Forgetting Model Accuracy: 34.82%
+Pruned High Forgetting Model Accuracy: 34.23%
+Post-Pruning Retraining...
+Initial Test Accuracy: 32.95%
+Post-Pruning Training Epoch [1/10]: Loss: 2.7866, Train Acc: 30.48%, Test Acc: 34.88%
+Post-Pruning Training Epoch [2/10]: Loss: 2.1029, Train Acc: 43.29%, Test Acc: 38.91%
+Post-Pruning Training Epoch [3/10]: Loss: 1.7773, Train Acc: 50.80%, Test Acc: 41.61%
+Post-Pruning Training Epoch [4/10]: Loss: 1.4974, Train Acc: 57.39%, Test Acc: 42.27%
+Post-Pruning Training Epoch [5/10]: Loss: 1.2162, Train Acc: 64.68%, Test Acc: 41.71%
+Post-Pruning Training Epoch [6/10]: Loss: 0.9554, Train Acc: 71.36%, Test Acc: 41.01%
+Post-Pruning Training Epoch [7/10]: Loss: 0.7306, Train Acc: 77.61%, Test Acc: 41.62%
+Post-Pruning Training Epoch [8/10]: Loss: 0.5410, Train Acc: 82.98%, Test Acc: 40.93%
+Post-Pruning Training Epoch [9/10]: Loss: 0.4216, Train Acc: 86.68%, Test Acc: 42.04%
+Post-Pruning Training Epoch [10/10]: Loss: 0.3315, Train Acc: 89.50%, Test Acc: 41.07%
+Initial Test Accuracy: 34.82%
+Post-Pruning Training Epoch [1/10]: Loss: 1.7701, Train Acc: 55.63%, Test Acc: 42.03%
+Post-Pruning Training Epoch [2/10]: Loss: 1.3565, Train Acc: 63.08%, Test Acc: 43.10%
+Post-Pruning Training Epoch [3/10]: Loss: 1.0580, Train Acc: 69.66%, Test Acc: 42.82%
+Post-Pruning Training Epoch [4/10]: Loss: 0.8076, Train Acc: 76.20%, Test Acc: 41.91%
+Post-Pruning Training Epoch [5/10]: Loss: 0.5907, Train Acc: 81.98%, Test Acc: 42.66%
+Post-Pruning Training Epoch [6/10]: Loss: 0.4489, Train Acc: 85.99%, Test Acc: 41.75%
+Post-Pruning Training Epoch [7/10]: Loss: 0.3782, Train Acc: 87.91%, Test Acc: 42.07%
+Post-Pruning Training Epoch [8/10]: Loss: 0.3216, Train Acc: 89.67%, Test Acc: 42.08%
+Post-Pruning Training Epoch [9/10]: Loss: 0.2796, Train Acc: 90.99%, Test Acc: 42.32%
+Post-Pruning Training Epoch [10/10]: Loss: 0.2555, Train Acc: 91.79%, Test Acc: 41.47%
+Initial Test Accuracy: 34.23%
+Post-Pruning Training Epoch [1/10]: Loss: 1.7602, Train Acc: 55.61%, Test Acc: 41.17%
+Post-Pruning Training Epoch [2/10]: Loss: 1.3435, Train Acc: 63.45%, Test Acc: 43.73%
+Post-Pruning Training Epoch [3/10]: Loss: 1.0490, Train Acc: 69.78%, Test Acc: 43.87%
+Post-Pruning Training Epoch [4/10]: Loss: 0.7756, Train Acc: 76.88%, Test Acc: 42.56%
+Post-Pruning Training Epoch [5/10]: Loss: 0.5737, Train Acc: 82.45%, Test Acc: 42.11%
+Post-Pruning Training Epoch [6/10]: Loss: 0.4492, Train Acc: 85.98%, Test Acc: 42.61%
+Post-Pruning Training Epoch [7/10]: Loss: 0.3701, Train Acc: 88.35%, Test Acc: 43.01%
+Post-Pruning Training Epoch [8/10]: Loss: 0.3108, Train Acc: 90.16%, Test Acc: 43.36%
+Post-Pruning Training Epoch [9/10]: Loss: 0.2749, Train Acc: 91.12%, Test Acc: 41.68%
+Post-Pruning Training Epoch [10/10]: Loss: 0.2496, Train Acc: 92.01%, Test Acc: 42.63%
+Post-Pruned Baseline Model Accuracy: 41.07%
+Post-Pruned Low Forgetting Model Accuracy: 41.47%
+Post-Pruned High Forgetting Model Accuracy: 42.63%
+Accuracy results saved to results/resnet18/CIFAR100/dr0.5/pr0.4/accuracies.csv.
+Post-pruning accuracy plot saved to results/resnet18/CIFAR100/dr0.5/pr0.4/post_pruning_accuracy.png.
+=============================================================================================================
+Files already downloaded and verified
+Files already downloaded and verified
+Loading precomputed forgetting scores and baseline model...
+Baseline model and forgetting scores loaded.
+Selected top 25000 highest-forgetting and top 25000 lowest-forgetting samples.
+Highest forgetting subset size: 25000, Lowest forgetting subset size: 25000
+Training model on high-forgetting subset...
+Starting training for 10 epochs...
+Epoch [1/10] complete: Loss: 3.8491, Accuracy: 11.61%
+Epoch [2/10] complete: Loss: 3.2115, Accuracy: 21.72%
+Epoch [3/10] complete: Loss: 2.8002, Accuracy: 28.99%
+Epoch [4/10] complete: Loss: 2.4639, Accuracy: 35.62%
+Epoch [5/10] complete: Loss: 2.1618, Accuracy: 42.18%
+Epoch [6/10] complete: Loss: 1.8782, Accuracy: 48.33%
+Epoch [7/10] complete: Loss: 1.5742, Accuracy: 55.31%
+Epoch [8/10] complete: Loss: 1.2689, Accuracy: 63.02%
+Epoch [9/10] complete: Loss: 0.9698, Accuracy: 71.02%
+Epoch [10/10] complete: Loss: 0.7194, Accuracy: 78.28%
+Training completed.
+Training model on low-forgetting subset...
+Starting training for 10 epochs...
+Epoch [1/10] complete: Loss: 3.8085, Accuracy: 12.35%
+Epoch [2/10] complete: Loss: 3.1626, Accuracy: 22.16%
+Epoch [3/10] complete: Loss: 2.7714, Accuracy: 29.54%
+Epoch [4/10] complete: Loss: 2.4415, Accuracy: 36.02%
+Epoch [5/10] complete: Loss: 2.1418, Accuracy: 42.17%
+Epoch [6/10] complete: Loss: 1.8446, Accuracy: 49.00%
+Epoch [7/10] complete: Loss: 1.5521, Accuracy: 56.12%
+Epoch [8/10] complete: Loss: 1.2373, Accuracy: 63.88%
+Epoch [9/10] complete: Loss: 0.9677, Accuracy: 70.92%
+Epoch [10/10] complete: Loss: 0.6877, Accuracy: 78.77%
+Training completed.
+Baseline Model Accuracy: 34.56%
+Low Forgetting Model Accuracy: 37.32%
+High Forgetting Model Accuracy: 37.51%
+Applying pruning with ratio 0.6...
+Pruning completed.
+Applying pruning with ratio 0.6...
+Pruning completed.
+Applying pruning with ratio 0.6...
+Pruning completed.
+Pruning accuracy comparison bar plot saved to results/resnet18/CIFAR100/dr0.5/pr0.6/pruning_accuracy_comparison.png.
+Pruned Baseline Model Accuracy: 24.67%
+Pruned Low Forgetting Model Accuracy: 16.22%
+Pruned High Forgetting Model Accuracy: 18.74%
+Post-Pruning Retraining...
+Initial Test Accuracy: 24.67%
+Post-Pruning Training Epoch [1/10]: Loss: 2.8167, Train Acc: 29.79%, Test Acc: 34.37%
+Post-Pruning Training Epoch [2/10]: Loss: 2.1325, Train Acc: 42.76%, Test Acc: 38.61%
+Post-Pruning Training Epoch [3/10]: Loss: 1.8045, Train Acc: 49.87%, Test Acc: 41.16%
+Post-Pruning Training Epoch [4/10]: Loss: 1.5180, Train Acc: 56.70%, Test Acc: 41.57%
+Post-Pruning Training Epoch [5/10]: Loss: 1.2354, Train Acc: 63.79%, Test Acc: 41.45%
+Post-Pruning Training Epoch [6/10]: Loss: 0.9710, Train Acc: 70.85%, Test Acc: 42.00%
+Post-Pruning Training Epoch [7/10]: Loss: 0.7366, Train Acc: 77.49%, Test Acc: 41.71%
+Post-Pruning Training Epoch [8/10]: Loss: 0.5435, Train Acc: 83.00%, Test Acc: 41.82%
+Post-Pruning Training Epoch [9/10]: Loss: 0.4123, Train Acc: 87.00%, Test Acc: 41.85%
+Post-Pruning Training Epoch [10/10]: Loss: 0.3403, Train Acc: 89.07%, Test Acc: 40.93%
+Initial Test Accuracy: 16.22%
+Post-Pruning Training Epoch [1/10]: Loss: 1.8705, Train Acc: 52.01%, Test Acc: 41.47%
+Post-Pruning Training Epoch [2/10]: Loss: 1.4397, Train Acc: 60.65%, Test Acc: 42.07%
+Post-Pruning Training Epoch [3/10]: Loss: 1.1292, Train Acc: 67.92%, Test Acc: 41.81%
+Post-Pruning Training Epoch [4/10]: Loss: 0.8588, Train Acc: 74.69%, Test Acc: 42.57%
+Post-Pruning Training Epoch [5/10]: Loss: 0.6470, Train Acc: 80.26%, Test Acc: 42.13%
+Post-Pruning Training Epoch [6/10]: Loss: 0.4829, Train Acc: 84.78%, Test Acc: 42.59%
+Post-Pruning Training Epoch [7/10]: Loss: 0.3955, Train Acc: 87.47%, Test Acc: 41.43%
+Post-Pruning Training Epoch [8/10]: Loss: 0.3247, Train Acc: 89.60%, Test Acc: 42.50%
+Post-Pruning Training Epoch [9/10]: Loss: 0.2869, Train Acc: 90.74%, Test Acc: 42.30%
+Post-Pruning Training Epoch [10/10]: Loss: 0.2622, Train Acc: 91.50%, Test Acc: 42.14%
+Initial Test Accuracy: 18.74%
+Post-Pruning Training Epoch [1/10]: Loss: 1.8691, Train Acc: 52.10%, Test Acc: 40.23%
+Post-Pruning Training Epoch [2/10]: Loss: 1.4324, Train Acc: 60.85%, Test Acc: 42.55%
+Post-Pruning Training Epoch [3/10]: Loss: 1.1237, Train Acc: 67.98%, Test Acc: 42.80%
+Post-Pruning Training Epoch [4/10]: Loss: 0.8469, Train Acc: 74.86%, Test Acc: 42.81%
+Post-Pruning Training Epoch [5/10]: Loss: 0.6370, Train Acc: 80.51%, Test Acc: 42.33%
+Post-Pruning Training Epoch [6/10]: Loss: 0.4815, Train Acc: 84.80%, Test Acc: 42.81%
+Post-Pruning Training Epoch [7/10]: Loss: 0.3863, Train Acc: 87.71%, Test Acc: 42.15%
+Post-Pruning Training Epoch [8/10]: Loss: 0.3293, Train Acc: 89.43%, Test Acc: 42.57%
+Post-Pruning Training Epoch [9/10]: Loss: 0.2922, Train Acc: 90.56%, Test Acc: 42.48%
+Post-Pruning Training Epoch [10/10]: Loss: 0.2680, Train Acc: 91.40%, Test Acc: 42.34%
+Post-Pruned Baseline Model Accuracy: 40.93%
+Post-Pruned Low Forgetting Model Accuracy: 42.14%
+Post-Pruned High Forgetting Model Accuracy: 42.34%
+Accuracy results saved to results/resnet18/CIFAR100/dr0.5/pr0.6/accuracies.csv.
+Post-pruning accuracy plot saved to results/resnet18/CIFAR100/dr0.5/pr0.6/post_pruning_accuracy.png.
+=============================================================================================================
+Files already downloaded and verified
+Files already downloaded and verified
+Loading precomputed forgetting scores and baseline model...
+Baseline model and forgetting scores loaded.
+Selected top 25000 highest-forgetting and top 25000 lowest-forgetting samples.
+Highest forgetting subset size: 25000, Lowest forgetting subset size: 25000
+Training model on high-forgetting subset...
+Starting training for 10 epochs...
+Epoch [1/10] complete: Loss: 3.8375, Accuracy: 11.67%
+Epoch [2/10] complete: Loss: 3.1861, Accuracy: 21.78%
+Epoch [3/10] complete: Loss: 2.7670, Accuracy: 29.31%
+Epoch [4/10] complete: Loss: 2.4356, Accuracy: 36.16%
+Epoch [5/10] complete: Loss: 2.1447, Accuracy: 42.35%
+Epoch [6/10] complete: Loss: 1.8534, Accuracy: 49.05%
+Epoch [7/10] complete: Loss: 1.5511, Accuracy: 55.94%
+Epoch [8/10] complete: Loss: 1.2531, Accuracy: 63.18%
+Epoch [9/10] complete: Loss: 0.9670, Accuracy: 71.02%
+Epoch [10/10] complete: Loss: 0.7156, Accuracy: 77.80%
+Training completed.
+Training model on low-forgetting subset...
+Starting training for 10 epochs...
+Epoch [1/10] complete: Loss: 3.8112, Accuracy: 12.36%
+Epoch [2/10] complete: Loss: 3.1685, Accuracy: 21.97%
+Epoch [3/10] complete: Loss: 2.7723, Accuracy: 29.64%
+Epoch [4/10] complete: Loss: 2.4453, Accuracy: 35.89%
+Epoch [5/10] complete: Loss: 2.1506, Accuracy: 41.97%
+Epoch [6/10] complete: Loss: 1.8600, Accuracy: 48.52%
+Epoch [7/10] complete: Loss: 1.5726, Accuracy: 55.34%
+Epoch [8/10] complete: Loss: 1.2587, Accuracy: 63.18%
+Epoch [9/10] complete: Loss: 0.9716, Accuracy: 70.91%
+Epoch [10/10] complete: Loss: 0.7122, Accuracy: 78.17%
+Training completed.
+Baseline Model Accuracy: 34.56%
+Low Forgetting Model Accuracy: 37.10%
+High Forgetting Model Accuracy: 37.30%
+Applying pruning with ratio 0.8...
+Pruning completed.
+Applying pruning with ratio 0.8...
+Pruning completed.
+Applying pruning with ratio 0.8...
+Pruning completed.
+Pruning accuracy comparison bar plot saved to results/resnet18/CIFAR100/dr0.5/pr0.8/pruning_accuracy_comparison.png.
+Pruned Baseline Model Accuracy: 3.67%
+Pruned Low Forgetting Model Accuracy: 1.95%
+Pruned High Forgetting Model Accuracy: 1.79%
+Post-Pruning Retraining...
+Initial Test Accuracy: 3.67%
+Post-Pruning Training Epoch [1/10]: Loss: 2.9436, Train Acc: 27.21%, Test Acc: 35.00%
+Post-Pruning Training Epoch [2/10]: Loss: 2.2236, Train Acc: 40.75%, Test Acc: 39.19%
+Post-Pruning Training Epoch [3/10]: Loss: 1.8930, Train Acc: 48.20%, Test Acc: 41.55%
+Post-Pruning Training Epoch [4/10]: Loss: 1.6063, Train Acc: 54.69%, Test Acc: 42.63%
+Post-Pruning Training Epoch [5/10]: Loss: 1.3141, Train Acc: 61.89%, Test Acc: 42.68%
+Post-Pruning Training Epoch [6/10]: Loss: 1.0509, Train Acc: 68.59%, Test Acc: 43.26%
+Post-Pruning Training Epoch [7/10]: Loss: 0.8092, Train Acc: 75.40%, Test Acc: 43.21%
+Post-Pruning Training Epoch [8/10]: Loss: 0.5943, Train Acc: 81.64%, Test Acc: 42.64%
+Post-Pruning Training Epoch [9/10]: Loss: 0.4649, Train Acc: 85.35%, Test Acc: 41.62%
+Post-Pruning Training Epoch [10/10]: Loss: 0.3655, Train Acc: 88.37%, Test Acc: 42.01%
+Initial Test Accuracy: 1.95%
+Post-Pruning Training Epoch [1/10]: Loss: 2.1623, Train Acc: 43.39%, Test Acc: 39.71%
+Post-Pruning Training Epoch [2/10]: Loss: 1.6753, Train Acc: 53.99%, Test Acc: 42.10%
+Post-Pruning Training Epoch [3/10]: Loss: 1.3352, Train Acc: 62.17%, Test Acc: 42.84%
+Post-Pruning Training Epoch [4/10]: Loss: 1.0478, Train Acc: 69.22%, Test Acc: 42.68%
+Post-Pruning Training Epoch [5/10]: Loss: 0.7905, Train Acc: 75.98%, Test Acc: 43.49%
+Post-Pruning Training Epoch [6/10]: Loss: 0.5912, Train Acc: 81.71%, Test Acc: 41.77%
+Post-Pruning Training Epoch [7/10]: Loss: 0.4650, Train Acc: 85.29%, Test Acc: 43.44%
+Post-Pruning Training Epoch [8/10]: Loss: 0.3756, Train Acc: 87.93%, Test Acc: 43.77%
+Post-Pruning Training Epoch [9/10]: Loss: 0.3323, Train Acc: 89.28%, Test Acc: 41.69%
+Post-Pruning Training Epoch [10/10]: Loss: 0.2787, Train Acc: 91.00%, Test Acc: 43.83%
+Initial Test Accuracy: 1.79%
+Post-Pruning Training Epoch [1/10]: Loss: 2.1443, Train Acc: 43.32%, Test Acc: 39.98%
+Post-Pruning Training Epoch [2/10]: Loss: 1.6414, Train Acc: 54.87%, Test Acc: 42.94%
+Post-Pruning Training Epoch [3/10]: Loss: 1.3298, Train Acc: 61.92%, Test Acc: 43.35%
+Post-Pruning Training Epoch [4/10]: Loss: 1.0453, Train Acc: 69.13%, Test Acc: 43.11%
+Post-Pruning Training Epoch [5/10]: Loss: 0.7962, Train Acc: 75.81%, Test Acc: 43.94%
+Post-Pruning Training Epoch [6/10]: Loss: 0.5967, Train Acc: 81.60%, Test Acc: 43.42%
+Post-Pruning Training Epoch [7/10]: Loss: 0.4593, Train Acc: 85.49%, Test Acc: 42.85%
+Post-Pruning Training Epoch [8/10]: Loss: 0.3806, Train Acc: 87.86%, Test Acc: 42.77%
+Post-Pruning Training Epoch [9/10]: Loss: 0.3294, Train Acc: 89.50%, Test Acc: 43.19%
+Post-Pruning Training Epoch [10/10]: Loss: 0.2770, Train Acc: 91.03%, Test Acc: 43.02%
+Post-Pruned Baseline Model Accuracy: 42.01%
+Post-Pruned Low Forgetting Model Accuracy: 43.83%
+Post-Pruned High Forgetting Model Accuracy: 43.02%
+Accuracy results saved to results/resnet18/CIFAR100/dr0.5/pr0.8/accuracies.csv.
+Post-pruning accuracy plot saved to results/resnet18/CIFAR100/dr0.5/pr0.8/post_pruning_accuracy.png.
